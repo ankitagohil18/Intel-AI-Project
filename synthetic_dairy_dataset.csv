@@ -1,0 +1,1001 @@
+Age,Attrition,BusinessTravel,DailyRate,Department,DistanceFromHome,Education,EducationField,EmployeeCount,EmployeeNumber,EnvironmentSatisfaction,Gender,HourlyRate,JobInvolvement,JobLevel,JobRole,JobSatisfaction,MaritalStatus,MonthlyIncome,MonthlyRate,NumCompaniesWorked,OverTime,PercentSalaryHike,PerformanceRating,RelationshipSatisfaction,StockOptionLevel,TotalWorkingYears,TrainingTimesLastYear,WorkLifeBalance,YearsAtCompany,YearsInCurrentRole,YearsSinceLastPromotion,YearsWithCurrManager,OperatorSkillScore,RequiredSkillByRole
+58,Yes,Non-Travel,1129,Production,25,2,Mechanical Engineering,1,1,3,Female,103,2,1,Farm Liaison Officer,4,Divorced,61848,16618,5,No,14,4,1,0,2,2,3,11,7,10,4,0.8532144580849161,0.3
+48,No,Frequently,1470,Maintenance,12,2,Food Technology,1,2,2,Female,66,3,2,Farm Liaison Officer,1,Divorced,26820,19245,8,No,12,2,4,1,11,1,1,28,17,11,16,0.5414311338394098,0.3
+34,No,Rarely,719,Quality Control,25,1,Biotechnology,1,3,3,Female,124,1,1,Dairy Lab Technician,3,Divorced,28512,12027,5,Yes,18,2,4,0,39,0,1,22,4,5,3,0.6402180709973806,0.55
+27,Yes,Rarely,1364,Logistics,17,2,Biotechnology,1,4,3,Female,79,1,1,Dairy Quality Analyst,1,Married,56725,15986,0,No,22,4,4,2,24,1,3,20,19,9,0,0.6495302392243574,0.55
+40,No,Frequently,561,Maintenance,26,1,Dairy Science,1,5,4,Male,148,3,4,Cheese Production Technician,4,Married,71534,14400,4,No,19,4,4,1,16,5,4,25,10,0,5,0.5534685879146105,0.5
+58,No,Non-Travel,207,Production,46,4,Mechanical Engineering,1,6,4,Female,71,3,1,Logistics & Supply Chain Coordinator,2,Single,105151,5526,8,No,14,4,1,1,37,2,3,22,8,13,0,0.2994154308848076,0.35
+38,No,Rarely,677,Farm Operations,48,2,Logistics,1,7,4,Male,92,3,4,Milk Processing Operator,3,Married,59776,13593,4,No,15,4,4,1,35,2,2,1,18,13,3,0.7262273505239094,0.45
+42,No,Rarely,694,Farm Operations,14,2,Mechanical Engineering,1,8,3,Male,76,4,3,Dairy Quality Analyst,1,Divorced,80945,3622,5,Yes,12,3,3,1,35,3,3,13,11,5,1,0.6072500845864446,0.55
+30,No,Rarely,1032,Production,41,3,Biotechnology,1,9,2,Female,86,4,4,Milk Processing Operator,4,Married,103420,7518,2,No,19,3,4,0,18,3,4,13,4,9,12,0.2830764306801684,0.45
+30,No,Frequently,1262,Production,36,4,Logistics,1,10,1,Male,95,4,1,Dairy Quality Analyst,2,Single,67455,4657,7,No,16,4,3,0,1,5,3,3,15,1,13,0.690225378043526,0.55
+43,No,Non-Travel,792,Farm Operations,23,4,Mechanical Engineering,1,11,3,Female,84,4,3,Cold Storage Supervisor,2,Divorced,103488,10699,9,No,18,4,1,0,16,2,1,16,12,10,16,0.6919342825645434,0.4
+55,No,Frequently,386,Maintenance,43,3,Food Technology,1,12,4,Male,53,2,4,Packaging Machine Operator,1,Married,72433,15955,3,No,18,1,3,2,29,5,4,14,5,3,10,0.5839405122671406,0.4
+59,No,Rarely,953,Farm Operations,6,3,Dairy Science,1,13,1,Male,129,1,1,Logistics & Supply Chain Coordinator,4,Married,29711,4656,3,No,23,1,1,0,9,2,2,15,15,5,2,0.2633841672040976,0.35
+43,No,Non-Travel,292,Production,47,1,Mechanical Engineering,1,14,2,Female,129,3,3,Logistics & Supply Chain Coordinator,2,Single,79262,18673,4,No,24,1,4,1,34,0,4,4,17,2,6,0.4468508217957104,0.35
+22,No,Frequently,285,Logistics,5,1,Mechanical Engineering,1,15,1,Female,134,1,4,Milk Processing Operator,2,Divorced,106009,7858,9,Yes,22,2,2,2,35,1,1,23,16,2,9,0.2356468753386907,0.45
+41,No,Rarely,1267,Quality Control,43,2,Food Technology,1,16,4,Female,75,3,1,Dairy Lab Technician,3,Single,103785,12401,8,No,19,3,3,2,32,3,2,16,11,11,10,0.5343172131784739,0.55
+21,No,Rarely,336,Logistics,25,2,Biotechnology,1,17,3,Female,149,1,1,Cold Storage Supervisor,2,Divorced,29597,10758,7,Yes,23,3,3,1,0,0,4,22,0,2,9,0.8345129923258303,0.4
+43,Yes,Rarely,620,Logistics,18,2,Dairy Science,1,18,3,Male,68,2,2,Logistics & Supply Chain Coordinator,1,Divorced,80067,3473,6,No,19,1,2,1,17,1,4,6,6,3,7,0.2015770878290466,0.35
+49,No,Rarely,273,Production,13,2,Mechanical Engineering,1,19,4,Female,130,4,2,Cheese Production Technician,4,Married,107520,15281,4,Yes,14,1,1,1,3,3,1,22,13,8,4,0.3866470571296885,0.5
+57,No,Non-Travel,1379,Farm Operations,43,1,Logistics,1,20,3,Male,94,1,4,Milk Processing Operator,4,Single,68022,17964,8,No,16,3,1,1,26,5,3,14,17,3,1,0.7599013708036595,0.45
+21,No,Rarely,1478,Maintenance,14,4,Mechanical Engineering,1,21,4,Male,75,3,4,Farm Liaison Officer,3,Single,101924,14057,8,No,22,2,4,0,24,0,3,16,0,12,14,0.2069025836751245,0.3
+40,No,Non-Travel,370,Logistics,28,2,Dairy Science,1,22,3,Male,71,1,4,Cheese Production Technician,4,Single,38782,9673,9,No,21,1,3,2,27,4,2,11,19,3,15,0.2071214059322047,0.5
+52,No,Rarely,369,Farm Operations,18,4,Mechanical Engineering,1,23,3,Male,107,2,1,Maintenance Engineer,1,Divorced,71782,16281,9,No,21,4,1,1,21,4,1,10,9,3,3,0.6275730102660794,0.6
+31,No,Rarely,1071,Maintenance,28,2,Food Technology,1,24,3,Male,112,2,4,Milk Processing Operator,2,Single,92144,5251,1,No,22,1,4,0,24,3,1,18,14,6,15,0.7524398297590091,0.45
+41,No,Rarely,521,Logistics,27,3,Mechanical Engineering,1,25,2,Male,77,1,1,Milk Processing Operator,3,Divorced,118651,7054,3,No,12,3,1,1,16,0,3,10,10,4,11,0.7435537922266695,0.45
+44,Yes,Rarely,655,Maintenance,32,2,Mechanical Engineering,1,26,2,Female,114,4,4,Farm Liaison Officer,4,Single,75013,3716,7,No,15,3,2,0,11,1,3,1,3,11,13,0.7457046145245008,0.3
+46,No,Rarely,1143,Farm Operations,47,2,Logistics,1,27,4,Male,93,3,1,Cold Storage Supervisor,3,Single,92036,11204,0,No,21,1,2,1,15,1,2,14,14,1,11,0.452704441372366,0.4
+47,No,Non-Travel,989,Quality Control,9,2,Food Technology,1,28,2,Male,149,2,1,Farm Liaison Officer,3,Married,55342,16106,4,No,17,1,2,1,36,0,3,4,15,6,15,0.8179069009921212,0.3
+35,No,Frequently,812,Farm Operations,40,1,Food Technology,1,29,4,Male,92,2,2,Logistics & Supply Chain Coordinator,4,Single,105745,3310,7,No,22,4,4,1,15,4,2,17,14,2,15,0.2089849209777158,0.35
+34,No,Frequently,1378,Production,32,3,Mechanical Engineering,1,30,1,Female,86,1,3,Packaging Machine Operator,3,Married,40977,19001,1,No,17,4,3,0,16,0,4,28,16,10,11,0.4185321157406103,0.4
+22,Yes,Rarely,1088,Maintenance,20,2,Logistics,1,31,1,Female,115,2,1,Milk Processing Operator,4,Married,77396,17882,1,Yes,11,2,2,1,30,4,2,29,10,0,1,0.4360313863847729,0.45
+56,No,Rarely,548,Quality Control,28,2,Mechanical Engineering,1,32,2,Male,66,2,4,Maintenance Engineer,1,Divorced,70021,6257,7,No,15,2,2,0,14,4,2,20,17,8,13,0.3158997880736788,0.6
+26,No,Rarely,1396,Maintenance,33,4,Mechanical Engineering,1,33,1,Female,89,3,2,Dairy Lab Technician,4,Single,89057,17846,9,No,16,4,1,0,12,5,2,20,15,4,10,0.4353581810944694,0.55
+40,No,Frequently,209,Maintenance,4,3,Dairy Science,1,34,1,Male,87,4,4,Milk Processing Operator,2,Single,86836,12420,8,No,21,2,2,2,39,5,4,15,14,9,8,0.6101188910364763,0.45
+28,No,Rarely,939,Logistics,46,2,Dairy Science,1,35,3,Female,134,3,4,Farm Liaison Officer,4,Single,47075,15012,6,No,16,2,3,0,26,1,3,3,10,0,6,0.5641955188881678,0.3
+58,No,Rarely,1488,Production,34,4,Logistics,1,36,3,Male,110,4,1,Dairy Quality Analyst,2,Married,109515,2468,7,Yes,12,1,4,0,20,3,2,26,12,10,11,0.4235991510091779,0.55
+37,No,Frequently,1470,Maintenance,48,4,Biotechnology,1,37,4,Female,58,3,1,Milk Processing Operator,3,Single,50802,7905,4,No,23,4,2,0,1,2,3,22,17,0,16,0.7245292595777189,0.45
+23,No,Rarely,866,Farm Operations,3,1,Dairy Science,1,38,1,Female,126,1,3,Milk Processing Operator,4,Divorced,97761,14308,0,No,23,1,4,0,7,0,2,9,7,0,8,0.700353404906465,0.45
+44,No,Rarely,745,Farm Operations,26,4,Biotechnology,1,39,4,Female,124,2,1,Maintenance Engineer,2,Divorced,97017,17634,3,No,18,1,4,0,6,4,3,21,8,11,5,0.3964875339563083,0.6
+33,No,Rarely,328,Logistics,8,2,Food Technology,1,40,4,Male,110,4,1,Maintenance Engineer,4,Single,106753,16801,1,Yes,11,2,3,2,9,0,2,1,10,8,11,0.4262598749445422,0.6
+28,No,Non-Travel,800,Production,6,1,Dairy Science,1,41,1,Male,129,1,3,Milk Processing Operator,4,Married,75822,19523,2,No,20,1,1,1,3,3,3,14,16,12,19,0.4012641390424893,0.45
+45,No,Frequently,804,Production,16,1,Dairy Science,1,42,2,Male,65,2,4,Dairy Quality Analyst,4,Divorced,71603,11628,2,No,12,3,1,2,35,3,1,3,0,7,9,0.2901958165578508,0.55
+21,No,Rarely,526,Farm Operations,24,2,Logistics,1,43,1,Female,51,2,3,Packaging Machine Operator,1,Divorced,100291,10728,8,Yes,24,2,4,2,34,2,4,28,10,10,8,0.7269471500725984,0.4
+39,No,Rarely,1179,Quality Control,48,3,Biotechnology,1,44,3,Female,121,2,3,Dairy Quality Analyst,2,Married,110450,19335,9,Yes,20,3,2,1,2,2,2,15,6,12,11,0.2323935573606743,0.55
+47,No,Non-Travel,603,Logistics,39,4,Dairy Science,1,45,1,Male,92,3,3,Dairy Quality Analyst,1,Divorced,55592,13005,3,No,11,2,4,0,17,4,4,29,7,14,0,0.3054063458723959,0.55
+26,No,Frequently,828,Logistics,30,1,Dairy Science,1,46,2,Female,91,1,2,Dairy Quality Analyst,1,Married,76006,9890,1,Yes,20,1,1,1,23,5,2,26,18,12,1,0.2737131624234932,0.55
+27,No,Rarely,917,Farm Operations,45,3,Logistics,1,47,4,Male,126,1,4,Packaging Machine Operator,2,Divorced,46269,9077,2,No,18,2,2,0,31,2,1,6,3,5,18,0.7777372828670339,0.4
+54,No,Non-Travel,1240,Farm Operations,13,2,Logistics,1,48,4,Male,106,2,2,Cold Storage Supervisor,4,Married,70138,3971,2,Yes,13,3,1,1,33,5,1,24,3,9,0,0.2308059607707257,0.4
+33,No,Rarely,473,Quality Control,5,4,Biotechnology,1,49,3,Male,130,4,2,Cold Storage Supervisor,1,Divorced,82398,15568,6,No,11,2,3,2,1,5,4,24,18,14,15,0.6652391029415912,0.4
+36,No,Frequently,884,Quality Control,25,4,Food Technology,1,50,3,Male,137,1,1,Dairy Quality Analyst,1,Single,110091,3191,7,No,12,3,1,0,1,4,2,11,8,14,15,0.2311322188875624,0.55
+55,No,Frequently,315,Production,20,1,Food Technology,1,51,3,Female,116,3,3,Farm Liaison Officer,1,Divorced,39874,14820,5,No,22,4,2,2,9,1,3,2,16,5,17,0.7505103827452595,0.3
+59,No,Rarely,1060,Logistics,18,4,Mechanical Engineering,1,52,4,Female,79,4,3,Cheese Production Technician,4,Divorced,77228,9765,3,No,13,1,2,0,22,5,2,16,17,5,17,0.8388998604756239,0.5
+23,No,Non-Travel,892,Logistics,47,4,Dairy Science,1,53,3,Female,62,4,2,Cold Storage Supervisor,1,Single,82670,12254,5,No,24,3,4,1,14,4,3,8,0,3,12,0.540790216084193,0.4
+21,No,Frequently,1314,Farm Operations,18,4,Biotechnology,1,54,1,Male,68,4,1,Dairy Lab Technician,3,Single,27925,5046,0,No,23,4,2,1,11,2,4,7,13,4,11,0.763179260708607,0.55
+25,No,Frequently,1305,Production,2,4,Dairy Science,1,55,4,Female,56,4,1,Maintenance Engineer,2,Single,23107,13750,9,Yes,19,1,3,1,16,0,4,22,3,9,8,0.6944873729951598,0.6
+23,No,Rarely,523,Logistics,10,2,Biotechnology,1,56,2,Male,58,1,1,Packaging Machine Operator,3,Single,106388,14703,7,No,22,4,1,1,17,2,1,5,9,2,4,0.756944704521427,0.4
+48,No,Rarely,1160,Production,45,3,Biotechnology,1,57,4,Male,132,2,4,Packaging Machine Operator,4,Married,115719,18688,0,Yes,15,3,4,1,13,3,3,29,13,2,8,0.736742639668192,0.4
+37,No,Rarely,313,Production,47,2,Biotechnology,1,58,1,Male,103,4,2,Cheese Production Technician,1,Married,47617,10043,4,No,14,1,4,2,16,2,2,14,6,9,12,0.3437575186171123,0.5
+45,No,Frequently,1281,Farm Operations,12,2,Dairy Science,1,59,1,Male,135,3,4,Cold Storage Supervisor,2,Divorced,94258,6908,1,Yes,12,4,2,2,14,1,1,9,11,6,15,0.5496913071083527,0.4
+53,No,Rarely,353,Production,47,1,Logistics,1,60,3,Male,131,3,1,Maintenance Engineer,1,Divorced,70075,12627,5,No,19,3,3,0,11,4,4,22,15,4,9,0.87228993098847,0.6
+29,No,Frequently,1489,Quality Control,13,4,Dairy Science,1,61,4,Male,110,2,1,Dairy Quality Analyst,4,Divorced,42631,4804,8,No,17,4,4,2,15,5,1,26,4,7,15,0.4404730612070441,0.55
+55,Yes,Frequently,514,Quality Control,47,2,Biotechnology,1,62,4,Female,136,1,1,Farm Liaison Officer,2,Married,82444,12176,4,Yes,17,1,3,0,31,3,2,24,10,4,13,0.879340963445945,0.3
+33,No,Rarely,1264,Maintenance,11,4,Mechanical Engineering,1,63,4,Female,51,2,3,Cold Storage Supervisor,3,Divorced,117158,5936,3,Yes,16,1,3,0,22,4,2,5,3,11,1,0.6082131980036151,0.4
+50,Yes,Frequently,304,Farm Operations,19,2,Food Technology,1,64,2,Female,99,4,2,Cheese Production Technician,2,Divorced,27883,19096,1,No,12,1,1,2,37,4,4,14,12,3,18,0.5231279923660441,0.5
+34,No,Rarely,1416,Maintenance,35,2,Biotechnology,1,65,3,Female,124,1,3,Maintenance Engineer,1,Married,39708,11873,2,No,23,3,1,2,33,5,1,29,7,13,10,0.6604302255183414,0.6
+27,No,Non-Travel,553,Quality Control,39,1,Mechanical Engineering,1,66,1,Male,80,1,4,Milk Processing Operator,2,Divorced,66221,13390,5,No,24,4,1,0,33,2,3,13,6,2,18,0.7710874198243856,0.45
+33,No,Rarely,1215,Maintenance,26,3,Logistics,1,67,1,Male,82,4,3,Maintenance Engineer,4,Married,37197,10366,7,No,10,4,3,2,15,0,3,25,10,11,10,0.4759457083955244,0.6
+42,No,Rarely,932,Farm Operations,46,3,Biotechnology,1,68,3,Female,127,3,2,Milk Processing Operator,4,Married,41134,16614,7,Yes,14,3,1,2,33,3,3,18,10,1,13,0.2230679225802465,0.45
+59,No,Rarely,908,Farm Operations,14,2,Mechanical Engineering,1,69,1,Female,129,4,3,Dairy Lab Technician,2,Single,53550,8506,4,No,10,1,4,2,39,5,2,12,16,2,14,0.696164408579288,0.55
+40,No,Rarely,1479,Production,45,1,Biotechnology,1,70,1,Female,60,2,1,Logistics & Supply Chain Coordinator,4,Single,34642,19458,4,Yes,15,2,4,1,6,1,1,13,13,6,6,0.8693167491481695,0.35
+35,No,Frequently,850,Logistics,44,4,Dairy Science,1,71,3,Female,82,4,4,Maintenance Engineer,4,Married,40439,10783,9,No,20,1,2,1,32,1,3,2,1,7,14,0.6374906551934366,0.6
+37,No,Frequently,1023,Production,24,4,Mechanical Engineering,1,72,1,Female,56,3,4,Cheese Production Technician,4,Married,117779,13170,2,No,16,2,3,0,3,0,1,3,19,14,7,0.3318901349818313,0.5
+43,No,Frequently,1146,Farm Operations,41,2,Dairy Science,1,73,4,Female,80,4,1,Cheese Production Technician,3,Single,44583,16609,6,No,24,1,1,2,6,0,4,25,7,4,3,0.3737697725267772,0.5
+45,No,Rarely,860,Quality Control,1,3,Dairy Science,1,74,2,Female,97,2,1,Farm Liaison Officer,1,Divorced,113885,9322,5,No,24,3,4,0,17,2,3,28,1,10,17,0.836825503041962,0.3
+44,No,Rarely,298,Quality Control,43,1,Mechanical Engineering,1,75,3,Female,96,2,1,Dairy Quality Analyst,4,Divorced,99538,14174,0,Yes,21,2,3,2,3,1,1,13,14,0,13,0.2094934669231294,0.55
+48,No,Rarely,787,Production,22,3,Food Technology,1,76,2,Male,127,3,2,Maintenance Engineer,2,Divorced,82014,18208,3,No,14,3,3,1,10,3,2,13,4,2,17,0.5841226658243922,0.6
+34,No,Frequently,481,Farm Operations,23,4,Mechanical Engineering,1,77,1,Male,141,2,3,Logistics & Supply Chain Coordinator,4,Married,39523,4410,5,No,13,2,1,2,19,5,4,25,5,3,3,0.311074351635769,0.35
+20,No,Non-Travel,602,Quality Control,19,3,Food Technology,1,78,1,Male,102,2,4,Cold Storage Supervisor,3,Single,90543,15636,5,Yes,11,4,3,2,10,0,4,7,16,9,1,0.3979351046519556,0.4
+44,No,Rarely,1332,Farm Operations,18,4,Biotechnology,1,79,4,Male,129,4,3,Cheese Production Technician,2,Divorced,105971,11039,2,Yes,14,2,1,2,14,0,4,9,7,12,5,0.4148871546452821,0.5
+26,No,Rarely,899,Quality Control,12,1,Biotechnology,1,80,3,Female,68,1,1,Dairy Lab Technician,1,Single,110629,16990,5,No,18,2,1,1,16,0,4,8,18,12,10,0.3534979234168293,0.55
+28,No,Frequently,398,Farm Operations,28,1,Mechanical Engineering,1,81,1,Male,130,2,1,Packaging Machine Operator,2,Single,96830,8441,9,No,13,2,1,1,33,5,2,13,4,11,0,0.754646443894309,0.4
+43,No,Non-Travel,526,Maintenance,28,2,Biotechnology,1,82,3,Female,139,2,3,Cheese Production Technician,2,Married,65538,10685,5,No,23,4,3,1,11,3,2,7,18,3,14,0.4325464217851311,0.5
+20,No,Frequently,353,Farm Operations,33,2,Logistics,1,83,3,Male,55,3,4,Maintenance Engineer,2,Divorced,67310,15778,8,No,11,3,3,0,27,1,3,10,13,11,11,0.4418394938858766,0.6
+27,No,Non-Travel,751,Farm Operations,19,3,Dairy Science,1,84,3,Female,98,3,2,Dairy Lab Technician,2,Single,30908,15191,8,Yes,22,4,1,2,34,3,2,9,9,0,17,0.5171047695854214,0.55
+43,No,Rarely,604,Production,28,1,Dairy Science,1,85,3,Female,122,4,3,Packaging Machine Operator,4,Married,77290,11732,1,No,24,2,3,1,7,5,2,17,12,9,4,0.8316067021182958,0.4
+30,No,Rarely,661,Maintenance,49,1,Food Technology,1,86,3,Male,99,4,1,Milk Processing Operator,1,Married,73634,5956,3,No,15,1,1,0,26,3,4,3,4,8,10,0.6817211224186781,0.45
+36,No,Non-Travel,331,Logistics,37,2,Biotechnology,1,87,2,Male,130,2,1,Logistics & Supply Chain Coordinator,4,Married,32699,8553,8,Yes,17,4,2,1,21,2,2,3,6,11,18,0.2432247929174444,0.35
+27,No,Frequently,990,Production,26,4,Food Technology,1,88,4,Female,144,1,2,Cheese Production Technician,3,Divorced,86912,4365,3,No,11,1,3,2,23,5,4,11,9,9,0,0.2274833447256019,0.5
+54,No,Rarely,1073,Logistics,35,3,Dairy Science,1,89,3,Female,61,1,3,Maintenance Engineer,3,Divorced,34255,8668,7,Yes,18,4,3,0,1,0,1,17,10,14,16,0.5964724607039178,0.6
+54,Yes,Frequently,283,Quality Control,34,3,Dairy Science,1,90,2,Female,72,4,2,Packaging Machine Operator,2,Married,99183,7000,9,Yes,16,4,2,1,30,1,1,28,2,14,7,0.8209423932090454,0.4
+52,No,Non-Travel,953,Logistics,35,2,Biotechnology,1,91,1,Male,103,3,2,Packaging Machine Operator,4,Divorced,80282,5675,2,Yes,23,2,2,1,21,2,1,7,12,3,15,0.4262760332004137,0.4
+24,No,Frequently,827,Farm Operations,40,1,Logistics,1,92,3,Male,118,2,4,Dairy Quality Analyst,4,Divorced,78249,14907,2,No,22,3,2,0,0,2,1,2,1,1,10,0.3734402802315179,0.55
+58,Yes,Frequently,1332,Logistics,16,2,Logistics,1,93,1,Female,149,2,4,Packaging Machine Operator,1,Single,58176,19336,8,No,11,3,1,0,13,5,1,17,3,12,18,0.7237337317191554,0.4
+47,No,Rarely,420,Production,38,2,Biotechnology,1,94,3,Male,108,1,1,Logistics & Supply Chain Coordinator,1,Married,28163,17136,9,No,20,2,1,0,24,4,1,6,2,8,10,0.6214639565288792,0.35
+26,No,Frequently,752,Production,13,2,Biotechnology,1,95,2,Female,85,4,3,Dairy Lab Technician,1,Married,74210,13155,7,No,14,4,4,0,35,0,1,0,14,13,14,0.5955191396497636,0.55
+28,No,Frequently,1370,Logistics,23,2,Food Technology,1,96,2,Male,52,1,4,Dairy Lab Technician,4,Divorced,91979,14219,0,No,14,3,2,0,35,1,4,21,3,3,7,0.3045108394004788,0.55
+27,Yes,Non-Travel,311,Production,22,4,Biotechnology,1,97,2,Male,107,1,1,Packaging Machine Operator,1,Married,98860,5247,9,No,16,3,4,1,2,1,4,12,3,3,13,0.3231729230626899,0.4
+31,No,Non-Travel,814,Production,16,4,Logistics,1,98,4,Male,137,4,3,Maintenance Engineer,1,Married,41143,6415,1,No,22,3,1,0,4,1,4,28,14,10,0,0.397251443146817,0.6
+53,No,Non-Travel,1123,Logistics,28,1,Biotechnology,1,99,1,Male,104,3,1,Cheese Production Technician,1,Married,24920,8472,2,No,24,2,3,0,0,5,4,2,5,5,9,0.3447872542773558,0.5
+52,No,Rarely,674,Maintenance,48,2,Food Technology,1,100,4,Male,106,2,4,Maintenance Engineer,2,Divorced,102911,6848,1,No,14,1,2,2,18,0,2,28,4,7,6,0.8800113215325052,0.6
+42,No,Frequently,1035,Maintenance,35,4,Food Technology,1,101,3,Female,66,3,1,Farm Liaison Officer,3,Divorced,57996,3037,2,Yes,20,1,3,1,32,5,2,2,11,4,17,0.2130277114493101,0.3
+43,No,Frequently,470,Quality Control,45,1,Food Technology,1,102,1,Female,88,4,3,Cheese Production Technician,3,Divorced,31748,17634,7,No,23,1,1,2,29,1,3,14,6,11,11,0.6382394369005269,0.5
+56,No,Frequently,620,Production,46,2,Food Technology,1,103,2,Male,139,4,3,Milk Processing Operator,4,Single,114071,10262,5,No,15,1,2,1,11,3,2,20,2,7,1,0.5623191774128068,0.45
+54,No,Frequently,906,Logistics,8,3,Mechanical Engineering,1,104,1,Female,117,2,1,Logistics & Supply Chain Coordinator,4,Married,101251,13066,6,No,23,1,4,1,9,3,4,29,6,0,17,0.4262758651289053,0.35
+59,No,Non-Travel,239,Production,44,4,Biotechnology,1,105,2,Female,104,3,3,Maintenance Engineer,2,Single,67252,17554,9,Yes,18,3,4,1,33,0,4,18,11,12,6,0.8213120984727826,0.6
+41,Yes,Rarely,388,Farm Operations,22,1,Dairy Science,1,106,4,Male,94,2,1,Dairy Quality Analyst,3,Divorced,83179,9008,9,Yes,12,3,1,0,15,1,1,27,14,3,19,0.6691138042774976,0.55
+46,No,Frequently,1387,Production,21,3,Biotechnology,1,107,4,Female,125,1,3,Dairy Lab Technician,1,Single,26450,17263,5,No,12,4,3,2,39,5,1,3,18,0,11,0.8988480459262584,0.55
+54,No,Rarely,1193,Production,26,2,Mechanical Engineering,1,108,2,Male,50,1,1,Packaging Machine Operator,1,Married,72756,18238,0,Yes,17,3,1,1,28,4,3,12,5,2,19,0.3180591715285397,0.4
+20,No,Rarely,735,Maintenance,40,2,Food Technology,1,109,2,Female,70,1,1,Cheese Production Technician,4,Married,70235,7642,2,Yes,19,2,3,1,14,4,2,12,7,10,13,0.2615074851074801,0.5
+54,No,Frequently,1227,Logistics,21,2,Mechanical Engineering,1,110,3,Female,132,3,1,Packaging Machine Operator,3,Divorced,110546,18489,0,No,21,4,1,1,10,4,4,14,5,6,9,0.2975780872264407,0.4
+56,No,Frequently,489,Production,25,4,Logistics,1,111,4,Female,70,1,2,Milk Processing Operator,4,Divorced,20020,19153,9,No,15,3,4,2,33,3,2,18,2,0,8,0.3885036773092173,0.45
+33,No,Rarely,632,Maintenance,41,1,Logistics,1,112,4,Female,101,2,3,Farm Liaison Officer,4,Single,100253,16531,8,No,21,4,3,1,35,5,3,15,4,4,14,0.4917508940975692,0.3
+22,No,Rarely,670,Quality Control,1,3,Biotechnology,1,113,3,Female,131,3,4,Packaging Machine Operator,1,Divorced,29664,12384,8,No,19,4,1,2,29,4,1,6,8,0,19,0.80382229950136,0.4
+20,No,Frequently,1404,Maintenance,6,1,Biotechnology,1,114,4,Female,92,2,1,Maintenance Engineer,1,Single,86635,18336,4,Yes,12,1,2,2,34,1,4,2,15,5,9,0.3985142364302206,0.6
+24,Yes,Rarely,1471,Maintenance,23,4,Dairy Science,1,115,2,Female,101,4,2,Cheese Production Technician,3,Married,43225,15661,3,No,11,4,4,0,8,1,1,29,15,8,18,0.8406703170193774,0.5
+45,No,Rarely,827,Maintenance,23,1,Dairy Science,1,116,1,Male,116,3,4,Dairy Quality Analyst,4,Married,88173,13687,8,Yes,22,3,4,1,17,4,4,25,8,2,18,0.5240353818833017,0.55
+33,No,Rarely,478,Production,43,4,Logistics,1,117,1,Male,93,2,1,Milk Processing Operator,2,Married,105333,15404,8,No,11,1,2,1,18,2,1,19,17,10,11,0.6529490129772878,0.45
+58,No,Rarely,1076,Production,43,2,Food Technology,1,118,4,Male,81,2,4,Logistics & Supply Chain Coordinator,3,Married,60225,6355,2,No,11,3,1,2,38,4,1,1,12,10,11,0.3850853998391655,0.35
+46,No,Rarely,780,Quality Control,23,3,Mechanical Engineering,1,119,3,Male,59,3,2,Farm Liaison Officer,4,Married,30807,2933,4,No,24,1,3,2,3,2,3,17,10,13,8,0.3092096712164766,0.3
+28,No,Rarely,1062,Farm Operations,32,2,Dairy Science,1,120,2,Female,113,4,4,Maintenance Engineer,3,Single,103274,10766,2,No,14,3,4,0,5,0,2,24,9,11,19,0.8086198584606343,0.6
+34,No,Rarely,453,Farm Operations,30,1,Dairy Science,1,121,1,Female,128,3,1,Logistics & Supply Chain Coordinator,3,Married,26402,7906,9,No,24,1,1,1,32,0,1,10,9,14,3,0.2766543263641147,0.35
+34,No,Non-Travel,380,Farm Operations,13,2,Food Technology,1,122,2,Female,118,1,4,Dairy Quality Analyst,3,Single,24521,14572,1,Yes,21,1,2,2,31,1,4,0,5,5,0,0.7418149140369159,0.55
+45,No,Frequently,880,Quality Control,43,3,Food Technology,1,123,4,Male,117,1,4,Logistics & Supply Chain Coordinator,2,Married,83165,14279,0,No,14,2,3,1,15,5,2,15,15,3,15,0.6066890142538002,0.35
+32,No,Frequently,1024,Farm Operations,18,2,Biotechnology,1,124,4,Male,77,4,1,Dairy Lab Technician,2,Single,28382,12723,9,No,10,3,1,1,10,3,2,16,11,5,0,0.8027964471751943,0.55
+51,No,Rarely,899,Farm Operations,23,3,Mechanical Engineering,1,125,1,Male,102,2,2,Cheese Production Technician,1,Single,35065,12611,1,No,11,4,1,1,21,5,1,15,3,1,12,0.7024728884687239,0.5
+58,No,Rarely,765,Maintenance,15,3,Food Technology,1,126,4,Female,100,2,2,Logistics & Supply Chain Coordinator,1,Single,105470,10261,7,No,11,1,4,2,35,1,1,9,4,3,2,0.3971648714780793,0.35
+51,No,Frequently,879,Production,33,2,Dairy Science,1,127,3,Male,102,2,4,Maintenance Engineer,4,Divorced,34425,6474,7,No,24,3,4,1,22,1,1,16,1,12,11,0.6020993180800933,0.6
+23,Yes,Rarely,590,Production,21,4,Dairy Science,1,128,4,Female,53,3,3,Dairy Lab Technician,3,Single,33111,18638,2,No,13,1,3,2,25,5,2,29,18,12,8,0.2091515337238131,0.55
+49,No,Rarely,1308,Maintenance,39,1,Logistics,1,129,4,Male,128,3,4,Dairy Lab Technician,4,Single,60799,6787,6,Yes,16,2,1,0,30,3,3,2,0,6,3,0.5326528396607002,0.55
+56,No,Frequently,411,Maintenance,23,4,Food Technology,1,130,4,Female,66,4,3,Logistics & Supply Chain Coordinator,1,Married,73257,15575,6,No,12,2,2,0,28,1,1,17,3,10,1,0.2602095449004249,0.35
+42,No,Frequently,583,Maintenance,27,4,Biotechnology,1,131,2,Male,116,1,4,Farm Liaison Officer,2,Single,81177,9862,1,Yes,14,2,2,2,4,3,2,18,11,5,8,0.5002614984672308,0.3
+58,No,Rarely,541,Production,45,2,Mechanical Engineering,1,132,2,Female,123,2,2,Cold Storage Supervisor,1,Single,101046,12956,8,No,20,2,3,1,37,1,2,13,1,8,19,0.276728265599074,0.4
+34,No,Rarely,1043,Farm Operations,44,1,Biotechnology,1,133,1,Male,96,1,4,Farm Liaison Officer,4,Divorced,57851,12663,2,No,18,4,1,0,24,0,4,20,11,10,12,0.8688358648617904,0.3
+48,No,Frequently,1261,Maintenance,18,1,Dairy Science,1,134,1,Male,105,3,4,Packaging Machine Operator,1,Married,28816,18120,1,No,14,4,4,0,33,2,1,24,15,6,13,0.5661475701854095,0.4
+55,No,Rarely,619,Quality Control,24,4,Biotechnology,1,135,1,Female,72,3,3,Maintenance Engineer,4,Divorced,97853,5742,2,No,18,1,1,2,11,1,3,1,1,0,2,0.8392525896936502,0.6
+32,Yes,Frequently,950,Maintenance,47,2,Dairy Science,1,136,4,Female,67,3,2,Cold Storage Supervisor,4,Divorced,22175,4035,1,Yes,10,3,4,2,21,2,4,11,16,5,17,0.2156563560760361,0.4
+51,No,Frequently,1392,Logistics,40,1,Dairy Science,1,137,2,Male,50,1,3,Cheese Production Technician,4,Divorced,31341,3967,7,No,18,2,2,2,8,4,1,10,1,10,8,0.6463572987173285,0.5
+26,No,Non-Travel,505,Maintenance,42,4,Dairy Science,1,138,3,Female,84,4,4,Dairy Lab Technician,4,Single,83908,3852,4,No,23,2,3,2,19,1,4,29,3,2,14,0.4148681513486341,0.55
+41,No,Rarely,901,Production,7,1,Dairy Science,1,139,4,Male,113,4,1,Maintenance Engineer,1,Divorced,45654,12547,2,No,14,4,3,2,28,0,1,16,5,7,9,0.5022802971756654,0.6
+47,Yes,Non-Travel,1068,Maintenance,48,2,Dairy Science,1,140,4,Female,107,3,4,Dairy Quality Analyst,4,Divorced,80895,8618,4,Yes,17,4,3,2,28,3,4,26,6,12,16,0.8111611766502829,0.55
+21,Yes,Frequently,736,Logistics,20,2,Logistics,1,141,4,Male,144,2,4,Packaging Machine Operator,4,Married,79696,15859,7,No,14,2,4,2,26,0,3,5,14,0,12,0.8860147663311213,0.4
+25,No,Rarely,1335,Quality Control,27,2,Biotechnology,1,142,3,Female,108,1,3,Packaging Machine Operator,3,Married,77889,10303,6,No,23,3,2,1,16,2,4,18,19,9,0,0.3725443681033467,0.4
+47,No,Rarely,405,Farm Operations,6,1,Logistics,1,143,1,Male,50,3,1,Maintenance Engineer,4,Married,107144,13350,5,Yes,21,1,2,1,4,3,4,12,11,1,10,0.8637772997473112,0.6
+47,No,Frequently,1408,Maintenance,27,3,Logistics,1,144,3,Male,52,1,1,Cheese Production Technician,1,Married,103115,18566,0,No,15,1,3,1,12,0,4,6,4,2,4,0.6821088642172034,0.5
+39,No,Rarely,695,Logistics,9,1,Food Technology,1,145,1,Male,116,1,3,Dairy Lab Technician,4,Divorced,50194,2164,9,Yes,17,1,3,1,14,0,1,21,13,13,8,0.8659897400500896,0.55
+49,No,Rarely,1270,Logistics,45,3,Food Technology,1,146,3,Female,86,4,2,Milk Processing Operator,2,Married,54837,8958,0,No,11,1,4,0,14,0,1,10,15,2,6,0.593656899034847,0.45
+30,No,Rarely,703,Quality Control,31,2,Food Technology,1,147,2,Male,132,3,1,Milk Processing Operator,2,Single,88894,4137,0,Yes,12,3,4,1,17,5,3,6,10,6,6,0.8725293994940293,0.45
+47,No,Non-Travel,1245,Production,21,4,Mechanical Engineering,1,148,4,Female,78,4,1,Maintenance Engineer,4,Divorced,104358,12215,9,No,20,3,1,0,1,3,4,12,11,12,1,0.8247188207032035,0.6
+44,No,Frequently,412,Maintenance,26,3,Food Technology,1,149,4,Female,138,3,3,Logistics & Supply Chain Coordinator,2,Married,61576,18838,7,No,18,3,4,0,22,0,2,12,18,7,18,0.2900142188578122,0.35
+58,No,Frequently,509,Logistics,40,2,Biotechnology,1,150,4,Female,82,1,2,Farm Liaison Officer,2,Divorced,39727,18925,7,No,14,4,1,0,12,0,4,20,16,14,19,0.4175529489712113,0.3
+52,No,Rarely,860,Quality Control,48,2,Logistics,1,151,1,Male,149,4,2,Packaging Machine Operator,1,Married,54579,8033,6,No,14,2,3,2,3,2,2,0,6,8,17,0.3701442340587583,0.4
+20,No,Rarely,952,Farm Operations,45,3,Biotechnology,1,152,3,Female,110,1,4,Cheese Production Technician,3,Divorced,116554,4665,5,No,18,3,2,0,24,0,2,29,8,6,9,0.60046952823518,0.5
+46,No,Frequently,471,Logistics,13,4,Food Technology,1,153,2,Female,142,3,4,Packaging Machine Operator,2,Married,36555,15129,3,Yes,19,1,4,0,10,0,4,18,13,7,4,0.7619596020541477,0.4
+32,No,Rarely,1137,Quality Control,49,2,Mechanical Engineering,1,154,3,Female,139,2,3,Dairy Quality Analyst,2,Single,73294,14125,0,No,12,3,2,0,11,4,2,18,19,10,15,0.7315880128208168,0.55
+22,No,Rarely,1425,Production,23,3,Mechanical Engineering,1,155,4,Male,53,4,2,Milk Processing Operator,3,Married,69777,8189,8,No,23,2,4,2,12,3,2,22,11,14,4,0.7087243925984337,0.45
+58,Yes,Frequently,231,Production,20,4,Logistics,1,156,2,Female,63,4,3,Dairy Lab Technician,3,Divorced,25906,15708,0,No,13,4,4,1,8,4,4,14,14,5,14,0.4626854130149101,0.55
+25,No,Non-Travel,642,Logistics,37,4,Biotechnology,1,157,2,Female,140,1,4,Dairy Quality Analyst,2,Divorced,60751,7095,3,Yes,16,1,1,1,37,5,1,13,11,1,15,0.2977458171394795,0.55
+27,Yes,Frequently,361,Logistics,28,2,Dairy Science,1,158,4,Female,82,1,3,Dairy Lab Technician,4,Single,89599,16409,2,Yes,11,4,4,0,5,2,4,28,12,0,3,0.3474084875400195,0.55
+46,No,Frequently,966,Maintenance,17,1,Biotechnology,1,159,3,Female,71,2,3,Packaging Machine Operator,2,Divorced,94180,9583,6,No,17,3,3,0,9,4,3,2,8,2,13,0.7191742217538328,0.4
+28,No,Non-Travel,453,Quality Control,28,1,Food Technology,1,160,4,Male,97,4,1,Cheese Production Technician,4,Single,93678,3637,4,No,14,1,2,1,22,5,2,26,6,8,16,0.3032740373416943,0.5
+56,No,Rarely,720,Logistics,41,2,Dairy Science,1,161,3,Male,52,3,1,Milk Processing Operator,4,Divorced,51644,16670,4,No,24,1,4,1,14,1,3,20,0,12,16,0.3560626934534647,0.45
+52,No,Frequently,1176,Maintenance,2,4,Mechanical Engineering,1,162,2,Female,136,3,1,Packaging Machine Operator,4,Divorced,53521,7966,3,No,10,3,2,1,22,3,2,19,9,6,15,0.4971868570114438,0.4
+43,No,Non-Travel,209,Maintenance,25,2,Logistics,1,163,2,Female,134,4,4,Milk Processing Operator,3,Single,31564,6670,0,No,12,3,2,1,39,0,1,3,5,1,8,0.2504787014812241,0.45
+34,No,Rarely,925,Logistics,41,3,Logistics,1,164,4,Female,72,4,3,Maintenance Engineer,2,Divorced,90640,7203,4,No,24,2,2,0,36,4,2,28,14,13,1,0.3488844425390909,0.6
+51,No,Frequently,704,Production,6,1,Mechanical Engineering,1,165,2,Female,117,4,1,Dairy Lab Technician,2,Divorced,47299,10669,3,No,18,3,4,0,33,4,4,6,14,0,10,0.3048376891388656,0.55
+51,No,Frequently,984,Quality Control,11,3,Food Technology,1,166,1,Male,70,2,1,Packaging Machine Operator,1,Single,67958,16968,9,No,14,3,1,0,15,0,2,0,8,1,14,0.8659252480382882,0.4
+43,Yes,Frequently,635,Quality Control,38,2,Mechanical Engineering,1,167,2,Male,92,3,1,Cold Storage Supervisor,3,Married,76078,4366,7,Yes,17,3,2,1,31,0,3,22,12,14,2,0.3340681198814224,0.4
+31,No,Frequently,1334,Production,6,2,Food Technology,1,168,1,Male,144,3,4,Milk Processing Operator,1,Single,33421,2366,1,Yes,10,1,2,2,37,2,4,23,0,2,15,0.8032387971192756,0.45
+58,No,Non-Travel,352,Logistics,45,4,Dairy Science,1,169,2,Male,134,1,4,Milk Processing Operator,1,Divorced,108747,17647,7,Yes,23,2,4,1,39,4,3,18,8,13,18,0.2803587338866259,0.45
+21,No,Frequently,1116,Quality Control,11,4,Mechanical Engineering,1,170,4,Female,75,1,3,Cold Storage Supervisor,4,Married,31202,11907,0,No,16,1,4,1,4,4,1,2,2,5,5,0.8087711926117551,0.4
+22,No,Rarely,1068,Logistics,14,4,Food Technology,1,171,4,Female,90,4,3,Logistics & Supply Chain Coordinator,3,Married,62185,8606,3,Yes,16,3,3,2,16,1,3,19,8,11,13,0.6196036503914287,0.35
+56,No,Non-Travel,1325,Logistics,2,3,Dairy Science,1,172,1,Male,148,1,3,Packaging Machine Operator,1,Married,23685,2012,2,Yes,17,2,3,2,21,5,3,14,19,8,4,0.7947941462572325,0.4
+36,No,Rarely,952,Maintenance,40,4,Mechanical Engineering,1,173,4,Male,87,2,1,Cold Storage Supervisor,2,Single,110197,4317,4,No,12,3,1,1,38,1,3,12,14,7,4,0.8071440819761502,0.4
+21,No,Rarely,1414,Production,3,2,Logistics,1,174,2,Female,137,3,2,Milk Processing Operator,1,Married,62637,17429,4,Yes,10,1,1,2,17,4,4,21,6,9,5,0.6174614714671863,0.45
+21,No,Rarely,762,Logistics,35,4,Mechanical Engineering,1,175,2,Female,60,3,4,Packaging Machine Operator,3,Married,38366,9485,4,Yes,20,1,1,2,27,1,1,13,3,8,17,0.8423859073765168,0.4
+47,No,Rarely,1304,Farm Operations,33,1,Biotechnology,1,176,4,Female,78,1,1,Cheese Production Technician,2,Married,44276,18759,3,Yes,24,3,1,2,12,4,1,6,19,10,17,0.609813804039236,0.5
+42,No,Rarely,688,Production,24,4,Mechanical Engineering,1,177,2,Female,109,4,1,Cheese Production Technician,2,Divorced,100946,2256,7,Yes,18,2,2,1,0,3,1,0,16,10,18,0.6987955545148627,0.5
+56,No,Non-Travel,1094,Quality Control,19,3,Biotechnology,1,178,3,Female,116,1,3,Dairy Lab Technician,2,Single,68239,18833,2,No,10,1,4,1,18,2,3,12,3,7,1,0.4912563340181828,0.55
+51,No,Frequently,1311,Maintenance,18,1,Dairy Science,1,179,3,Male,114,4,3,Logistics & Supply Chain Coordinator,4,Single,95214,17903,3,No,20,3,3,2,33,1,4,3,18,6,16,0.8398473861296911,0.35
+52,No,Frequently,1417,Quality Control,49,1,Mechanical Engineering,1,180,2,Male,110,2,1,Cheese Production Technician,2,Divorced,44575,5212,0,No,15,4,2,0,3,4,4,11,4,5,0,0.7769137772384187,0.5
+20,No,Rarely,303,Quality Control,24,1,Dairy Science,1,181,4,Female,68,3,4,Logistics & Supply Chain Coordinator,4,Married,61401,8175,6,No,18,3,4,2,2,1,4,6,15,7,8,0.3166991781318492,0.35
+38,No,Non-Travel,1319,Production,45,3,Dairy Science,1,182,1,Female,95,2,4,Dairy Lab Technician,4,Divorced,61230,15571,0,No,23,3,4,2,9,5,3,26,2,5,12,0.6034714951432891,0.55
+21,No,Non-Travel,1421,Quality Control,35,2,Food Technology,1,183,4,Male,98,3,1,Maintenance Engineer,1,Divorced,99424,18087,1,No,11,2,2,1,27,2,1,1,10,1,3,0.8277791303608624,0.6
+45,Yes,Frequently,1224,Logistics,1,4,Dairy Science,1,184,1,Female,71,2,2,Dairy Quality Analyst,1,Married,102263,9446,6,Yes,13,3,2,0,33,3,3,16,14,12,4,0.7551451455612657,0.55
+51,Yes,Rarely,1206,Quality Control,36,1,Dairy Science,1,185,4,Male,127,1,2,Dairy Lab Technician,2,Married,88617,19692,0,Yes,11,4,3,2,38,0,4,0,18,8,17,0.8737869464629275,0.55
+25,Yes,Rarely,606,Maintenance,25,1,Mechanical Engineering,1,186,2,Male,106,2,4,Farm Liaison Officer,3,Single,43021,16877,2,No,13,3,1,0,18,0,3,25,13,8,9,0.3619111808633163,0.3
+51,No,Rarely,366,Maintenance,45,1,Mechanical Engineering,1,187,3,Male,63,2,3,Logistics & Supply Chain Coordinator,2,Married,29449,14943,5,Yes,11,4,1,1,35,1,2,13,15,2,3,0.4572217431913346,0.35
+23,Yes,Rarely,708,Farm Operations,49,2,Logistics,1,188,4,Male,93,1,2,Cheese Production Technician,1,Divorced,35657,12306,5,Yes,21,1,3,0,2,4,1,29,5,8,12,0.5550343216126918,0.5
+30,Yes,Rarely,512,Maintenance,43,2,Food Technology,1,189,1,Female,65,3,2,Cheese Production Technician,2,Divorced,55059,6016,5,No,10,3,3,1,22,5,1,21,4,1,12,0.3628684190190854,0.5
+36,No,Non-Travel,962,Quality Control,34,3,Dairy Science,1,190,3,Female,146,3,3,Packaging Machine Operator,1,Married,21532,7912,1,No,20,2,1,2,16,2,4,27,16,11,16,0.4758316786321733,0.4
+57,No,Rarely,880,Maintenance,25,2,Food Technology,1,191,1,Male,126,1,2,Milk Processing Operator,2,Single,70805,2442,1,Yes,12,3,2,1,6,3,3,20,15,13,7,0.5762774430970328,0.45
+43,No,Rarely,676,Production,16,4,Biotechnology,1,192,2,Female,61,2,1,Cheese Production Technician,3,Divorced,101551,4944,5,Yes,17,4,1,0,25,3,4,0,1,2,3,0.3339374421009384,0.5
+24,No,Rarely,272,Maintenance,34,3,Dairy Science,1,193,3,Female,104,2,2,Cold Storage Supervisor,2,Married,57756,5936,9,No,14,4,4,0,17,3,3,25,10,13,2,0.3796814730918064,0.4
+53,No,Rarely,1364,Logistics,29,3,Food Technology,1,194,1,Female,100,2,3,Milk Processing Operator,3,Single,91880,2398,4,No,13,2,4,0,5,0,2,2,3,5,10,0.2873897498661561,0.45
+25,No,Rarely,781,Production,19,4,Logistics,1,195,4,Female,88,4,1,Cold Storage Supervisor,3,Single,94642,17696,6,Yes,14,4,3,2,30,2,1,10,5,13,11,0.6993669869200239,0.4
+41,Yes,Rarely,461,Farm Operations,23,4,Logistics,1,196,2,Male,82,3,2,Logistics & Supply Chain Coordinator,2,Divorced,54206,4995,6,No,15,3,1,0,28,0,1,6,6,3,8,0.4530863485752931,0.35
+30,No,Rarely,444,Logistics,19,4,Dairy Science,1,197,2,Female,82,2,4,Farm Liaison Officer,3,Divorced,72168,8329,4,No,15,4,1,0,8,1,3,27,16,7,14,0.3541863072286518,0.3
+35,No,Frequently,760,Quality Control,25,3,Biotechnology,1,198,2,Male,78,3,1,Milk Processing Operator,3,Single,95188,4216,7,No,14,3,4,0,34,3,1,24,7,0,12,0.5551269044266667,0.45
+52,No,Non-Travel,1299,Quality Control,16,3,Logistics,1,199,4,Male,118,2,1,Logistics & Supply Chain Coordinator,1,Single,44550,13523,9,No,21,3,1,1,16,2,3,28,0,12,4,0.2477745139796733,0.35
+28,No,Rarely,374,Quality Control,9,3,Logistics,1,200,4,Female,119,1,4,Cheese Production Technician,1,Single,26389,4568,5,Yes,20,4,3,0,11,3,4,8,14,5,4,0.8463846244228763,0.5
+25,No,Rarely,308,Logistics,1,4,Biotechnology,1,201,3,Male,80,1,4,Farm Liaison Officer,3,Married,107897,2160,4,No,21,2,3,1,35,0,2,21,19,1,18,0.406127264810085,0.3
+35,No,Non-Travel,382,Logistics,42,4,Food Technology,1,202,4,Female,129,3,2,Maintenance Engineer,4,Divorced,55847,17648,3,No,15,1,4,0,23,0,3,2,11,5,10,0.8205250437287035,0.6
+48,No,Rarely,391,Logistics,19,1,Logistics,1,203,3,Female,80,3,2,Cheese Production Technician,2,Single,99239,10067,6,Yes,18,2,1,1,9,0,2,0,14,13,8,0.5483340457272529,0.5
+22,No,Rarely,264,Production,33,2,Mechanical Engineering,1,204,2,Male,138,1,3,Dairy Quality Analyst,3,Divorced,38642,5904,3,No,14,1,1,1,29,3,4,18,14,0,2,0.7951053483974484,0.55
+39,No,Non-Travel,1162,Production,34,1,Logistics,1,205,3,Female,95,4,3,Dairy Lab Technician,2,Divorced,56509,5573,4,Yes,22,2,4,2,28,2,4,25,8,14,17,0.3729451085527511,0.55
+55,No,Rarely,1323,Quality Control,16,4,Food Technology,1,206,1,Male,146,1,1,Milk Processing Operator,1,Divorced,99417,3825,4,Yes,15,3,2,2,38,2,4,1,15,1,12,0.3226894215699271,0.45
+38,Yes,Frequently,1063,Maintenance,44,3,Food Technology,1,207,2,Male,126,2,4,Dairy Quality Analyst,2,Single,69237,15786,0,No,13,3,2,1,9,1,3,26,1,8,11,0.7945882622643798,0.55
+45,No,Frequently,1351,Quality Control,40,4,Dairy Science,1,208,2,Female,101,4,4,Milk Processing Operator,3,Married,35414,11815,0,Yes,22,4,1,1,38,3,2,20,14,5,8,0.3490467176601976,0.45
+22,Yes,Rarely,568,Farm Operations,18,2,Mechanical Engineering,1,209,3,Female,59,1,3,Dairy Lab Technician,3,Single,83176,15794,2,No,12,1,3,2,27,1,2,23,14,7,9,0.722336744509706,0.55
+38,No,Rarely,1050,Production,34,1,Food Technology,1,210,2,Female,137,4,1,Milk Processing Operator,3,Divorced,99865,3176,2,No,22,1,2,1,17,5,1,4,6,6,12,0.4412086562617426,0.45
+39,No,Frequently,242,Logistics,25,1,Biotechnology,1,211,4,Male,123,4,1,Logistics & Supply Chain Coordinator,3,Single,82059,9820,1,No,21,4,1,2,16,1,3,16,12,8,19,0.7237356085046129,0.35
+51,No,Rarely,687,Production,45,3,Mechanical Engineering,1,212,1,Female,90,4,3,Cold Storage Supervisor,4,Single,69150,18514,1,No,15,2,2,2,10,1,1,18,16,8,19,0.835352386191831,0.4
+26,No,Rarely,277,Logistics,6,1,Mechanical Engineering,1,213,3,Male,144,3,3,Packaging Machine Operator,4,Divorced,108367,3499,5,No,20,4,4,0,0,1,1,27,10,10,12,0.8871469019011051,0.4
+52,No,Frequently,1025,Farm Operations,21,1,Biotechnology,1,214,3,Male,126,1,3,Logistics & Supply Chain Coordinator,4,Divorced,61091,9626,0,Yes,20,2,2,0,16,0,3,4,9,3,8,0.4518666340880434,0.35
+59,Yes,Frequently,1493,Farm Operations,6,4,Logistics,1,215,2,Female,52,3,2,Dairy Lab Technician,3,Single,93124,18137,5,No,14,4,2,2,35,5,1,22,0,6,9,0.4572680842483823,0.55
+58,No,Rarely,873,Production,32,1,Biotechnology,1,216,4,Female,108,3,1,Milk Processing Operator,4,Single,20903,5708,4,No,13,1,4,2,35,1,1,20,13,4,18,0.8869714157493982,0.45
+37,No,Non-Travel,900,Logistics,41,1,Biotechnology,1,217,2,Female,101,2,1,Logistics & Supply Chain Coordinator,2,Single,74235,3769,5,Yes,14,1,3,1,8,2,1,13,4,6,5,0.8030696912086268,0.35
+59,Yes,Rarely,958,Farm Operations,48,1,Logistics,1,218,2,Male,83,2,1,Cold Storage Supervisor,3,Single,78565,11510,4,Yes,16,2,1,2,27,1,4,9,7,3,6,0.2315643803379646,0.4
+20,No,Non-Travel,927,Quality Control,43,3,Logistics,1,219,3,Female,98,4,3,Dairy Quality Analyst,1,Married,75342,16226,6,Yes,10,1,3,2,32,0,3,20,0,11,14,0.6014149903585643,0.55
+30,No,Frequently,1124,Quality Control,39,3,Logistics,1,220,2,Male,77,4,3,Logistics & Supply Chain Coordinator,3,Single,62723,17634,0,No,23,1,3,0,2,4,4,6,6,9,18,0.3268713400839068,0.35
+47,No,Frequently,1101,Logistics,31,4,Logistics,1,221,1,Female,132,2,3,Dairy Quality Analyst,2,Married,55572,8731,2,No,24,1,2,2,7,5,1,28,1,10,13,0.8958087752652528,0.55
+44,Yes,Rarely,1088,Production,42,1,Logistics,1,222,2,Female,136,2,3,Dairy Lab Technician,4,Divorced,37610,12965,5,No,10,1,1,1,5,4,1,7,6,10,15,0.2972461086596816,0.55
+42,No,Non-Travel,1192,Farm Operations,10,3,Biotechnology,1,223,2,Male,145,1,4,Dairy Quality Analyst,3,Married,54052,2375,0,No,20,3,2,2,5,4,4,29,6,0,13,0.5915433287800066,0.55
+50,No,Rarely,1391,Production,30,3,Dairy Science,1,224,3,Male,62,4,3,Milk Processing Operator,4,Divorced,118993,17517,6,No,22,4,4,0,28,5,1,7,8,3,19,0.6656388590204282,0.45
+49,No,Frequently,538,Quality Control,18,4,Dairy Science,1,225,2,Female,146,4,2,Farm Liaison Officer,3,Married,107063,8218,3,No,10,4,3,0,36,3,3,6,3,14,1,0.8559452582578393,0.3
+54,No,Rarely,392,Farm Operations,24,2,Food Technology,1,226,4,Female,147,2,4,Farm Liaison Officer,2,Divorced,57550,19124,2,No,11,3,3,0,11,2,2,12,6,12,8,0.7930808181509308,0.3
+26,No,Rarely,482,Production,9,1,Dairy Science,1,227,3,Female,146,1,4,Maintenance Engineer,3,Single,74033,10495,9,No,18,1,4,0,8,0,4,13,19,9,2,0.3720283399294481,0.6
+35,No,Rarely,589,Maintenance,31,3,Dairy Science,1,228,2,Female,118,2,3,Milk Processing Operator,4,Married,49011,3085,8,No,22,4,1,2,18,5,2,18,17,14,5,0.6008367659047531,0.45
+45,No,Non-Travel,1199,Logistics,15,4,Biotechnology,1,229,1,Female,116,2,1,Dairy Lab Technician,4,Married,54764,15073,0,No,14,4,3,1,16,4,2,10,12,2,4,0.8675017705341184,0.55
+21,No,Non-Travel,724,Logistics,4,4,Logistics,1,230,1,Male,110,3,3,Cheese Production Technician,2,Divorced,117540,13371,7,No,23,4,3,1,31,0,2,1,10,8,13,0.7150017929734565,0.5
+20,No,Rarely,1463,Maintenance,40,4,Logistics,1,231,3,Male,109,4,1,Farm Liaison Officer,3,Divorced,73533,19594,0,No,18,2,1,1,34,0,4,16,8,4,14,0.6818354438659255,0.3
+31,No,Rarely,858,Quality Control,9,3,Biotechnology,1,232,3,Male,120,1,3,Dairy Lab Technician,1,Married,44064,13226,4,No,22,3,2,2,13,3,1,5,13,3,17,0.7284307554968095,0.55
+24,No,Frequently,915,Farm Operations,45,1,Dairy Science,1,233,2,Male,73,3,3,Dairy Quality Analyst,3,Divorced,69581,12046,9,No,14,2,4,2,15,4,3,28,7,7,16,0.4257543322914738,0.55
+56,No,Rarely,1090,Logistics,9,2,Biotechnology,1,234,4,Female,112,4,1,Logistics & Supply Chain Coordinator,2,Single,48702,18651,7,No,24,2,1,2,20,1,1,8,13,14,8,0.7104765885822653,0.35
+51,No,Rarely,1312,Maintenance,26,1,Food Technology,1,235,2,Male,135,2,1,Farm Liaison Officer,1,Married,105701,13041,5,No,23,3,4,1,11,0,3,18,16,4,18,0.3629983260128411,0.3
+28,No,Frequently,1318,Maintenance,4,4,Logistics,1,236,1,Male,110,1,1,Milk Processing Operator,2,Single,28631,6349,6,No,16,4,4,2,23,4,1,4,13,2,8,0.4996719396354274,0.45
+54,No,Frequently,651,Quality Control,17,4,Mechanical Engineering,1,237,4,Male,72,4,1,Farm Liaison Officer,3,Married,107388,6965,7,No,23,2,3,2,33,0,2,8,4,1,15,0.8229501720319545,0.3
+38,No,Non-Travel,627,Quality Control,16,2,Food Technology,1,238,4,Female,79,2,2,Cold Storage Supervisor,1,Single,90043,15492,5,Yes,23,4,1,0,7,3,2,29,9,14,5,0.2132798025435262,0.4
+35,No,Rarely,1374,Production,15,1,Food Technology,1,239,4,Male,109,3,1,Cold Storage Supervisor,2,Married,86063,15336,5,Yes,24,2,4,0,20,3,3,29,5,7,7,0.4900230551766427,0.4
+22,No,Rarely,1245,Logistics,35,4,Biotechnology,1,240,2,Female,67,1,3,Cold Storage Supervisor,4,Divorced,48981,19373,5,No,15,4,2,1,7,1,4,24,9,11,2,0.3867752367173417,0.4
+39,No,Frequently,1082,Production,5,4,Dairy Science,1,241,1,Male,145,4,3,Farm Liaison Officer,1,Married,55764,14684,4,No,11,1,4,0,27,3,1,6,10,1,4,0.3390127315455266,0.3
+43,No,Frequently,512,Maintenance,5,1,Logistics,1,242,3,Female,105,3,2,Maintenance Engineer,1,Single,70513,19321,7,No,12,1,3,0,15,4,2,29,5,13,6,0.7870027950307585,0.6
+52,No,Frequently,1039,Farm Operations,20,4,Mechanical Engineering,1,243,2,Male,102,2,1,Dairy Lab Technician,2,Married,119007,8654,1,No,14,1,2,0,9,5,3,3,9,7,0,0.6875490009914846,0.55
+43,No,Frequently,718,Farm Operations,15,1,Food Technology,1,244,3,Female,56,2,3,Cold Storage Supervisor,4,Single,86198,9342,6,No,13,3,2,2,14,3,1,26,13,4,3,0.2788429042880372,0.4
+30,Yes,Rarely,1429,Quality Control,18,4,Mechanical Engineering,1,245,4,Male,146,4,2,Dairy Quality Analyst,1,Single,44940,4358,3,Yes,23,1,1,0,3,5,3,17,19,7,15,0.5461243285508326,0.55
+27,No,Non-Travel,574,Farm Operations,47,1,Dairy Science,1,246,4,Female,118,2,3,Milk Processing Operator,2,Single,91792,8360,0,Yes,20,2,2,0,25,1,4,17,2,4,13,0.5268340402789777,0.45
+55,No,Rarely,650,Farm Operations,2,2,Dairy Science,1,247,2,Female,141,1,2,Packaging Machine Operator,1,Divorced,48432,5743,4,No,15,4,1,0,14,2,4,19,6,0,0,0.2997694558205859,0.4
+57,No,Rarely,1214,Farm Operations,29,4,Mechanical Engineering,1,248,1,Male,121,4,2,Cold Storage Supervisor,1,Married,28367,9159,2,Yes,17,4,1,2,35,0,1,16,1,11,3,0.7598338906938458,0.4
+59,Yes,Frequently,794,Maintenance,13,2,Logistics,1,249,4,Female,128,3,4,Dairy Lab Technician,1,Single,45511,2518,3,No,17,4,2,1,31,0,4,29,6,12,9,0.4566717800179398,0.55
+39,Yes,Rarely,1402,Farm Operations,4,4,Dairy Science,1,250,3,Female,101,4,4,Dairy Quality Analyst,4,Divorced,28573,18652,6,No,12,4,1,2,37,4,1,3,16,10,10,0.7333564426122761,0.55
+54,Yes,Rarely,1433,Farm Operations,42,4,Mechanical Engineering,1,251,3,Male,53,4,1,Milk Processing Operator,3,Single,35582,14925,4,No,13,2,1,2,3,1,1,27,12,13,6,0.3344438305575487,0.45
+44,Yes,Non-Travel,699,Farm Operations,45,3,Food Technology,1,252,2,Male,83,3,4,Logistics & Supply Chain Coordinator,3,Married,25378,16810,3,No,10,4,2,0,8,1,4,29,8,10,3,0.4205514231296826,0.35
+54,Yes,Rarely,663,Production,10,1,Mechanical Engineering,1,253,3,Female,118,2,2,Cheese Production Technician,4,Divorced,85296,18239,0,No,11,2,3,1,34,1,3,26,12,1,0,0.2666196633918661,0.5
+44,No,Frequently,1347,Maintenance,31,2,Mechanical Engineering,1,254,1,Male,82,3,3,Dairy Quality Analyst,4,Single,33500,7475,5,Yes,22,2,4,0,27,0,3,21,14,13,0,0.3004354888219257,0.55
+48,No,Rarely,312,Quality Control,41,2,Biotechnology,1,255,4,Male,118,1,3,Maintenance Engineer,2,Single,85841,6185,9,No,18,4,1,0,36,3,1,15,12,5,16,0.8182284432469129,0.6
+37,No,Frequently,1235,Production,8,2,Dairy Science,1,256,3,Male,87,2,1,Dairy Quality Analyst,1,Single,41881,7161,5,No,24,4,1,1,8,0,2,21,16,2,9,0.2763788509299043,0.55
+37,No,Rarely,1349,Logistics,3,1,Logistics,1,257,3,Female,147,4,4,Dairy Quality Analyst,4,Married,90233,11580,6,Yes,21,4,2,1,1,0,1,22,7,7,4,0.2670118451001602,0.55
+21,Yes,Rarely,530,Maintenance,48,3,Logistics,1,258,4,Female,75,2,1,Maintenance Engineer,2,Divorced,71542,11886,0,Yes,19,2,4,2,2,0,3,4,8,4,6,0.8582641175856618,0.6
+54,No,Non-Travel,339,Maintenance,46,2,Biotechnology,1,259,2,Female,50,2,2,Logistics & Supply Chain Coordinator,3,Divorced,85285,13465,3,Yes,19,3,4,1,4,3,1,8,8,2,7,0.6521324217625373,0.35
+35,No,Frequently,1101,Logistics,9,1,Logistics,1,260,3,Female,53,1,4,Farm Liaison Officer,3,Divorced,79547,13221,8,Yes,11,2,1,2,9,2,3,1,7,11,1,0.2706411884880936,0.3
+55,No,Rarely,1320,Logistics,30,4,Mechanical Engineering,1,261,2,Female,88,2,1,Milk Processing Operator,3,Single,82151,4335,9,No,21,3,2,2,27,4,4,1,15,9,8,0.880201717346236,0.45
+52,Yes,Rarely,716,Logistics,11,2,Biotechnology,1,262,2,Female,103,2,3,Dairy Quality Analyst,3,Divorced,27222,5674,5,No,15,4,3,0,14,2,1,3,19,6,3,0.302970007352308,0.55
+23,No,Non-Travel,768,Quality Control,35,2,Food Technology,1,263,3,Female,139,2,3,Dairy Quality Analyst,2,Single,27933,6576,1,No,23,2,4,0,13,2,1,19,6,13,11,0.7364420076997995,0.55
+52,No,Frequently,1045,Farm Operations,37,3,Dairy Science,1,264,1,Male,82,4,1,Maintenance Engineer,1,Married,103385,16972,3,No,16,4,3,0,22,0,4,19,16,7,10,0.2243959531477105,0.6
+33,No,Frequently,1292,Maintenance,42,2,Dairy Science,1,265,2,Female,82,2,1,Dairy Lab Technician,2,Divorced,109772,2500,5,No,15,3,2,1,12,2,4,16,6,3,4,0.6371792581378681,0.55
+40,No,Frequently,317,Farm Operations,13,2,Dairy Science,1,266,3,Female,121,3,1,Dairy Quality Analyst,1,Single,118706,10083,3,No,17,3,3,1,15,0,2,19,5,12,11,0.5826927104720271,0.55
+39,No,Rarely,1087,Farm Operations,36,4,Mechanical Engineering,1,267,2,Male,69,2,2,Dairy Quality Analyst,3,Divorced,98437,10294,9,No,18,2,2,2,29,0,4,27,4,12,3,0.3456026672977108,0.55
+27,No,Rarely,1282,Logistics,13,1,Food Technology,1,268,4,Male,65,1,2,Maintenance Engineer,4,Divorced,26940,17720,6,No,17,2,1,2,39,4,2,20,16,10,12,0.6502022999042913,0.6
+26,No,Frequently,1256,Quality Control,12,1,Biotechnology,1,269,1,Male,70,2,3,Dairy Lab Technician,4,Married,104590,7543,2,No,14,2,3,2,7,1,4,24,7,8,0,0.6319370952241721,0.55
+22,Yes,Rarely,249,Production,37,3,Biotechnology,1,270,1,Female,94,2,2,Maintenance Engineer,4,Divorced,79145,5276,5,No,17,2,1,1,16,0,3,18,0,5,17,0.7588462008247836,0.6
+36,Yes,Rarely,218,Quality Control,10,4,Dairy Science,1,271,4,Male,139,4,2,Dairy Quality Analyst,1,Married,63610,8613,3,No,19,1,1,2,29,2,1,2,15,13,3,0.8131118410203118,0.55
+52,No,Non-Travel,925,Farm Operations,9,1,Food Technology,1,272,4,Female,136,3,4,Cold Storage Supervisor,3,Divorced,77520,13729,2,Yes,24,1,2,2,16,4,4,29,16,0,3,0.5570734584574962,0.4
+31,Yes,Frequently,396,Quality Control,7,4,Food Technology,1,273,2,Female,131,2,2,Milk Processing Operator,2,Divorced,24544,3327,2,No,24,4,3,1,34,5,3,4,2,4,7,0.5432066354389129,0.45
+41,No,Frequently,758,Logistics,2,1,Food Technology,1,274,4,Female,111,3,4,Dairy Lab Technician,4,Divorced,110854,9772,1,No,19,3,4,0,0,5,4,9,12,4,19,0.6351170396612884,0.55
+41,No,Frequently,651,Production,23,4,Logistics,1,275,1,Male,80,1,2,Cold Storage Supervisor,1,Divorced,74812,12666,2,Yes,18,3,3,1,23,5,1,5,7,6,5,0.7104453124608692,0.4
+49,No,Frequently,488,Logistics,39,3,Logistics,1,276,4,Male,91,4,3,Maintenance Engineer,4,Divorced,91610,18289,9,No,23,4,4,2,24,2,4,2,15,6,3,0.4493198207093122,0.6
+57,No,Rarely,1364,Production,40,2,Dairy Science,1,277,3,Female,61,3,1,Dairy Quality Analyst,2,Divorced,71500,7769,0,No,17,4,1,0,1,1,4,16,6,5,3,0.5532493183563598,0.55
+57,No,Rarely,1307,Farm Operations,39,3,Food Technology,1,278,3,Female,114,4,3,Maintenance Engineer,3,Married,59618,15663,2,Yes,11,4,1,1,24,3,1,9,14,14,10,0.6095729300762214,0.6
+27,No,Rarely,590,Production,21,1,Food Technology,1,279,2,Female,122,2,2,Farm Liaison Officer,2,Married,119054,7918,8,No,11,1,2,0,13,1,4,23,1,14,8,0.8918646586851378,0.3
+46,No,Rarely,414,Production,23,3,Biotechnology,1,280,1,Male,52,1,1,Farm Liaison Officer,3,Single,45444,19473,3,Yes,21,4,4,0,38,4,1,11,1,7,13,0.6113985375191416,0.3
+46,No,Frequently,414,Production,29,2,Biotechnology,1,281,3,Female,139,4,1,Dairy Quality Analyst,3,Divorced,105982,6555,2,No,12,3,3,2,32,1,2,0,9,1,3,0.3569305855195797,0.55
+53,No,Rarely,327,Quality Control,14,3,Dairy Science,1,282,4,Male,58,2,1,Dairy Quality Analyst,3,Married,114079,4394,7,Yes,16,4,2,1,16,5,4,17,4,13,12,0.6115929007681825,0.55
+40,No,Rarely,959,Quality Control,26,1,Food Technology,1,283,3,Female,100,3,4,Cold Storage Supervisor,4,Divorced,76586,2666,0,No,18,2,2,2,30,1,3,18,3,12,5,0.7736497080643128,0.4
+49,Yes,Rarely,603,Farm Operations,5,1,Dairy Science,1,284,3,Male,65,1,3,Packaging Machine Operator,2,Divorced,44789,14355,4,Yes,17,3,2,1,9,4,4,21,14,12,12,0.8001825760078336,0.4
+52,No,Rarely,1252,Production,31,3,Biotechnology,1,285,2,Female,137,1,4,Dairy Quality Analyst,4,Married,21617,4234,0,Yes,18,3,3,1,5,4,1,19,12,6,2,0.7601753182151081,0.55
+47,No,Rarely,537,Maintenance,25,2,Biotechnology,1,286,4,Male,127,3,1,Dairy Lab Technician,2,Divorced,23333,8335,6,Yes,15,3,2,1,38,5,1,3,16,9,6,0.8217465907021893,0.55
+52,No,Rarely,1030,Farm Operations,31,3,Logistics,1,287,4,Male,52,3,3,Dairy Lab Technician,1,Married,60002,19620,4,No,10,1,3,0,24,2,3,14,0,14,0,0.4343364393153892,0.55
+24,No,Rarely,913,Production,20,2,Dairy Science,1,288,4,Male,147,1,3,Maintenance Engineer,1,Married,83620,19758,1,No,23,1,2,0,37,0,3,8,17,6,10,0.5552994346668634,0.6
+38,Yes,Rarely,560,Production,44,4,Dairy Science,1,289,2,Male,146,4,2,Cold Storage Supervisor,2,Single,107688,13503,0,No,21,3,4,2,36,3,1,5,14,3,1,0.7457137672052807,0.4
+23,Yes,Rarely,768,Quality Control,17,2,Food Technology,1,290,4,Male,73,1,4,Logistics & Supply Chain Coordinator,2,Single,109627,8359,6,No,13,2,1,1,29,3,2,11,13,11,4,0.3851149655313688,0.35
+54,No,Frequently,417,Farm Operations,45,4,Food Technology,1,291,4,Male,122,3,4,Cheese Production Technician,2,Single,20511,18560,0,No,22,3,4,1,33,5,2,17,8,9,13,0.4601070064961907,0.5
+36,Yes,Rarely,401,Production,2,3,Logistics,1,292,3,Female,62,4,2,Maintenance Engineer,2,Single,57850,15876,2,Yes,15,1,4,0,17,3,1,22,11,1,12,0.7818089581892085,0.6
+47,No,Rarely,216,Production,25,2,Mechanical Engineering,1,293,3,Female,51,2,4,Dairy Quality Analyst,3,Divorced,102172,4928,5,No,24,2,2,1,23,1,2,14,4,3,15,0.7390599547343382,0.55
+49,No,Frequently,521,Farm Operations,13,4,Mechanical Engineering,1,294,4,Female,120,1,1,Maintenance Engineer,4,Divorced,106053,9617,5,Yes,21,3,4,2,26,4,3,28,1,3,14,0.8798396975412623,0.6
+48,No,Rarely,717,Maintenance,39,4,Mechanical Engineering,1,295,1,Female,70,3,1,Logistics & Supply Chain Coordinator,3,Single,51786,9614,6,No,15,1,4,1,26,4,2,18,6,11,2,0.897181840960255,0.35
+25,No,Non-Travel,880,Farm Operations,28,4,Dairy Science,1,296,1,Male,68,2,4,Cheese Production Technician,4,Married,94356,6274,0,No,24,2,4,1,38,5,3,8,8,11,5,0.3685211828799653,0.5
+54,No,Frequently,1305,Farm Operations,42,1,Dairy Science,1,297,4,Female,138,1,2,Logistics & Supply Chain Coordinator,4,Married,56244,6971,6,No,17,4,2,0,20,4,4,21,17,5,8,0.8303149903215714,0.35
+56,No,Rarely,624,Maintenance,6,3,Biotechnology,1,298,1,Male,96,1,3,Logistics & Supply Chain Coordinator,4,Married,94714,10389,1,Yes,24,4,3,1,18,0,3,23,3,13,2,0.2661608509450484,0.35
+43,No,Frequently,1427,Farm Operations,3,4,Dairy Science,1,299,2,Male,71,4,4,Farm Liaison Officer,3,Married,87261,19352,5,No,10,3,1,2,38,4,4,12,1,6,12,0.6968601462748388,0.3
+48,No,Rarely,1218,Production,35,2,Dairy Science,1,300,3,Male,124,3,3,Dairy Lab Technician,2,Divorced,38477,4504,7,Yes,22,4,1,2,22,4,3,15,0,2,12,0.3540695713728856,0.55
+50,No,Frequently,586,Farm Operations,18,4,Dairy Science,1,301,2,Female,82,2,2,Packaging Machine Operator,3,Married,66533,8006,4,Yes,20,1,3,2,38,1,3,12,11,14,6,0.4102178098457939,0.4
+54,No,Rarely,977,Maintenance,11,1,Logistics,1,302,3,Male,81,1,3,Dairy Quality Analyst,3,Married,54469,9943,9,Yes,11,2,3,2,14,2,2,0,12,9,4,0.8624248243651793,0.55
+52,No,Non-Travel,297,Logistics,20,3,Dairy Science,1,303,1,Female,113,4,2,Cold Storage Supervisor,4,Single,28496,19653,2,No,11,3,4,0,1,3,3,17,13,0,7,0.3842058657139483,0.4
+40,No,Rarely,407,Farm Operations,5,1,Food Technology,1,304,1,Female,134,2,2,Maintenance Engineer,1,Married,32270,19748,7,No,22,2,1,1,34,1,1,21,4,2,7,0.6712245084124412,0.6
+51,No,Frequently,785,Quality Control,19,1,Food Technology,1,305,4,Female,88,2,1,Dairy Quality Analyst,1,Divorced,96008,2923,7,No,15,2,3,0,19,1,4,2,2,8,6,0.3246899555042793,0.55
+42,No,Frequently,365,Production,22,1,Biotechnology,1,306,1,Female,133,1,1,Farm Liaison Officer,3,Married,40724,18854,3,Yes,23,2,4,2,27,1,4,16,3,0,18,0.2653729842993413,0.3
+52,No,Rarely,221,Production,19,2,Logistics,1,307,1,Female,121,2,2,Dairy Lab Technician,4,Married,50416,12246,7,No,23,1,1,1,14,3,3,21,16,12,6,0.4375219177407051,0.55
+22,No,Rarely,353,Quality Control,47,3,Food Technology,1,308,4,Male,91,1,4,Maintenance Engineer,3,Divorced,55575,14475,4,No,20,3,2,0,15,5,1,4,18,7,3,0.6369372705526368,0.6
+37,Yes,Frequently,418,Quality Control,16,3,Logistics,1,309,4,Male,58,4,1,Cold Storage Supervisor,3,Single,101190,19532,4,Yes,16,4,2,1,32,1,3,28,10,1,9,0.3735616006278568,0.4
+44,No,Non-Travel,868,Farm Operations,24,2,Logistics,1,310,3,Female,74,4,2,Packaging Machine Operator,2,Divorced,96614,5086,2,Yes,11,2,1,2,11,2,3,24,7,5,12,0.4101181590701718,0.4
+50,No,Rarely,429,Quality Control,41,3,Biotechnology,1,311,1,Male,138,2,3,Dairy Quality Analyst,4,Single,113566,16860,6,No,14,2,1,2,38,5,2,5,11,2,3,0.6961108730245186,0.55
+22,No,Frequently,219,Logistics,4,1,Logistics,1,312,3,Female,146,1,3,Dairy Lab Technician,1,Married,93108,19013,8,No,15,2,2,1,38,4,3,20,17,6,18,0.2719572160869583,0.55
+59,No,Non-Travel,752,Maintenance,15,3,Dairy Science,1,313,3,Male,51,3,4,Milk Processing Operator,1,Single,37408,9407,8,No,13,1,2,1,19,2,3,16,17,1,9,0.5128335642624552,0.45
+43,No,Non-Travel,1149,Quality Control,25,2,Logistics,1,314,2,Male,68,4,3,Dairy Quality Analyst,1,Single,39359,2774,0,No,10,4,1,2,28,5,2,16,8,3,6,0.8592141709175569,0.55
+51,No,Rarely,347,Quality Control,44,1,Biotechnology,1,315,1,Male,69,1,3,Logistics & Supply Chain Coordinator,3,Single,28698,10709,0,Yes,12,2,4,0,2,4,2,26,4,9,4,0.4778801636899575,0.35
+41,Yes,Frequently,1331,Logistics,35,2,Biotechnology,1,316,1,Male,142,1,2,Logistics & Supply Chain Coordinator,4,Married,90392,18311,9,Yes,23,1,3,2,4,4,1,0,16,8,2,0.5039407195842075,0.35
+42,No,Rarely,602,Production,14,4,Biotechnology,1,317,2,Male,119,1,3,Cheese Production Technician,2,Single,113063,3343,4,No,19,1,3,1,1,1,2,6,12,5,1,0.7167430125251022,0.5
+21,Yes,Non-Travel,795,Production,49,1,Food Technology,1,318,3,Male,66,2,3,Dairy Lab Technician,1,Single,59492,12161,0,No,18,2,1,0,22,1,4,21,5,3,10,0.7453080654229927,0.55
+46,No,Rarely,566,Farm Operations,19,1,Dairy Science,1,319,1,Male,138,3,3,Logistics & Supply Chain Coordinator,4,Married,94781,13419,3,No,22,2,3,2,25,3,4,29,13,1,9,0.7387244728463671,0.35
+21,No,Rarely,1001,Logistics,38,3,Food Technology,1,320,3,Male,117,2,3,Packaging Machine Operator,1,Divorced,63634,9797,0,No,15,1,2,1,25,0,1,15,14,9,12,0.8985069174395004,0.4
+45,No,Frequently,1117,Maintenance,36,1,Mechanical Engineering,1,321,2,Male,143,4,2,Packaging Machine Operator,2,Divorced,62864,2934,1,No,11,1,2,1,6,2,3,4,13,13,6,0.2500157612409401,0.4
+36,No,Rarely,1357,Maintenance,7,2,Dairy Science,1,322,4,Male,133,2,3,Logistics & Supply Chain Coordinator,4,Divorced,114482,3986,1,Yes,18,2,3,1,9,3,1,15,3,8,9,0.8875772992430995,0.35
+59,No,Non-Travel,272,Logistics,30,3,Logistics,1,323,3,Male,52,1,4,Dairy Lab Technician,3,Married,57355,16016,3,No,13,1,1,0,4,3,2,3,17,14,3,0.8651327318981792,0.55
+52,Yes,Non-Travel,680,Maintenance,19,4,Biotechnology,1,324,1,Male,136,2,1,Farm Liaison Officer,3,Married,57690,7465,7,No,20,1,2,0,11,2,3,10,0,3,19,0.7964972301816906,0.3
+28,No,Frequently,759,Production,49,2,Mechanical Engineering,1,325,4,Male,100,1,4,Cold Storage Supervisor,1,Divorced,57814,11966,1,Yes,22,2,4,0,31,5,1,13,11,8,15,0.5178879030964292,0.4
+58,Yes,Rarely,944,Maintenance,25,4,Dairy Science,1,326,3,Female,131,3,1,Cold Storage Supervisor,1,Single,51645,17721,8,No,17,2,4,0,30,2,1,28,8,13,19,0.809631660143747,0.4
+48,No,Frequently,299,Maintenance,16,4,Food Technology,1,327,3,Male,75,2,4,Dairy Lab Technician,4,Divorced,104814,3505,8,Yes,19,3,2,1,21,4,4,12,9,1,5,0.3545826886142666,0.55
+45,No,Rarely,1282,Logistics,47,4,Biotechnology,1,328,4,Male,105,2,1,Milk Processing Operator,2,Married,92739,7363,1,Yes,16,4,2,1,16,0,1,26,17,6,8,0.7541590847714812,0.45
+54,Yes,Rarely,707,Logistics,40,1,Food Technology,1,329,4,Male,149,2,1,Cold Storage Supervisor,1,Single,76630,17940,0,No,21,2,3,0,19,5,3,23,16,10,12,0.3296668121847379,0.4
+44,No,Non-Travel,457,Maintenance,8,2,Dairy Science,1,330,4,Male,113,1,1,Maintenance Engineer,4,Single,68171,12846,9,No,20,2,1,0,19,1,1,26,18,10,6,0.7707534024298257,0.6
+43,No,Rarely,612,Quality Control,18,2,Dairy Science,1,331,1,Male,57,1,1,Cold Storage Supervisor,2,Married,41658,3010,9,Yes,12,2,3,1,7,0,1,7,3,4,17,0.6301703932848398,0.4
+32,Yes,Rarely,1288,Logistics,28,1,Mechanical Engineering,1,332,1,Male,130,2,2,Maintenance Engineer,1,Single,35797,16924,8,No,24,4,1,2,33,0,2,20,15,7,13,0.2686218956594678,0.6
+26,No,Non-Travel,794,Farm Operations,16,3,Logistics,1,333,3,Female,144,2,4,Logistics & Supply Chain Coordinator,1,Divorced,78799,15482,1,No,17,3,4,2,22,1,1,19,6,10,4,0.8267236887500578,0.35
+55,No,Rarely,1377,Farm Operations,19,4,Food Technology,1,334,3,Female,86,3,1,Farm Liaison Officer,4,Married,118342,11369,7,No,13,1,4,1,37,0,3,14,8,13,12,0.604570036818671,0.3
+39,No,Rarely,465,Production,42,2,Mechanical Engineering,1,335,2,Female,146,3,4,Farm Liaison Officer,1,Married,116494,5857,2,No,11,4,1,0,27,5,4,17,7,7,7,0.6593737946959802,0.3
+20,No,Non-Travel,1020,Maintenance,17,1,Biotechnology,1,336,1,Male,76,4,3,Cold Storage Supervisor,3,Married,72236,11864,0,Yes,20,2,3,0,12,5,4,6,6,13,14,0.398457024956127,0.4
+27,No,Rarely,1302,Quality Control,45,4,Logistics,1,337,3,Male,94,3,1,Cold Storage Supervisor,2,Married,26265,12120,0,Yes,14,2,2,1,28,5,4,20,9,13,18,0.8101448527459645,0.4
+35,No,Frequently,861,Production,13,3,Mechanical Engineering,1,338,4,Male,53,3,4,Dairy Lab Technician,2,Single,92134,13370,9,Yes,10,3,1,2,7,3,4,18,7,3,8,0.5816405146074944,0.55
+33,No,Non-Travel,1146,Maintenance,7,3,Food Technology,1,339,4,Female,135,3,2,Cold Storage Supervisor,3,Married,102678,4553,1,Yes,22,3,3,1,10,3,2,24,16,12,5,0.4947841990040524,0.4
+31,No,Non-Travel,759,Logistics,27,4,Dairy Science,1,340,1,Male,139,1,4,Cheese Production Technician,4,Married,73494,17489,6,Yes,17,3,4,1,17,5,3,8,11,3,13,0.5739972216598223,0.5
+42,No,Frequently,1116,Farm Operations,10,3,Biotechnology,1,341,4,Male,145,3,1,Cheese Production Technician,3,Single,72268,6389,5,Yes,23,1,2,1,24,1,2,10,13,14,9,0.6923191570274436,0.5
+34,No,Rarely,1090,Quality Control,34,2,Food Technology,1,342,2,Female,137,3,3,Milk Processing Operator,3,Married,46998,18935,1,No,17,4,4,0,21,1,4,26,11,7,8,0.686533512989489,0.45
+47,No,Rarely,1471,Farm Operations,36,2,Logistics,1,343,3,Female,148,2,4,Logistics & Supply Chain Coordinator,2,Single,111426,13089,3,No,12,4,1,0,34,2,2,9,1,2,16,0.4503039706704689,0.35
+53,No,Non-Travel,1067,Logistics,25,2,Logistics,1,344,3,Male,86,1,3,Maintenance Engineer,4,Single,114414,11231,1,No,10,3,4,0,28,2,1,13,11,6,12,0.4696807960743823,0.6
+21,No,Non-Travel,809,Maintenance,6,3,Dairy Science,1,345,3,Male,145,4,2,Farm Liaison Officer,1,Married,81339,5051,0,Yes,13,1,4,2,20,5,3,15,13,7,16,0.5935667349868989,0.3
+51,No,Frequently,613,Logistics,24,2,Dairy Science,1,346,1,Male,120,4,4,Logistics & Supply Chain Coordinator,3,Divorced,34306,7322,2,No,18,4,1,1,6,0,1,26,6,7,18,0.8470849845018915,0.35
+42,No,Rarely,224,Logistics,18,1,Biotechnology,1,347,4,Male,82,3,4,Maintenance Engineer,3,Married,84006,13789,3,Yes,18,2,2,1,11,0,2,7,12,10,12,0.7218011868761829,0.6
+41,No,Rarely,483,Farm Operations,23,2,Biotechnology,1,348,2,Female,80,4,2,Maintenance Engineer,4,Divorced,67345,4555,9,No,24,2,1,2,35,1,1,0,3,9,8,0.4732904897558896,0.6
+44,Yes,Rarely,1080,Quality Control,6,2,Dairy Science,1,349,1,Male,104,4,2,Dairy Quality Analyst,3,Single,31885,19473,4,Yes,10,2,3,0,23,0,2,11,0,3,0,0.4359228385862328,0.55
+41,No,Frequently,500,Logistics,29,3,Dairy Science,1,350,3,Male,61,4,2,Cold Storage Supervisor,4,Divorced,63826,14767,4,No,20,4,1,1,31,4,2,2,16,8,0,0.5665456718961202,0.4
+41,No,Rarely,1291,Farm Operations,25,2,Logistics,1,351,2,Female,60,3,1,Milk Processing Operator,1,Married,75597,2458,6,No,24,3,1,2,26,3,3,1,2,14,4,0.8089939582402164,0.45
+25,No,Non-Travel,1230,Quality Control,17,4,Dairy Science,1,352,3,Male,137,4,1,Cold Storage Supervisor,4,Married,27443,17701,9,No,16,2,2,0,31,0,3,15,16,9,7,0.2060754691171126,0.4
+34,No,Frequently,1016,Maintenance,46,1,Mechanical Engineering,1,353,3,Male,121,3,4,Milk Processing Operator,1,Divorced,117375,18066,7,Yes,15,3,3,0,31,0,3,3,7,3,17,0.6973402478026949,0.45
+56,No,Rarely,1360,Maintenance,24,3,Food Technology,1,354,1,Female,81,2,4,Logistics & Supply Chain Coordinator,4,Married,37084,6721,8,No,23,1,4,1,31,2,4,1,2,7,3,0.4061585788064368,0.35
+52,No,Frequently,1387,Production,11,1,Dairy Science,1,355,3,Female,106,2,4,Dairy Lab Technician,3,Divorced,109447,14446,6,No,16,2,4,0,25,4,3,11,9,5,0,0.3458782361513189,0.55
+27,Yes,Rarely,282,Farm Operations,26,4,Biotechnology,1,356,2,Male,87,4,3,Dairy Lab Technician,1,Single,24383,8304,4,Yes,16,1,4,2,10,0,1,26,1,4,14,0.2084965977717312,0.55
+24,No,Frequently,1296,Quality Control,34,3,Mechanical Engineering,1,357,3,Female,109,2,2,Logistics & Supply Chain Coordinator,3,Divorced,112313,15565,8,No,17,3,4,0,17,3,3,23,3,14,19,0.8276134344378339,0.35
+58,No,Frequently,1460,Logistics,28,3,Biotechnology,1,358,4,Female,135,3,4,Cheese Production Technician,1,Divorced,54361,12199,7,No,17,4,2,1,38,0,3,16,13,3,3,0.8385739290045084,0.5
+23,No,Non-Travel,245,Maintenance,3,2,Mechanical Engineering,1,359,3,Male,147,2,2,Maintenance Engineer,4,Divorced,100294,3920,9,No,19,3,3,2,4,1,3,19,10,4,8,0.2429922091506741,0.6
+25,Yes,Non-Travel,817,Quality Control,11,1,Dairy Science,1,360,1,Female,68,4,1,Milk Processing Operator,4,Divorced,81331,15227,8,No,23,2,2,0,15,4,2,20,13,14,19,0.5652707261359524,0.45
+51,No,Rarely,1127,Farm Operations,38,4,Food Technology,1,361,2,Male,133,3,2,Packaging Machine Operator,4,Single,115057,9694,9,No,20,2,1,0,10,0,2,29,12,12,9,0.3068021210715269,0.4
+49,No,Rarely,461,Production,14,4,Biotechnology,1,362,1,Male,105,1,3,Cold Storage Supervisor,2,Single,40529,8298,7,No,11,3,3,0,34,4,3,9,3,14,14,0.7310812882537918,0.4
+54,No,Frequently,375,Maintenance,26,3,Mechanical Engineering,1,363,4,Male,63,3,3,Logistics & Supply Chain Coordinator,2,Single,78574,8629,5,No,21,2,3,2,10,0,2,19,1,10,2,0.6657740302363028,0.35
+59,No,Rarely,1389,Quality Control,48,2,Logistics,1,364,3,Male,82,2,2,Maintenance Engineer,1,Divorced,108627,14719,3,No,21,2,4,0,22,3,2,7,1,0,1,0.407991569068601,0.6
+35,Yes,Rarely,856,Quality Control,21,3,Dairy Science,1,365,1,Female,59,1,3,Milk Processing Operator,2,Single,116917,7146,8,No,21,1,4,1,33,3,4,17,10,6,4,0.2818721967282557,0.45
+32,No,Rarely,1041,Quality Control,39,3,Food Technology,1,366,1,Male,129,3,3,Farm Liaison Officer,4,Married,50932,19387,8,No,13,4,4,2,16,4,1,24,4,7,0,0.7818544639651719,0.3
+49,No,Frequently,569,Farm Operations,30,3,Dairy Science,1,367,1,Male,113,1,1,Cold Storage Supervisor,2,Single,21908,12306,9,No,13,3,4,2,9,5,2,17,8,11,10,0.6719767354993957,0.4
+38,Yes,Rarely,253,Farm Operations,8,3,Logistics,1,368,1,Male,113,1,4,Dairy Lab Technician,2,Divorced,50358,4589,9,Yes,22,1,1,0,17,2,1,17,19,8,11,0.2047739615017869,0.55
+36,No,Frequently,889,Farm Operations,20,4,Food Technology,1,369,4,Male,111,1,3,Logistics & Supply Chain Coordinator,3,Married,50412,6310,8,No,24,2,4,2,7,2,2,28,16,12,2,0.6395102466552737,0.35
+38,Yes,Non-Travel,1350,Logistics,48,4,Logistics,1,370,4,Female,117,3,4,Dairy Lab Technician,1,Divorced,103710,4241,9,Yes,20,1,2,1,25,1,3,1,11,2,15,0.7672072193874422,0.55
+47,No,Rarely,566,Quality Control,32,3,Dairy Science,1,371,3,Female,140,2,2,Milk Processing Operator,1,Married,101032,15601,2,Yes,19,4,3,2,2,5,2,11,17,14,13,0.613537641703538,0.45
+45,Yes,Rarely,1494,Maintenance,22,3,Mechanical Engineering,1,372,3,Female,141,3,2,Dairy Lab Technician,1,Divorced,22928,9711,2,Yes,21,3,1,1,23,2,2,9,2,8,11,0.4972995736737037,0.55
+56,No,Rarely,843,Farm Operations,7,2,Dairy Science,1,373,2,Male,92,2,3,Cold Storage Supervisor,2,Divorced,85158,2938,5,No,22,4,1,0,2,4,1,7,4,9,19,0.6087428649796205,0.4
+45,Yes,Non-Travel,578,Farm Operations,9,3,Dairy Science,1,374,4,Female,129,3,2,Cheese Production Technician,4,Married,50632,6301,5,Yes,17,4,3,2,37,2,3,18,19,4,15,0.6337984397231431,0.5
+42,No,Rarely,272,Quality Control,45,4,Dairy Science,1,375,1,Female,108,3,1,Maintenance Engineer,3,Single,52309,5970,5,No,23,1,3,1,1,1,4,9,13,9,7,0.6480242367594915,0.6
+28,No,Rarely,1114,Farm Operations,1,1,Biotechnology,1,376,1,Male,101,3,3,Cheese Production Technician,1,Married,29280,5999,4,No,22,1,3,0,34,0,1,10,15,5,16,0.8769315377330544,0.5
+31,No,Rarely,1471,Logistics,29,4,Logistics,1,377,2,Female,146,2,3,Logistics & Supply Chain Coordinator,2,Married,60449,5408,4,Yes,22,4,1,1,16,2,3,13,18,0,16,0.3250534512908508,0.35
+20,No,Frequently,1059,Logistics,8,2,Logistics,1,378,1,Male,68,3,3,Cheese Production Technician,4,Married,107171,15807,1,Yes,12,2,2,2,8,4,3,25,8,8,6,0.636165189119734,0.5
+20,No,Rarely,242,Farm Operations,4,4,Logistics,1,379,2,Female,70,1,2,Dairy Quality Analyst,3,Married,46957,10962,6,No,21,3,2,2,35,4,1,14,16,8,14,0.3315953237407791,0.55
+53,No,Frequently,576,Quality Control,35,1,Biotechnology,1,380,3,Female,71,3,2,Maintenance Engineer,3,Married,56895,18632,3,No,22,2,3,1,21,1,2,29,6,5,8,0.3469697041743083,0.6
+51,No,Non-Travel,1264,Quality Control,3,3,Mechanical Engineering,1,381,4,Female,58,1,3,Milk Processing Operator,1,Divorced,90499,15385,2,No,24,2,1,0,30,1,3,23,9,7,3,0.6684805185951568,0.45
+44,No,Rarely,369,Quality Control,45,1,Dairy Science,1,382,2,Female,58,4,4,Maintenance Engineer,1,Divorced,113057,7950,7,No,22,3,4,0,33,3,4,22,3,3,7,0.841167859480388,0.6
+59,No,Non-Travel,411,Production,40,3,Mechanical Engineering,1,383,1,Male,122,4,2,Dairy Quality Analyst,4,Single,118151,4926,3,No,21,1,1,0,23,3,2,9,9,4,9,0.3113309729694691,0.55
+20,No,Rarely,238,Farm Operations,7,3,Biotechnology,1,384,2,Male,76,2,2,Packaging Machine Operator,2,Single,41695,9975,3,No,12,2,3,0,8,3,1,3,2,4,14,0.8737258736294982,0.4
+35,No,Non-Travel,568,Quality Control,27,4,Logistics,1,385,3,Female,66,2,3,Cheese Production Technician,4,Married,94893,8966,7,No,22,1,1,1,1,0,1,6,8,6,17,0.4235606282113603,0.5
+58,No,Frequently,956,Logistics,1,4,Dairy Science,1,386,1,Male,93,4,4,Maintenance Engineer,1,Single,83123,11133,0,No,11,3,1,2,20,4,1,10,12,6,13,0.47391983041976,0.6
+24,No,Non-Travel,350,Maintenance,27,4,Food Technology,1,387,3,Female,94,3,3,Dairy Lab Technician,4,Single,45176,8587,8,No,10,2,1,1,33,3,1,23,0,6,4,0.3075765767571863,0.55
+41,Yes,Rarely,1334,Maintenance,16,2,Food Technology,1,388,3,Female,57,3,2,Milk Processing Operator,2,Married,38409,7091,6,Yes,17,1,4,2,26,4,4,21,14,4,8,0.6310852740961552,0.45
+48,Yes,Rarely,1270,Quality Control,38,4,Mechanical Engineering,1,389,2,Female,129,3,3,Farm Liaison Officer,3,Divorced,76967,10985,1,No,23,1,3,2,36,1,4,21,14,3,12,0.617494346236777,0.3
+22,No,Rarely,1223,Maintenance,7,2,Logistics,1,390,3,Female,67,4,3,Logistics & Supply Chain Coordinator,3,Divorced,20987,19061,5,No,18,2,3,1,6,0,3,2,10,7,18,0.5095888201718544,0.35
+31,No,Rarely,936,Maintenance,44,4,Food Technology,1,391,1,Female,82,1,3,Logistics & Supply Chain Coordinator,3,Single,74462,3561,7,No,18,3,3,1,21,1,4,4,9,0,10,0.5332639729190352,0.35
+45,No,Rarely,268,Production,23,3,Mechanical Engineering,1,392,3,Female,50,2,4,Logistics & Supply Chain Coordinator,3,Divorced,87501,10644,4,Yes,20,4,2,0,3,4,1,25,6,0,11,0.6360831130508235,0.35
+35,No,Rarely,498,Logistics,41,2,Biotechnology,1,393,3,Male,125,1,3,Maintenance Engineer,1,Divorced,116854,16785,5,No,17,1,2,2,13,5,4,1,0,5,2,0.6084475744750508,0.6
+56,No,Rarely,1143,Logistics,11,1,Mechanical Engineering,1,394,2,Male,55,4,2,Cheese Production Technician,1,Single,46015,5656,9,Yes,14,3,3,0,33,5,2,11,6,1,1,0.4619843671538881,0.5
+41,No,Rarely,1001,Production,42,2,Mechanical Engineering,1,395,3,Female,90,1,3,Maintenance Engineer,2,Married,114727,18139,7,Yes,10,2,1,0,22,3,2,20,4,11,14,0.8188800697099066,0.6
+48,No,Non-Travel,495,Production,33,2,Mechanical Engineering,1,396,4,Male,104,3,4,Cold Storage Supervisor,2,Single,86404,2209,5,Yes,18,1,1,1,24,5,3,4,15,2,4,0.6673623661891492,0.4
+33,Yes,Rarely,402,Maintenance,36,1,Dairy Science,1,397,2,Female,54,3,1,Dairy Lab Technician,2,Single,70281,6983,8,No,15,1,3,0,0,1,1,6,7,3,6,0.3437844314198661,0.55
+47,No,Rarely,260,Farm Operations,37,2,Mechanical Engineering,1,398,2,Male,108,1,4,Farm Liaison Officer,2,Single,57146,9141,8,Yes,21,1,4,0,14,5,4,3,1,13,3,0.4239320954540091,0.3
+24,No,Rarely,1145,Maintenance,41,3,Mechanical Engineering,1,399,1,Male,129,4,3,Farm Liaison Officer,4,Married,68231,12118,8,No,24,3,4,0,31,2,3,29,7,1,4,0.7515146711922776,0.3
+49,No,Rarely,1162,Production,17,4,Dairy Science,1,400,1,Male,67,1,1,Dairy Lab Technician,2,Married,49032,18261,5,Yes,16,1,1,1,13,0,3,10,13,9,15,0.2731677667140696,0.55
+24,No,Non-Travel,1384,Logistics,35,1,Dairy Science,1,401,1,Female,98,3,3,Dairy Quality Analyst,3,Married,48305,5966,8,No,17,1,1,0,20,4,4,21,3,6,14,0.7251623991070077,0.55
+31,Yes,Rarely,530,Maintenance,48,4,Biotechnology,1,402,1,Male,131,3,4,Cold Storage Supervisor,3,Married,74306,12069,2,Yes,22,2,2,0,6,3,3,8,14,14,15,0.4511897088020567,0.4
+35,No,Frequently,537,Farm Operations,5,3,Logistics,1,403,4,Female,114,4,1,Milk Processing Operator,3,Single,108176,10818,4,Yes,14,1,4,1,35,1,1,3,6,9,3,0.5861837322759049,0.45
+45,No,Non-Travel,838,Maintenance,48,1,Food Technology,1,404,2,Female,132,1,1,Farm Liaison Officer,4,Divorced,38318,12918,1,No,15,3,1,1,20,0,4,26,19,0,5,0.3963906820209877,0.3
+45,No,Non-Travel,474,Quality Control,32,4,Food Technology,1,405,3,Female,103,3,3,Logistics & Supply Chain Coordinator,2,Single,33246,11650,7,No,21,2,1,1,39,3,2,29,7,2,17,0.8905196002742994,0.35
+40,Yes,Frequently,1387,Maintenance,3,4,Mechanical Engineering,1,406,1,Male,110,3,3,Maintenance Engineer,3,Married,53844,3250,3,Yes,22,4,3,2,11,1,2,21,10,1,2,0.834088204499613,0.6
+58,No,Non-Travel,518,Production,47,3,Biotechnology,1,407,1,Male,57,1,4,Dairy Quality Analyst,3,Divorced,52602,6758,5,Yes,16,2,2,1,14,5,4,28,1,12,4,0.8499148858609762,0.55
+55,No,Non-Travel,788,Logistics,35,4,Mechanical Engineering,1,408,1,Male,52,1,3,Dairy Lab Technician,3,Single,41584,6363,5,Yes,16,1,4,2,14,4,3,27,8,8,1,0.3293428625842617,0.55
+52,No,Frequently,703,Logistics,14,3,Food Technology,1,409,3,Female,74,2,1,Packaging Machine Operator,3,Divorced,35169,4163,4,No,11,4,4,1,16,2,3,8,5,7,15,0.7891830671732356,0.4
+49,No,Frequently,586,Production,48,2,Dairy Science,1,410,1,Female,118,4,2,Milk Processing Operator,1,Married,45968,11815,0,No,23,2,2,1,33,2,2,25,0,2,5,0.5747779707168632,0.45
+56,No,Frequently,1069,Quality Control,31,3,Logistics,1,411,3,Male,104,4,2,Logistics & Supply Chain Coordinator,2,Divorced,26385,3853,6,No,20,1,1,1,34,5,2,11,2,4,14,0.6955014401915471,0.35
+42,No,Frequently,1032,Production,31,2,Biotechnology,1,412,2,Female,89,1,4,Farm Liaison Officer,2,Divorced,93758,19137,9,Yes,21,2,4,2,38,4,1,15,9,2,17,0.3522528467183125,0.3
+29,No,Frequently,1214,Maintenance,17,1,Dairy Science,1,413,2,Male,132,4,3,Maintenance Engineer,4,Married,45444,3868,7,No,23,3,4,0,37,0,3,0,4,13,5,0.6983892521854511,0.6
+24,Yes,Rarely,802,Production,24,4,Logistics,1,414,2,Male,131,3,4,Dairy Lab Technician,1,Divorced,82497,18565,0,Yes,10,1,4,1,13,4,1,7,11,10,12,0.8399870712006072,0.55
+55,No,Rarely,890,Production,23,3,Biotechnology,1,415,4,Male,99,1,2,Milk Processing Operator,4,Single,25362,19897,9,Yes,17,3,3,2,4,5,2,0,0,12,12,0.3872369700941599,0.45
+53,No,Rarely,693,Quality Control,18,3,Biotechnology,1,416,3,Male,144,1,2,Packaging Machine Operator,3,Divorced,119254,17568,6,No,14,1,2,1,29,1,2,19,8,11,0,0.3633518960846545,0.4
+50,Yes,Rarely,689,Maintenance,14,4,Food Technology,1,417,1,Female,82,1,3,Dairy Quality Analyst,4,Single,28250,11094,3,No,19,3,4,0,3,0,2,18,12,10,15,0.2730901839314344,0.55
+29,No,Rarely,920,Farm Operations,15,4,Dairy Science,1,418,1,Male,67,2,1,Farm Liaison Officer,3,Divorced,88354,7238,5,Yes,24,4,2,2,14,2,2,3,18,11,3,0.3867646727181627,0.3
+38,No,Rarely,1296,Farm Operations,15,1,Biotechnology,1,419,1,Male,106,4,3,Maintenance Engineer,3,Divorced,56368,9089,8,No,11,3,1,1,38,5,1,13,6,10,16,0.5750545832709287,0.6
+51,No,Frequently,708,Logistics,6,1,Biotechnology,1,420,1,Male,65,2,2,Logistics & Supply Chain Coordinator,2,Married,64109,7280,4,No,12,2,2,1,34,1,2,22,15,5,17,0.7829014040062923,0.35
+20,No,Rarely,589,Production,27,3,Logistics,1,421,4,Male,129,3,1,Dairy Lab Technician,2,Married,100589,6244,7,No,15,1,3,1,9,5,4,28,7,4,15,0.3951601838603476,0.55
+24,No,Non-Travel,494,Logistics,15,1,Food Technology,1,422,1,Male,87,4,4,Dairy Lab Technician,2,Single,77645,4164,4,No,19,2,3,0,1,3,3,13,18,10,0,0.6348010723485193,0.55
+23,No,Rarely,995,Quality Control,36,2,Mechanical Engineering,1,423,4,Male,90,2,2,Dairy Quality Analyst,2,Married,76997,17149,1,No,15,3,2,2,23,3,2,8,6,1,5,0.535713489421128,0.55
+35,No,Rarely,1064,Farm Operations,8,1,Food Technology,1,424,3,Male,56,1,4,Cheese Production Technician,2,Married,47426,16088,3,No,17,1,3,1,27,3,3,8,3,13,10,0.4020053284324401,0.5
+43,No,Frequently,748,Production,15,1,Mechanical Engineering,1,425,2,Female,127,2,1,Cheese Production Technician,1,Married,59023,4821,1,No,14,3,4,1,21,2,2,25,9,9,5,0.557251356836253,0.5
+35,No,Frequently,848,Quality Control,3,3,Dairy Science,1,426,1,Female,102,1,4,Logistics & Supply Chain Coordinator,2,Married,79267,12473,6,No,14,4,3,2,31,4,1,16,0,7,16,0.317573677477114,0.35
+21,No,Rarely,767,Quality Control,47,2,Dairy Science,1,427,2,Female,112,2,2,Packaging Machine Operator,4,Married,44892,15686,6,Yes,16,4,1,0,30,0,3,14,16,5,3,0.6477042918939626,0.4
+47,No,Non-Travel,1410,Production,13,1,Biotechnology,1,428,3,Female,138,2,3,Dairy Lab Technician,3,Single,79232,11762,2,No,19,4,2,0,18,2,1,9,12,13,13,0.2809639048286955,0.55
+51,No,Non-Travel,1052,Quality Control,41,2,Dairy Science,1,429,3,Male,81,2,4,Dairy Lab Technician,2,Single,114897,7969,6,Yes,22,3,2,0,20,1,2,16,18,14,13,0.7116863676002596,0.55
+46,No,Rarely,969,Production,34,2,Biotechnology,1,430,1,Female,87,1,2,Dairy Lab Technician,1,Married,79225,14178,0,Yes,23,3,1,0,2,1,4,8,12,2,19,0.324398874869855,0.55
+39,No,Rarely,644,Production,24,2,Food Technology,1,431,3,Female,71,2,2,Dairy Quality Analyst,4,Married,36007,8168,0,No,24,4,1,0,5,3,4,3,8,12,7,0.8987114073218103,0.55
+43,No,Non-Travel,562,Maintenance,40,4,Dairy Science,1,432,2,Female,65,4,1,Cheese Production Technician,4,Single,99777,19097,8,Yes,14,3,1,1,31,0,4,27,4,14,1,0.7765708163322884,0.5
+31,No,Frequently,322,Logistics,32,4,Food Technology,1,433,1,Male,101,4,2,Cold Storage Supervisor,3,Divorced,64858,16096,5,No,24,2,1,1,1,3,4,28,0,12,4,0.4406882127018056,0.4
+54,No,Frequently,1411,Quality Control,32,4,Food Technology,1,434,4,Female,78,4,3,Milk Processing Operator,4,Single,65073,9203,4,No,18,3,4,1,23,1,4,13,1,0,3,0.4983433406025186,0.45
+52,No,Non-Travel,941,Quality Control,30,4,Dairy Science,1,435,1,Female,65,1,3,Dairy Quality Analyst,4,Divorced,109438,5545,5,No,15,2,3,2,26,1,1,2,10,4,9,0.3814337147753819,0.55
+52,Yes,Rarely,879,Maintenance,49,3,Food Technology,1,436,2,Male,125,1,4,Farm Liaison Officer,4,Married,110042,2863,5,Yes,16,4,3,0,8,4,4,28,3,11,19,0.7369801928259994,0.3
+56,No,Rarely,619,Maintenance,13,1,Dairy Science,1,437,1,Female,66,4,4,Packaging Machine Operator,4,Married,103098,18148,0,Yes,21,3,4,2,12,4,2,24,8,10,2,0.4665088789704418,0.4
+31,No,Rarely,1475,Maintenance,1,4,Dairy Science,1,438,1,Male,113,4,4,Packaging Machine Operator,1,Single,40239,19809,4,No,17,4,1,0,13,4,1,20,4,1,15,0.7286298568736749,0.4
+22,No,Frequently,291,Farm Operations,34,3,Dairy Science,1,439,2,Female,140,4,4,Milk Processing Operator,3,Married,82969,2653,8,No,22,1,2,0,10,3,1,11,4,12,9,0.2128810882761264,0.45
+20,Yes,Frequently,262,Farm Operations,15,1,Mechanical Engineering,1,440,1,Male,138,3,3,Packaging Machine Operator,2,Divorced,33065,10129,3,Yes,14,3,2,2,13,5,4,21,7,1,14,0.294934671653217,0.4
+52,No,Frequently,711,Farm Operations,44,4,Food Technology,1,441,1,Female,62,4,1,Packaging Machine Operator,4,Divorced,61291,2443,2,Yes,23,3,2,1,15,0,3,0,1,8,3,0.455482034291798,0.4
+59,No,Rarely,1362,Production,14,1,Logistics,1,442,2,Female,121,2,4,Cold Storage Supervisor,1,Single,58805,7106,0,No,20,4,1,2,9,4,2,0,6,10,0,0.2762359733762149,0.4
+29,No,Rarely,1408,Quality Control,29,4,Dairy Science,1,443,3,Female,105,3,1,Packaging Machine Operator,3,Divorced,118831,6436,1,Yes,13,4,4,1,19,2,1,12,16,12,14,0.6207895946073685,0.4
+48,No,Rarely,1428,Logistics,34,3,Food Technology,1,444,2,Male,54,3,2,Dairy Lab Technician,2,Single,38443,11472,2,No,24,4,4,0,15,4,2,13,10,14,9,0.2355824689738863,0.55
+32,No,Frequently,971,Production,18,2,Biotechnology,1,445,1,Female,61,1,2,Dairy Quality Analyst,3,Single,29290,5039,3,No,21,1,4,1,33,3,3,15,14,9,19,0.8018340962125401,0.55
+31,No,Frequently,1437,Quality Control,7,2,Dairy Science,1,446,4,Male,90,2,4,Cheese Production Technician,1,Divorced,20211,10291,6,No,24,1,3,0,15,0,1,6,2,6,17,0.7329155991291876,0.5
+50,Yes,Rarely,455,Quality Control,29,1,Dairy Science,1,447,4,Male,52,1,2,Packaging Machine Operator,1,Divorced,103634,12278,5,No,17,4,3,0,13,4,2,9,12,5,15,0.3513795354595667,0.4
+21,No,Non-Travel,334,Maintenance,31,3,Logistics,1,448,2,Male,148,1,1,Logistics & Supply Chain Coordinator,1,Divorced,39072,18285,7,Yes,21,3,3,1,27,0,4,14,17,14,8,0.5386543342908025,0.35
+54,No,Rarely,1074,Maintenance,25,2,Mechanical Engineering,1,449,4,Male,82,2,1,Logistics & Supply Chain Coordinator,4,Divorced,63290,15944,8,No,19,3,3,0,17,2,1,7,19,12,18,0.5162691548876444,0.35
+42,No,Non-Travel,1021,Production,38,4,Mechanical Engineering,1,450,1,Female,135,1,2,Logistics & Supply Chain Coordinator,1,Divorced,105186,4737,5,No,18,4,2,1,25,1,1,10,19,0,16,0.7074052307382643,0.35
+36,No,Rarely,287,Maintenance,14,2,Dairy Science,1,451,1,Female,99,2,4,Packaging Machine Operator,2,Divorced,35115,3607,6,No,10,2,2,2,37,0,1,23,2,14,9,0.4810562303321562,0.4
+45,No,Frequently,1187,Quality Control,8,1,Food Technology,1,452,2,Female,105,2,1,Farm Liaison Officer,4,Divorced,25149,4953,3,No,12,1,4,0,6,5,1,13,1,13,18,0.223054708480892,0.3
+27,No,Rarely,1430,Maintenance,27,1,Biotechnology,1,453,1,Male,58,1,1,Dairy Lab Technician,3,Married,61992,14173,1,No,21,1,3,0,33,4,4,12,4,9,7,0.391615101194887,0.55
+48,No,Non-Travel,1352,Farm Operations,2,3,Biotechnology,1,454,3,Female,131,4,3,Maintenance Engineer,2,Single,37716,7933,8,Yes,13,2,4,2,6,3,3,22,19,1,18,0.5263370636659295,0.6
+45,No,Rarely,1022,Maintenance,17,1,Food Technology,1,455,1,Male,99,1,4,Packaging Machine Operator,4,Single,117724,13386,8,No,22,4,1,0,32,5,3,12,4,10,4,0.8821445513124473,0.4
+29,No,Rarely,1226,Quality Control,37,2,Dairy Science,1,456,2,Male,78,3,3,Farm Liaison Officer,1,Divorced,33621,17221,3,No,16,3,3,2,34,5,2,26,12,6,1,0.8168110668680417,0.3
+45,No,Rarely,1173,Production,14,2,Biotechnology,1,457,3,Male,88,1,2,Maintenance Engineer,3,Single,26820,6682,2,No,15,3,3,2,38,3,4,8,7,14,14,0.3269843008015333,0.6
+53,No,Rarely,1133,Logistics,25,2,Mechanical Engineering,1,458,3,Female,140,2,2,Milk Processing Operator,1,Divorced,62800,16853,9,No,19,1,4,0,20,3,4,16,15,2,16,0.7062931583435397,0.45
+26,Yes,Rarely,320,Maintenance,30,2,Food Technology,1,459,4,Female,149,3,3,Cold Storage Supervisor,2,Married,75043,13284,5,No,19,2,4,2,27,3,2,17,17,1,9,0.8557778311103512,0.4
+23,No,Non-Travel,1261,Quality Control,29,3,Logistics,1,460,1,Male,94,2,4,Dairy Lab Technician,2,Single,50399,13154,2,No,20,3,1,2,31,5,4,28,15,5,1,0.206154829124681,0.55
+30,No,Rarely,1207,Logistics,20,4,Dairy Science,1,461,2,Female,66,4,1,Packaging Machine Operator,4,Single,34002,11047,0,No,10,1,4,2,15,0,4,18,0,7,8,0.7046619715695781,0.4
+48,No,Frequently,1124,Logistics,21,4,Food Technology,1,462,4,Female,105,4,2,Dairy Quality Analyst,2,Married,63098,12338,3,Yes,13,3,3,0,9,3,1,12,7,14,1,0.5215334469278101,0.55
+55,No,Frequently,844,Farm Operations,22,3,Biotechnology,1,463,4,Male,147,3,4,Dairy Quality Analyst,3,Married,65511,16323,0,No,15,3,2,2,22,1,1,11,1,7,17,0.6761653373981777,0.55
+44,No,Frequently,913,Logistics,35,1,Dairy Science,1,464,1,Male,95,4,4,Dairy Quality Analyst,4,Married,73243,6925,1,No,12,3,1,1,14,5,1,28,4,10,11,0.6239124915002532,0.55
+40,No,Rarely,1059,Quality Control,37,4,Mechanical Engineering,1,465,1,Female,116,4,2,Milk Processing Operator,3,Single,48750,7783,2,No,24,1,1,1,5,5,4,20,14,1,14,0.8892658461189911,0.45
+55,No,Rarely,220,Quality Control,16,1,Dairy Science,1,466,2,Male,118,1,2,Milk Processing Operator,1,Single,111610,14343,7,No,11,2,3,2,32,5,4,19,13,5,19,0.4021707844085075,0.45
+29,No,Frequently,441,Maintenance,49,4,Dairy Science,1,467,4,Male,63,1,4,Maintenance Engineer,3,Married,37310,11917,9,No,11,4,2,1,38,2,3,19,2,11,5,0.7503000873084853,0.6
+56,No,Non-Travel,654,Maintenance,43,1,Mechanical Engineering,1,468,2,Female,116,4,1,Milk Processing Operator,3,Married,75398,12145,3,No,19,2,4,0,11,0,1,7,6,4,17,0.3642479218191428,0.45
+28,No,Rarely,1162,Maintenance,17,3,Mechanical Engineering,1,469,4,Female,72,4,3,Logistics & Supply Chain Coordinator,2,Married,102542,8723,3,No,21,3,4,2,35,0,2,23,3,6,12,0.504925584285121,0.35
+43,No,Rarely,820,Logistics,16,2,Dairy Science,1,470,4,Male,143,1,2,Cold Storage Supervisor,1,Married,95207,18568,9,Yes,21,2,2,0,30,3,4,10,10,3,3,0.8827666117771882,0.4
+54,Yes,Rarely,502,Logistics,2,1,Mechanical Engineering,1,471,4,Female,110,4,3,Logistics & Supply Chain Coordinator,2,Married,64345,18905,8,Yes,13,3,2,1,9,5,1,6,11,11,11,0.7362954072099068,0.35
+54,Yes,Non-Travel,1002,Farm Operations,4,2,Food Technology,1,472,1,Male,72,4,4,Packaging Machine Operator,1,Divorced,113430,19632,6,No,22,1,3,1,33,5,3,0,14,12,8,0.4210748793984913,0.4
+55,No,Rarely,1163,Maintenance,21,1,Mechanical Engineering,1,473,4,Male,76,2,3,Maintenance Engineer,1,Married,111729,15349,1,No,10,1,4,1,9,3,1,9,5,1,1,0.6335584981643649,0.6
+37,Yes,Rarely,268,Production,39,1,Mechanical Engineering,1,474,4,Female,103,4,1,Farm Liaison Officer,3,Divorced,71843,3002,2,Yes,24,1,3,1,10,0,3,14,0,9,15,0.2347844584519425,0.3
+58,No,Non-Travel,1352,Farm Operations,34,1,Dairy Science,1,475,4,Male,59,3,4,Maintenance Engineer,2,Single,30222,8266,3,Yes,19,3,4,0,13,3,3,3,17,2,0,0.3864764416346787,0.6
+51,No,Rarely,395,Production,30,1,Food Technology,1,476,3,Male,138,2,1,Farm Liaison Officer,3,Single,109322,13330,3,No,11,2,4,2,2,3,4,0,13,8,3,0.7028733427225302,0.3
+43,No,Rarely,339,Logistics,6,1,Logistics,1,477,1,Male,126,3,4,Cold Storage Supervisor,3,Divorced,51509,16980,9,No,22,4,2,0,32,3,3,10,6,9,14,0.5990654987118273,0.4
+42,No,Frequently,482,Farm Operations,17,2,Logistics,1,478,3,Female,65,4,1,Milk Processing Operator,3,Married,20386,9017,7,No,19,4,3,2,6,3,3,29,9,7,19,0.5287709970837406,0.45
+51,No,Non-Travel,511,Farm Operations,39,1,Biotechnology,1,479,1,Female,90,1,4,Milk Processing Operator,1,Single,84334,10585,9,Yes,24,1,2,1,3,3,2,4,8,12,0,0.6836132420111742,0.45
+56,Yes,Rarely,945,Quality Control,25,2,Mechanical Engineering,1,480,2,Female,147,2,1,Packaging Machine Operator,2,Married,87170,18011,9,No,11,4,3,1,38,4,3,18,1,8,19,0.4789212235738782,0.4
+31,No,Rarely,476,Logistics,5,3,Mechanical Engineering,1,481,3,Male,104,1,4,Dairy Quality Analyst,2,Married,60878,19044,5,No,13,3,4,1,9,4,2,18,7,4,14,0.2183093011726891,0.55
+32,No,Rarely,260,Logistics,5,4,Food Technology,1,482,2,Male,110,2,1,Cheese Production Technician,3,Divorced,89669,7524,2,No,13,2,1,1,14,5,2,3,0,12,2,0.5087186364608971,0.5
+42,Yes,Rarely,251,Farm Operations,20,1,Logistics,1,483,4,Female,135,1,4,Maintenance Engineer,1,Single,58349,7250,8,No,10,4,1,0,15,5,1,1,19,4,12,0.8314904346052832,0.6
+44,No,Frequently,352,Logistics,16,4,Biotechnology,1,484,2,Female,130,2,1,Maintenance Engineer,2,Single,41952,9512,9,Yes,16,4,3,2,37,4,1,6,1,6,17,0.7996305898198848,0.6
+54,No,Rarely,743,Farm Operations,41,2,Food Technology,1,485,2,Female,136,2,2,Packaging Machine Operator,4,Divorced,110352,2319,7,No,16,2,3,2,3,0,4,27,6,6,12,0.486298029786659,0.4
+49,No,Rarely,766,Quality Control,37,3,Mechanical Engineering,1,486,2,Male,149,3,3,Logistics & Supply Chain Coordinator,2,Married,41529,12416,8,Yes,19,4,2,1,3,2,4,12,15,0,9,0.2155550085322679,0.35
+36,No,Rarely,821,Farm Operations,40,3,Logistics,1,487,2,Female,98,1,4,Dairy Lab Technician,3,Married,91303,5600,4,Yes,20,2,4,0,35,0,4,19,3,11,19,0.645415090834221,0.55
+39,No,Frequently,1400,Logistics,9,3,Biotechnology,1,488,1,Male,122,3,1,Packaging Machine Operator,4,Single,61521,7279,2,No,19,3,1,1,26,5,3,20,16,14,6,0.7188360994480052,0.4
+44,No,Frequently,513,Logistics,5,4,Dairy Science,1,489,3,Female,101,3,2,Cheese Production Technician,1,Divorced,38383,17494,3,No,19,3,2,2,21,4,1,11,3,13,7,0.4059705032589924,0.5
+41,No,Non-Travel,1006,Farm Operations,42,2,Logistics,1,490,1,Male,51,1,4,Milk Processing Operator,4,Divorced,24901,14398,4,No,10,3,3,2,21,0,3,29,2,4,0,0.5336647997337021,0.45
+32,Yes,Rarely,1047,Farm Operations,2,1,Biotechnology,1,491,1,Male,145,2,4,Farm Liaison Officer,4,Married,62889,2282,8,No,20,1,4,0,16,2,1,1,8,7,17,0.8942997566733959,0.3
+38,No,Non-Travel,296,Farm Operations,9,1,Food Technology,1,492,1,Female,99,3,4,Logistics & Supply Chain Coordinator,3,Married,34633,16030,8,No,17,3,2,2,33,3,3,21,14,6,11,0.6034401090871191,0.35
+55,No,Non-Travel,1080,Maintenance,43,2,Dairy Science,1,493,2,Male,135,1,3,Logistics & Supply Chain Coordinator,2,Divorced,82244,17302,2,No,19,4,2,0,31,1,4,8,19,10,17,0.4457524339630966,0.35
+31,Yes,Rarely,1436,Logistics,36,4,Biotechnology,1,494,1,Female,92,2,1,Cold Storage Supervisor,1,Single,39163,7166,6,Yes,23,1,3,1,5,4,1,15,2,1,11,0.6392422136480931,0.4
+38,No,Rarely,1028,Logistics,22,1,Biotechnology,1,495,3,Male,126,3,1,Cheese Production Technician,4,Married,79019,9121,5,No,23,1,4,1,32,4,1,7,11,13,19,0.3260156148048592,0.5
+31,No,Rarely,336,Maintenance,22,2,Mechanical Engineering,1,496,1,Male,57,3,4,Logistics & Supply Chain Coordinator,3,Divorced,30707,16677,3,Yes,16,1,1,0,7,2,2,23,14,7,8,0.339476661292206,0.35
+28,No,Rarely,1229,Farm Operations,22,1,Logistics,1,497,4,Female,108,3,4,Cheese Production Technician,2,Divorced,108112,18373,4,No,16,3,2,1,35,3,1,17,19,1,1,0.8474473002998117,0.5
+26,No,Rarely,1210,Quality Control,34,3,Mechanical Engineering,1,498,2,Male,114,2,4,Packaging Machine Operator,4,Divorced,103597,6896,9,Yes,20,1,3,0,4,3,1,3,7,9,13,0.3674400288185315,0.4
+47,No,Rarely,308,Farm Operations,29,1,Dairy Science,1,499,4,Female,130,3,2,Farm Liaison Officer,3,Single,65101,18514,1,No,15,3,2,1,4,1,3,23,11,0,3,0.4175525654510209,0.3
+33,No,Rarely,746,Farm Operations,38,4,Biotechnology,1,500,3,Female,61,2,4,Farm Liaison Officer,3,Married,64706,3293,6,No,21,3,3,1,9,3,4,10,12,10,14,0.5806440693788277,0.3
+50,No,Non-Travel,1262,Maintenance,46,2,Mechanical Engineering,1,501,3,Female,53,4,3,Maintenance Engineer,3,Married,97084,8957,3,No,13,1,3,2,39,2,2,16,14,10,16,0.8297848341943244,0.6
+38,No,Rarely,861,Logistics,33,4,Logistics,1,502,3,Male,126,3,1,Milk Processing Operator,1,Married,35115,18444,1,No,20,1,3,2,6,5,3,7,10,13,18,0.7470142228033101,0.45
+35,No,Non-Travel,624,Farm Operations,18,2,Dairy Science,1,503,3,Male,144,4,3,Maintenance Engineer,2,Single,95379,11740,5,No,17,4,4,0,11,3,1,18,16,10,5,0.2306487444689124,0.6
+24,No,Frequently,829,Logistics,7,3,Food Technology,1,504,1,Male,90,1,4,Logistics & Supply Chain Coordinator,4,Married,59979,14559,1,No,11,1,1,1,29,5,3,7,11,2,8,0.6851207682288585,0.35
+54,No,Non-Travel,460,Production,1,2,Mechanical Engineering,1,505,2,Female,56,3,2,Cold Storage Supervisor,2,Married,60641,11973,9,No,16,3,4,1,24,5,4,5,19,2,16,0.552843037878795,0.4
+31,No,Frequently,286,Logistics,33,1,Dairy Science,1,506,3,Female,136,1,4,Maintenance Engineer,2,Married,89377,8276,1,No,12,4,1,1,27,2,2,22,17,5,14,0.5328869894016663,0.6
+44,No,Rarely,664,Quality Control,1,1,Food Technology,1,507,4,Male,137,1,4,Maintenance Engineer,4,Married,26416,10152,6,Yes,23,4,3,2,12,4,3,1,15,11,4,0.6840908567778802,0.6
+40,No,Frequently,275,Quality Control,24,3,Mechanical Engineering,1,508,3,Male,118,1,4,Maintenance Engineer,2,Single,30633,9973,0,Yes,12,3,1,0,21,4,1,14,2,2,17,0.3373624323533308,0.6
+55,No,Rarely,670,Farm Operations,4,2,Dairy Science,1,509,2,Female,118,4,4,Cheese Production Technician,1,Divorced,20594,17333,6,Yes,23,1,4,0,17,4,3,0,8,6,3,0.8870420645632038,0.5
+42,No,Rarely,613,Logistics,4,3,Dairy Science,1,510,4,Male,130,2,4,Packaging Machine Operator,4,Divorced,34393,2037,9,Yes,16,1,2,0,26,0,1,5,6,7,1,0.6517145711907143,0.4
+35,Yes,Non-Travel,1024,Farm Operations,18,1,Mechanical Engineering,1,511,4,Female,79,4,1,Cold Storage Supervisor,4,Married,55380,7990,4,No,21,2,4,1,7,4,2,27,18,2,18,0.4559593222282993,0.4
+58,No,Rarely,1094,Maintenance,27,4,Dairy Science,1,512,4,Male,122,4,3,Farm Liaison Officer,3,Married,65056,7438,0,Yes,12,1,4,0,5,2,2,18,4,8,4,0.6201415456491128,0.3
+58,No,Rarely,925,Quality Control,43,3,Biotechnology,1,513,1,Female,55,1,2,Cheese Production Technician,2,Married,108279,17735,5,Yes,24,2,4,2,10,1,3,3,18,0,3,0.3515296043027341,0.5
+33,No,Frequently,656,Farm Operations,32,4,Mechanical Engineering,1,514,3,Male,138,3,4,Logistics & Supply Chain Coordinator,4,Single,117507,12856,6,Yes,24,4,4,2,28,3,2,12,9,14,4,0.6436893053984694,0.35
+50,No,Non-Travel,1462,Maintenance,33,4,Dairy Science,1,515,1,Male,68,2,2,Cold Storage Supervisor,4,Married,24861,2473,0,No,14,4,4,0,4,4,4,14,19,2,18,0.2197519985164581,0.4
+24,No,Frequently,852,Farm Operations,28,2,Food Technology,1,516,4,Female,129,1,1,Farm Liaison Officer,1,Single,56126,2058,8,No,17,4,1,1,6,0,3,8,11,11,12,0.4388273379858563,0.3
+54,No,Rarely,871,Logistics,42,3,Food Technology,1,517,1,Female,134,2,3,Cold Storage Supervisor,3,Married,100382,4636,6,No,23,2,1,2,21,5,1,2,7,2,15,0.7232618277232545,0.4
+42,No,Frequently,694,Logistics,41,4,Biotechnology,1,518,1,Female,115,4,4,Dairy Lab Technician,4,Married,111713,16834,0,No,22,3,2,2,3,0,3,1,2,6,11,0.765584494379898,0.55
+48,No,Rarely,1268,Logistics,36,4,Mechanical Engineering,1,519,1,Male,59,2,1,Dairy Lab Technician,1,Divorced,53682,17577,2,Yes,13,3,4,1,31,2,1,15,18,10,8,0.3770435893197776,0.55
+30,No,Frequently,1470,Logistics,6,2,Dairy Science,1,520,3,Female,65,2,1,Maintenance Engineer,4,Married,38228,9296,4,No,16,4,4,1,18,1,2,17,10,10,15,0.5775866228959905,0.6
+37,No,Non-Travel,796,Production,16,2,Dairy Science,1,521,4,Female,86,3,3,Maintenance Engineer,4,Single,44009,14670,3,No,16,2,2,0,32,4,1,17,7,4,13,0.5699450227823826,0.6
+31,No,Frequently,649,Maintenance,34,1,Food Technology,1,522,4,Male,128,1,4,Dairy Lab Technician,4,Divorced,20094,11725,1,Yes,11,2,2,2,0,4,1,5,12,3,0,0.4950192324637463,0.55
+28,No,Non-Travel,684,Maintenance,23,4,Biotechnology,1,523,3,Female,126,2,3,Farm Liaison Officer,1,Single,100636,4674,0,No,23,4,3,2,7,0,1,17,9,1,19,0.359903087927085,0.3
+29,Yes,Rarely,845,Logistics,42,1,Food Technology,1,524,1,Female,126,2,3,Logistics & Supply Chain Coordinator,2,Divorced,72221,17796,3,No,17,1,2,0,31,2,1,10,17,6,3,0.6922597632601409,0.35
+36,No,Frequently,819,Production,24,4,Food Technology,1,525,1,Female,81,4,2,Milk Processing Operator,4,Single,118453,13065,6,No,19,4,2,0,29,0,4,6,11,2,8,0.3766531772218637,0.45
+57,Yes,Non-Travel,1241,Logistics,49,1,Biotechnology,1,526,2,Male,96,4,2,Milk Processing Operator,4,Divorced,37430,13026,3,No,21,2,2,2,27,0,1,22,6,6,18,0.8377180160096309,0.45
+26,No,Rarely,861,Production,13,2,Mechanical Engineering,1,527,2,Male,121,2,3,Cheese Production Technician,2,Single,55571,4076,8,Yes,19,1,3,2,31,1,3,22,10,9,13,0.5699509037829518,0.5
+32,No,Non-Travel,957,Logistics,18,3,Dairy Science,1,528,2,Male,92,1,2,Logistics & Supply Chain Coordinator,4,Single,74486,6787,7,Yes,24,3,1,1,24,2,4,13,9,11,11,0.8093348361174353,0.35
+59,No,Rarely,488,Quality Control,13,2,Mechanical Engineering,1,529,3,Female,131,2,1,Cold Storage Supervisor,3,Married,110510,9494,7,Yes,23,1,3,1,33,1,1,28,2,6,3,0.4035199045629147,0.4
+28,No,Frequently,920,Quality Control,49,1,Logistics,1,530,4,Male,85,2,3,Milk Processing Operator,4,Divorced,116665,4581,4,Yes,18,3,1,2,32,2,1,17,6,10,6,0.7649554093811124,0.45
+46,Yes,Non-Travel,837,Farm Operations,37,1,Logistics,1,531,2,Female,75,3,4,Cold Storage Supervisor,3,Divorced,82294,17600,0,Yes,15,2,2,2,12,4,1,6,3,1,16,0.2795645094299948,0.4
+21,No,Frequently,434,Logistics,43,3,Logistics,1,532,4,Female,59,1,4,Cold Storage Supervisor,2,Married,40860,16333,8,No,23,4,3,1,24,3,4,9,7,6,0,0.7367812394051754,0.4
+24,No,Rarely,615,Maintenance,39,4,Biotechnology,1,533,4,Female,80,3,1,Cold Storage Supervisor,1,Single,92812,12404,1,Yes,14,4,3,0,39,5,1,7,7,5,13,0.4708620949477115,0.4
+48,No,Frequently,1137,Farm Operations,42,1,Food Technology,1,534,4,Male,146,1,4,Milk Processing Operator,2,Single,86087,13166,5,No,10,4,1,0,38,3,1,23,5,9,14,0.5289930621730108,0.45
+56,No,Frequently,698,Quality Control,17,1,Mechanical Engineering,1,535,3,Male,78,1,4,Farm Liaison Officer,4,Divorced,28486,2932,9,No,10,4,3,2,9,2,1,13,12,3,11,0.3167651241817009,0.3
+57,No,Non-Travel,1173,Logistics,15,1,Dairy Science,1,536,3,Female,54,1,3,Dairy Quality Analyst,3,Single,103063,10748,4,No,18,4,3,2,30,3,2,17,11,10,11,0.2130393819670746,0.55
+38,No,Rarely,833,Farm Operations,18,3,Logistics,1,537,3,Female,126,3,1,Cold Storage Supervisor,1,Divorced,69607,17577,9,No,23,2,4,1,10,0,3,4,2,4,5,0.666338245189797,0.4
+27,No,Rarely,1219,Logistics,23,2,Mechanical Engineering,1,538,3,Male,50,3,3,Logistics & Supply Chain Coordinator,4,Divorced,29745,17015,7,No,13,2,1,2,24,4,1,13,5,11,12,0.6114027983802928,0.35
+20,No,Frequently,314,Quality Control,30,1,Logistics,1,539,2,Male,136,3,1,Packaging Machine Operator,1,Single,98533,18108,2,No,10,4,3,0,33,5,3,21,18,7,15,0.6356997064487602,0.4
+41,No,Rarely,1131,Farm Operations,34,3,Logistics,1,540,1,Male,52,4,3,Maintenance Engineer,1,Single,38330,3104,5,No,20,1,3,1,19,5,2,24,10,4,13,0.3785012306188439,0.6
+36,No,Frequently,873,Quality Control,4,1,Dairy Science,1,541,1,Female,116,3,3,Logistics & Supply Chain Coordinator,4,Single,60078,19654,5,No,19,4,2,1,6,5,2,21,3,2,6,0.3674942240181742,0.35
+26,No,Frequently,1457,Production,3,4,Biotechnology,1,542,1,Male,120,4,2,Dairy Lab Technician,2,Married,75332,14936,9,No,21,3,4,0,32,4,1,25,14,1,15,0.7812074178884734,0.55
+44,No,Non-Travel,1234,Quality Control,7,3,Food Technology,1,543,2,Male,149,4,4,Milk Processing Operator,4,Divorced,74532,11601,2,Yes,12,3,4,0,34,3,3,21,1,5,8,0.7328769268152631,0.45
+23,No,Frequently,405,Logistics,18,1,Biotechnology,1,544,1,Male,84,4,1,Packaging Machine Operator,4,Single,110365,5646,6,No,15,3,2,1,28,5,4,9,14,5,13,0.4357530810889524,0.4
+55,No,Frequently,446,Maintenance,42,3,Mechanical Engineering,1,545,2,Female,64,2,4,Maintenance Engineer,2,Married,63336,16960,3,No,23,3,2,2,11,5,1,25,16,6,6,0.6464640011829763,0.6
+25,No,Rarely,957,Quality Control,7,1,Biotechnology,1,546,2,Male,116,2,2,Logistics & Supply Chain Coordinator,3,Single,28070,16878,4,No,20,4,2,0,4,2,4,14,1,7,11,0.7797050029181698,0.35
+50,No,Rarely,1350,Maintenance,40,2,Mechanical Engineering,1,547,2,Female,142,2,1,Packaging Machine Operator,4,Divorced,21320,11145,8,Yes,22,3,2,1,11,0,2,5,6,3,2,0.8221806095525641,0.4
+38,Yes,Rarely,346,Production,6,1,Mechanical Engineering,1,548,1,Female,79,4,2,Dairy Quality Analyst,1,Married,109043,4802,5,No,22,1,4,2,28,2,2,8,15,11,13,0.2040643826364698,0.55
+58,No,Rarely,317,Farm Operations,22,3,Food Technology,1,549,4,Female,131,4,4,Milk Processing Operator,4,Divorced,58921,18365,9,No,20,4,3,2,34,3,3,9,4,7,18,0.7694236751943069,0.45
+46,No,Frequently,611,Farm Operations,1,4,Dairy Science,1,550,1,Male,124,1,3,Farm Liaison Officer,4,Single,26589,8105,3,Yes,17,3,3,1,19,4,4,22,15,11,10,0.445274633972848,0.3
+29,No,Frequently,562,Maintenance,4,4,Food Technology,1,551,1,Male,92,4,2,Cheese Production Technician,1,Single,84409,4749,7,No,22,4,2,0,36,4,4,16,18,0,4,0.7028647993433237,0.5
+45,No,Frequently,336,Farm Operations,46,4,Biotechnology,1,552,3,Male,109,2,2,Dairy Quality Analyst,2,Single,112995,18974,8,No,19,4,1,2,0,2,1,0,1,5,12,0.4599809552199997,0.55
+38,No,Non-Travel,1398,Quality Control,49,1,Mechanical Engineering,1,553,2,Female,89,4,3,Dairy Lab Technician,3,Married,35589,19752,9,No,11,4,2,0,15,1,3,13,14,5,9,0.6243743607558104,0.55
+58,No,Non-Travel,1157,Maintenance,43,2,Logistics,1,554,4,Male,114,4,4,Farm Liaison Officer,3,Married,56375,12181,4,No,17,2,3,1,29,2,3,3,3,2,6,0.652747708004213,0.3
+22,No,Non-Travel,218,Logistics,29,1,Logistics,1,555,3,Female,78,1,2,Dairy Quality Analyst,1,Married,63085,3361,1,No,23,3,1,0,8,1,4,27,1,8,16,0.4834949396413582,0.55
+32,No,Frequently,394,Quality Control,21,4,Mechanical Engineering,1,556,4,Male,123,4,4,Maintenance Engineer,2,Married,80840,5773,5,No,22,2,2,2,9,2,2,1,9,11,15,0.5589497317964214,0.6
+47,No,Frequently,529,Quality Control,26,3,Food Technology,1,557,4,Male,141,3,3,Packaging Machine Operator,4,Single,63200,15495,7,Yes,10,1,1,1,12,1,3,2,4,11,7,0.7084193603434179,0.4
+39,No,Rarely,374,Quality Control,14,4,Dairy Science,1,558,2,Male,144,1,1,Milk Processing Operator,4,Single,118704,4064,4,No,20,1,2,2,19,1,2,27,17,4,16,0.5334136880864035,0.45
+47,No,Rarely,1201,Logistics,9,3,Food Technology,1,559,1,Male,68,4,2,Packaging Machine Operator,4,Single,46732,7616,0,No,11,2,4,2,28,5,1,6,3,14,12,0.2097863395596166,0.4
+27,No,Rarely,648,Production,47,2,Mechanical Engineering,1,560,2,Female,52,4,4,Cold Storage Supervisor,4,Married,117047,9975,7,No,17,3,3,1,3,5,3,29,0,0,10,0.209032937898261,0.4
+58,No,Non-Travel,1145,Farm Operations,12,3,Mechanical Engineering,1,561,2,Female,85,1,3,Logistics & Supply Chain Coordinator,4,Married,42426,12960,8,No,16,4,2,1,27,1,3,22,17,6,19,0.6629175950345755,0.35
+20,No,Non-Travel,340,Maintenance,42,1,Dairy Science,1,562,3,Female,92,4,3,Dairy Lab Technician,1,Single,50982,17324,0,Yes,14,1,1,0,36,1,1,13,19,9,17,0.7930662762189187,0.55
+22,No,Rarely,957,Production,6,1,Biotechnology,1,563,2,Female,64,2,2,Cold Storage Supervisor,4,Single,79720,8243,7,No,24,1,3,1,12,0,3,11,5,14,4,0.7496914762597975,0.4
+32,No,Rarely,1129,Maintenance,20,1,Biotechnology,1,564,1,Male,146,3,1,Cold Storage Supervisor,4,Married,36746,11560,9,No,22,1,2,0,2,1,4,18,19,13,5,0.4172802113532144,0.4
+47,No,Non-Travel,292,Farm Operations,24,3,Dairy Science,1,565,4,Female,90,3,2,Dairy Lab Technician,2,Divorced,48514,16684,1,Yes,19,3,2,1,36,5,4,28,19,2,19,0.5297895194978681,0.55
+44,No,Rarely,438,Logistics,27,1,Biotechnology,1,566,2,Female,139,2,4,Logistics & Supply Chain Coordinator,4,Single,84889,10330,3,Yes,11,2,2,2,18,1,1,17,13,9,13,0.3639125180711668,0.35
+52,No,Rarely,404,Quality Control,38,1,Logistics,1,567,4,Female,129,4,3,Maintenance Engineer,3,Single,23851,6923,1,Yes,18,2,2,0,27,4,2,14,9,9,11,0.8924049374666707,0.6
+57,Yes,Non-Travel,759,Quality Control,8,1,Biotechnology,1,568,2,Male,85,4,1,Logistics & Supply Chain Coordinator,1,Single,39796,8467,1,No,14,3,4,1,18,0,2,28,17,10,3,0.3823545144821623,0.35
+25,No,Rarely,444,Logistics,1,2,Biotechnology,1,569,4,Female,146,3,4,Milk Processing Operator,1,Married,96034,8076,9,Yes,17,1,3,0,16,1,3,28,8,3,6,0.4913831149945566,0.45
+51,Yes,Rarely,1031,Production,49,3,Biotechnology,1,570,2,Female,133,4,2,Packaging Machine Operator,1,Single,82798,10001,2,Yes,22,3,4,0,17,5,2,0,11,5,10,0.6767902659270122,0.4
+40,No,Frequently,1124,Production,49,3,Logistics,1,571,3,Male,126,3,3,Maintenance Engineer,3,Single,118388,17303,7,No,13,3,3,0,17,5,2,24,9,7,19,0.8132123687555433,0.6
+35,No,Non-Travel,494,Maintenance,24,4,Biotechnology,1,572,4,Male,82,3,2,Cheese Production Technician,4,Single,82985,19699,3,No,23,2,2,2,22,3,1,25,18,12,1,0.2360329788469956,0.5
+40,No,Frequently,839,Logistics,47,3,Logistics,1,573,2,Female,54,2,1,Packaging Machine Operator,1,Single,54592,18457,6,Yes,18,3,3,1,39,5,2,2,5,3,3,0.410713773218985,0.4
+30,No,Rarely,1055,Production,7,2,Dairy Science,1,574,2,Female,127,3,1,Maintenance Engineer,3,Single,64845,10675,9,Yes,19,3,1,1,8,0,2,24,13,14,6,0.5982900935751223,0.6
+56,Yes,Rarely,216,Logistics,19,3,Food Technology,1,575,3,Male,140,4,1,Logistics & Supply Chain Coordinator,2,Divorced,35930,14303,2,Yes,16,1,3,0,28,5,2,14,7,11,0,0.6328191569633284,0.35
+55,No,Rarely,270,Farm Operations,22,2,Dairy Science,1,576,3,Female,136,4,1,Dairy Lab Technician,4,Divorced,41159,19933,9,Yes,11,4,1,1,28,4,4,3,13,8,14,0.2490192069499026,0.55
+54,No,Frequently,1492,Quality Control,35,2,Food Technology,1,577,3,Male,63,1,1,Logistics & Supply Chain Coordinator,3,Single,115072,19743,2,Yes,12,1,1,2,1,2,4,14,10,7,19,0.6648551164894513,0.35
+38,No,Frequently,504,Quality Control,30,3,Dairy Science,1,578,4,Female,117,4,2,Cheese Production Technician,4,Single,109788,17128,1,No,23,2,4,0,16,4,1,9,15,9,7,0.569645055926002,0.5
+39,No,Rarely,1230,Quality Control,29,4,Food Technology,1,579,4,Female,132,1,1,Maintenance Engineer,2,Single,44003,8659,5,Yes,11,4,3,2,30,4,3,5,19,9,4,0.7793391655535011,0.6
+37,Yes,Non-Travel,1016,Logistics,22,1,Food Technology,1,580,3,Female,96,3,1,Milk Processing Operator,3,Single,55139,7246,5,No,14,1,2,2,27,0,1,12,5,5,13,0.3555324233458105,0.45
+33,No,Rarely,1326,Logistics,11,1,Mechanical Engineering,1,581,1,Female,103,4,3,Logistics & Supply Chain Coordinator,4,Married,72452,8967,0,No,11,3,3,1,38,0,3,6,14,6,17,0.3365188895153133,0.35
+34,No,Rarely,1020,Maintenance,20,3,Food Technology,1,582,1,Female,53,2,1,Maintenance Engineer,3,Married,42205,8661,6,No,14,3,4,1,29,3,3,25,14,7,2,0.7553360553495689,0.6
+50,No,Rarely,392,Quality Control,29,3,Food Technology,1,583,2,Male,143,2,3,Packaging Machine Operator,1,Married,116059,14416,3,No,22,4,1,0,34,5,2,29,13,1,1,0.6927083902577313,0.4
+20,No,Rarely,728,Maintenance,41,2,Mechanical Engineering,1,584,1,Male,132,2,3,Cheese Production Technician,4,Divorced,76955,2510,2,No,18,4,1,2,19,3,2,21,11,4,15,0.7541713524043723,0.5
+22,No,Frequently,370,Quality Control,42,3,Biotechnology,1,585,2,Female,144,3,3,Milk Processing Operator,3,Single,27464,10614,7,No,11,3,4,1,15,0,1,0,1,12,13,0.7473538987196555,0.45
+35,No,Frequently,450,Maintenance,34,2,Biotechnology,1,586,4,Female,144,3,2,Maintenance Engineer,1,Married,102646,4432,1,No,18,2,4,0,33,5,1,21,7,6,15,0.2728004730813225,0.6
+42,No,Rarely,1430,Maintenance,1,4,Mechanical Engineering,1,587,4,Female,58,1,2,Dairy Quality Analyst,2,Single,92657,3906,8,Yes,16,1,3,0,13,0,1,10,18,7,10,0.3950081331094056,0.55
+30,No,Frequently,740,Farm Operations,31,3,Logistics,1,588,1,Male,102,2,4,Logistics & Supply Chain Coordinator,4,Single,29840,17554,7,Yes,16,3,1,1,25,0,4,13,13,4,16,0.3820595952955125,0.35
+31,No,Rarely,615,Maintenance,30,1,Food Technology,1,589,4,Male,126,1,4,Cheese Production Technician,4,Divorced,60768,18448,7,No,23,1,4,2,19,2,4,5,4,2,2,0.8542110969917878,0.5
+29,No,Frequently,993,Logistics,48,1,Food Technology,1,590,3,Male,127,1,3,Milk Processing Operator,2,Divorced,29461,6928,2,No,14,1,3,0,23,4,4,4,8,14,4,0.5412266018352418,0.45
+51,Yes,Non-Travel,1367,Maintenance,18,3,Mechanical Engineering,1,591,3,Male,109,4,2,Milk Processing Operator,1,Married,40927,6710,3,No,17,1,3,1,17,3,4,18,12,5,2,0.2777399928900121,0.45
+35,No,Rarely,224,Quality Control,17,2,Mechanical Engineering,1,592,1,Male,95,4,1,Cold Storage Supervisor,2,Married,109934,13540,1,No,16,1,2,0,8,3,4,25,8,4,14,0.4027045341510131,0.4
+27,No,Frequently,867,Maintenance,38,1,Logistics,1,593,1,Male,103,2,4,Cheese Production Technician,4,Divorced,118622,8124,1,No,15,2,1,1,18,1,2,18,13,7,4,0.8103311539615299,0.5
+57,No,Rarely,1296,Production,14,2,Biotechnology,1,594,2,Male,123,3,2,Milk Processing Operator,3,Divorced,35329,9837,3,No,11,2,3,0,19,2,3,26,4,8,2,0.7929464647157192,0.45
+31,No,Rarely,831,Quality Control,23,3,Dairy Science,1,595,4,Male,144,4,1,Maintenance Engineer,1,Single,35791,17583,5,No,15,2,4,2,29,0,4,25,1,8,5,0.830237638408376,0.6
+43,No,Rarely,1316,Production,25,3,Biotechnology,1,596,2,Female,86,3,1,Cold Storage Supervisor,1,Single,72627,19184,4,No,23,3,1,0,25,0,1,12,6,11,13,0.471970140915914,0.4
+47,No,Frequently,704,Quality Control,15,1,Food Technology,1,597,2,Male,72,1,2,Packaging Machine Operator,1,Married,34372,8109,0,No,11,3,4,1,30,2,3,6,15,11,1,0.6489386730429976,0.4
+27,No,Frequently,535,Logistics,46,3,Mechanical Engineering,1,598,3,Male,76,1,4,Maintenance Engineer,2,Married,112890,11909,9,No,10,3,4,1,34,5,4,7,10,5,17,0.3947217439127266,0.6
+47,No,Rarely,624,Logistics,22,4,Logistics,1,599,3,Male,119,1,2,Logistics & Supply Chain Coordinator,2,Divorced,68469,8659,0,Yes,18,2,3,1,2,3,4,13,10,14,5,0.3265777318066617,0.35
+55,No,Non-Travel,698,Logistics,3,4,Biotechnology,1,600,3,Male,139,1,4,Cheese Production Technician,3,Married,107073,3238,5,No,22,1,3,2,39,0,2,18,11,3,4,0.2153307531484575,0.5
+45,No,Frequently,1146,Production,19,1,Logistics,1,601,3,Female,115,2,3,Logistics & Supply Chain Coordinator,3,Single,54370,17064,2,Yes,14,2,2,1,28,1,2,18,12,3,13,0.3564086647825446,0.35
+27,No,Non-Travel,829,Farm Operations,44,4,Biotechnology,1,602,2,Male,110,1,2,Farm Liaison Officer,1,Divorced,71408,7620,2,Yes,19,3,4,1,5,3,2,22,7,8,16,0.623061895824591,0.3
+47,No,Frequently,1422,Quality Control,34,2,Food Technology,1,603,3,Female,126,4,2,Farm Liaison Officer,3,Single,110941,3486,6,No,19,4,3,2,0,4,4,25,15,3,10,0.8329472195247549,0.3
+47,No,Frequently,917,Logistics,35,1,Dairy Science,1,604,4,Female,100,1,4,Cheese Production Technician,2,Divorced,43703,6681,0,Yes,13,3,2,1,23,2,2,11,0,7,0,0.2933943872508092,0.5
+56,No,Rarely,538,Quality Control,1,1,Logistics,1,605,3,Female,99,3,4,Packaging Machine Operator,3,Divorced,35234,13490,0,No,21,1,1,1,37,3,4,22,12,8,9,0.8426080926758093,0.4
+55,No,Rarely,858,Production,21,2,Logistics,1,606,3,Male,68,4,2,Cold Storage Supervisor,2,Single,27532,6470,9,Yes,20,2,2,2,33,4,3,26,10,4,8,0.4417696644102049,0.4
+46,Yes,Non-Travel,1161,Farm Operations,29,4,Dairy Science,1,607,3,Male,50,3,1,Dairy Quality Analyst,3,Married,55416,13723,2,No,17,4,2,0,6,1,3,8,3,12,19,0.4987798853300245,0.55
+36,No,Rarely,628,Production,6,4,Logistics,1,608,1,Male,89,3,1,Milk Processing Operator,4,Married,92439,15888,7,Yes,24,4,4,1,10,5,4,13,3,5,11,0.4554849783281227,0.45
+28,Yes,Non-Travel,1098,Quality Control,37,4,Logistics,1,609,4,Female,81,2,1,Dairy Quality Analyst,2,Married,38242,9177,0,No,14,1,1,0,10,2,1,5,14,2,0,0.4860256979437927,0.55
+52,No,Frequently,338,Farm Operations,1,1,Biotechnology,1,610,4,Female,71,2,3,Farm Liaison Officer,4,Married,70254,15201,9,Yes,23,2,4,2,35,5,4,14,2,11,17,0.3814352044313657,0.3
+39,Yes,Rarely,1141,Farm Operations,1,1,Biotechnology,1,611,2,Female,142,3,3,Farm Liaison Officer,2,Single,99324,7441,3,No,16,4,4,1,19,0,3,12,18,4,11,0.689023274818007,0.3
+32,No,Rarely,741,Production,27,4,Dairy Science,1,612,2,Female,115,3,4,Packaging Machine Operator,3,Divorced,55249,13719,8,No,12,3,2,1,15,5,3,6,1,4,1,0.7307281771891168,0.4
+47,No,Rarely,256,Logistics,21,3,Food Technology,1,613,3,Male,89,1,3,Dairy Quality Analyst,4,Single,115049,7397,3,No,24,1,2,2,4,0,4,10,5,14,0,0.7761790235965853,0.55
+48,No,Non-Travel,1455,Quality Control,16,4,Logistics,1,614,1,Male,87,4,1,Dairy Quality Analyst,3,Married,105078,3621,9,Yes,17,4,3,1,23,4,4,9,7,13,0,0.438902708351977,0.55
+32,Yes,Rarely,857,Maintenance,44,2,Food Technology,1,615,2,Male,97,1,2,Cold Storage Supervisor,2,Married,52294,19945,7,Yes,17,1,2,0,29,3,4,0,16,1,0,0.7352388237194563,0.4
+54,Yes,Rarely,634,Maintenance,40,1,Dairy Science,1,616,2,Female,104,2,3,Packaging Machine Operator,4,Single,79784,19800,6,Yes,12,2,3,0,29,1,3,6,4,9,11,0.6463727502337706,0.4
+25,No,Rarely,583,Production,26,2,Dairy Science,1,617,3,Female,124,2,3,Packaging Machine Operator,1,Divorced,23684,6190,2,No,18,2,4,2,38,4,1,17,1,5,6,0.870541260788275,0.4
+37,No,Rarely,759,Quality Control,16,2,Biotechnology,1,618,3,Male,130,1,1,Cheese Production Technician,3,Single,43795,7054,6,No,23,2,2,1,36,1,4,22,11,8,3,0.4973496166889833,0.5
+24,No,Rarely,393,Quality Control,28,1,Logistics,1,619,2,Male,104,4,3,Logistics & Supply Chain Coordinator,2,Single,80301,3130,6,No,17,3,1,1,32,5,3,2,4,10,19,0.8946168095183482,0.35
+44,No,Rarely,733,Production,1,3,Mechanical Engineering,1,620,2,Female,100,3,4,Packaging Machine Operator,4,Single,89187,16071,9,Yes,10,4,1,2,19,1,4,8,9,14,3,0.71827582100551,0.4
+21,No,Non-Travel,717,Quality Control,36,4,Dairy Science,1,621,4,Male,109,1,2,Packaging Machine Operator,3,Divorced,30431,13936,2,No,17,2,4,0,21,5,3,28,8,6,14,0.7433944284712981,0.4
+29,Yes,Rarely,915,Logistics,10,2,Logistics,1,622,1,Male,57,2,1,Maintenance Engineer,4,Single,95667,4118,1,No,21,3,4,0,20,1,4,4,19,13,0,0.2179934020767627,0.6
+49,No,Rarely,950,Production,43,1,Food Technology,1,623,4,Female,135,4,4,Dairy Lab Technician,3,Single,109627,2663,8,Yes,20,2,2,2,36,2,3,22,7,7,5,0.5481788459352674,0.55
+24,No,Rarely,384,Logistics,17,2,Biotechnology,1,624,2,Female,117,2,1,Dairy Quality Analyst,3,Married,110381,17735,0,No,24,2,3,1,26,4,4,23,0,1,13,0.5698356986184177,0.55
+52,No,Rarely,491,Quality Control,23,4,Food Technology,1,625,4,Female,124,4,4,Milk Processing Operator,3,Single,110027,11763,6,No,13,4,2,0,37,2,2,12,5,10,13,0.2284200713444197,0.45
+20,No,Non-Travel,931,Production,7,3,Dairy Science,1,626,4,Male,121,4,2,Dairy Quality Analyst,4,Married,75372,19907,3,Yes,15,3,3,1,34,3,4,15,10,12,9,0.4184918564433885,0.55
+37,No,Frequently,315,Quality Control,44,3,Dairy Science,1,627,2,Female,58,4,2,Cheese Production Technician,4,Married,90366,10053,1,Yes,23,2,2,0,37,3,3,15,2,13,6,0.8689509264394573,0.5
+51,No,Rarely,1024,Production,7,3,Food Technology,1,628,3,Male,139,1,4,Cheese Production Technician,3,Married,114176,19371,1,Yes,22,3,1,1,39,0,4,11,14,8,11,0.4982780054520949,0.5
+30,No,Frequently,1272,Quality Control,44,1,Dairy Science,1,629,2,Male,51,1,4,Cheese Production Technician,1,Divorced,92870,5845,7,No,19,3,1,0,5,0,1,17,10,2,18,0.3306913891908152,0.5
+40,Yes,Rarely,884,Logistics,15,1,Logistics,1,630,3,Female,129,1,4,Logistics & Supply Chain Coordinator,1,Married,67387,15496,6,Yes,18,2,3,1,31,0,4,10,4,9,8,0.5593370949184857,0.35
+45,Yes,Rarely,281,Logistics,34,3,Dairy Science,1,631,2,Male,144,4,4,Milk Processing Operator,1,Single,72927,8301,6,Yes,14,2,2,2,15,3,4,16,15,4,2,0.2236359040543256,0.45
+44,Yes,Non-Travel,1033,Quality Control,46,4,Biotechnology,1,632,2,Female,119,4,4,Cold Storage Supervisor,2,Single,29304,13885,4,No,16,1,4,0,27,1,4,6,6,13,3,0.5611920899796001,0.4
+41,No,Frequently,532,Production,45,4,Logistics,1,633,2,Female,134,2,4,Logistics & Supply Chain Coordinator,1,Married,37032,18482,9,Yes,22,4,3,2,15,5,1,14,5,6,12,0.6159878142210615,0.35
+46,No,Non-Travel,756,Maintenance,4,1,Mechanical Engineering,1,634,1,Male,139,3,2,Cheese Production Technician,4,Married,111291,4288,7,Yes,24,2,1,0,26,1,1,5,8,3,9,0.4503860537871044,0.5
+32,No,Rarely,534,Logistics,14,3,Dairy Science,1,635,3,Male,108,1,4,Logistics & Supply Chain Coordinator,1,Single,79486,9796,1,No,10,1,3,0,2,4,1,5,6,6,13,0.7338033386654916,0.35
+52,No,Frequently,731,Logistics,14,4,Dairy Science,1,636,1,Female,68,4,3,Cold Storage Supervisor,4,Married,85552,9263,1,Yes,18,4,2,0,20,3,2,17,2,7,5,0.2949998539007037,0.4
+53,No,Rarely,420,Maintenance,16,4,Biotechnology,1,637,2,Female,77,2,2,Dairy Lab Technician,2,Divorced,93844,14777,4,No,23,2,4,1,37,5,1,18,10,14,7,0.8147283869164876,0.55
+54,No,Rarely,834,Quality Control,7,4,Biotechnology,1,638,4,Female,121,2,1,Milk Processing Operator,4,Married,49654,10770,0,No,15,3,4,0,37,5,2,19,11,12,18,0.8688114372732942,0.45
+20,No,Non-Travel,522,Production,32,1,Food Technology,1,639,1,Female,63,2,2,Logistics & Supply Chain Coordinator,4,Divorced,59244,9385,5,No,20,4,3,2,29,5,4,18,10,9,9,0.200864167222022,0.35
+40,No,Rarely,202,Quality Control,19,3,Food Technology,1,640,3,Female,73,1,1,Milk Processing Operator,4,Divorced,25942,16862,3,No,13,3,2,1,21,0,2,1,1,13,4,0.7899051620302115,0.45
+25,No,Non-Travel,405,Farm Operations,2,2,Food Technology,1,641,2,Female,93,1,1,Cold Storage Supervisor,1,Divorced,70697,10464,5,Yes,15,1,2,1,18,5,4,2,0,9,4,0.5542736042351335,0.4
+47,No,Frequently,239,Logistics,10,3,Biotechnology,1,642,1,Male,105,3,3,Dairy Lab Technician,3,Married,22693,6881,6,No,14,2,4,0,30,5,2,13,1,3,4,0.5229839436869617,0.55
+36,No,Rarely,258,Farm Operations,17,3,Food Technology,1,643,4,Male,139,2,4,Milk Processing Operator,4,Divorced,76751,18018,2,No,12,1,1,1,19,3,1,21,13,14,8,0.3670753748120667,0.45
+24,No,Frequently,1150,Logistics,37,1,Food Technology,1,644,1,Male,144,1,4,Cheese Production Technician,1,Divorced,101098,17691,7,No,16,2,2,0,18,1,1,24,12,4,8,0.5131275287781456,0.5
+50,Yes,Frequently,773,Logistics,12,4,Mechanical Engineering,1,645,3,Male,100,2,2,Milk Processing Operator,1,Married,26259,11367,6,No,12,2,4,2,1,1,2,3,4,10,14,0.8652990047410962,0.45
+24,No,Rarely,843,Farm Operations,6,4,Food Technology,1,646,1,Female,81,4,4,Packaging Machine Operator,1,Divorced,24942,2413,0,No,22,3,4,1,39,2,2,21,1,2,8,0.3475513437680686,0.4
+57,No,Non-Travel,1042,Farm Operations,22,1,Dairy Science,1,647,4,Male,99,2,3,Cheese Production Technician,3,Married,67419,19934,5,No,23,1,2,1,38,2,1,16,18,4,13,0.3253288669155336,0.5
+22,No,Frequently,1345,Quality Control,32,1,Biotechnology,1,648,4,Male,90,3,2,Milk Processing Operator,3,Single,76105,16714,6,No,24,3,2,2,26,4,4,27,16,7,5,0.3693274128416136,0.45
+42,No,Rarely,818,Farm Operations,41,1,Logistics,1,649,3,Female,115,1,2,Maintenance Engineer,3,Divorced,85907,9141,3,No,22,3,3,2,7,3,4,5,10,2,19,0.5862839360360865,0.6
+56,Yes,Frequently,295,Quality Control,20,1,Mechanical Engineering,1,650,4,Male,74,4,2,Maintenance Engineer,3,Married,47383,15182,1,No,11,3,1,0,26,2,4,27,15,14,7,0.8512098708033098,0.6
+56,No,Non-Travel,1458,Quality Control,1,1,Biotechnology,1,651,2,Female,110,1,4,Cheese Production Technician,2,Single,43404,18225,9,No,23,1,3,1,14,2,4,18,19,13,1,0.6017171135356802,0.5
+29,No,Rarely,1097,Quality Control,47,2,Biotechnology,1,652,4,Female,115,4,4,Milk Processing Operator,3,Divorced,92656,3946,8,No,13,2,3,2,11,3,3,8,17,12,4,0.3704377336240746,0.45
+29,No,Non-Travel,1285,Logistics,6,3,Dairy Science,1,653,2,Female,91,2,4,Dairy Quality Analyst,3,Divorced,25702,2191,6,No,16,2,4,1,13,1,4,3,19,4,16,0.5083166207248835,0.55
+38,No,Rarely,1479,Logistics,19,3,Food Technology,1,654,1,Female,114,2,2,Logistics & Supply Chain Coordinator,3,Married,93883,18424,0,No,14,1,4,2,6,4,3,6,7,9,9,0.473280092250022,0.35
+36,No,Frequently,760,Farm Operations,18,3,Dairy Science,1,655,2,Female,85,3,2,Maintenance Engineer,4,Single,76332,16175,7,No,23,2,1,1,16,4,3,3,1,0,13,0.232598628903706,0.6
+40,No,Frequently,1104,Logistics,6,4,Food Technology,1,656,2,Male,125,3,1,Dairy Quality Analyst,4,Married,59419,12051,2,Yes,18,1,3,2,25,4,1,10,16,1,17,0.557449293970341,0.55
+33,No,Rarely,547,Farm Operations,45,2,Food Technology,1,657,1,Male,58,4,1,Farm Liaison Officer,3,Divorced,110576,7892,3,No,19,1,3,1,36,2,1,21,10,2,0,0.2882044706435717,0.3
+28,No,Rarely,870,Logistics,33,3,Biotechnology,1,658,4,Male,85,3,4,Logistics & Supply Chain Coordinator,2,Divorced,108078,5449,4,Yes,24,2,4,0,19,1,2,29,13,0,1,0.7895708294587125,0.35
+20,No,Frequently,1347,Production,23,4,Food Technology,1,659,2,Female,141,3,2,Cheese Production Technician,4,Divorced,93844,10327,0,No,16,4,4,1,9,4,4,22,15,12,3,0.5842740365071277,0.5
+32,No,Rarely,516,Production,23,2,Mechanical Engineering,1,660,4,Male,87,3,4,Maintenance Engineer,1,Divorced,59242,7909,5,No,21,3,2,0,18,3,4,1,14,10,12,0.791224537832163,0.6
+23,No,Frequently,918,Farm Operations,26,2,Mechanical Engineering,1,661,1,Male,82,3,4,Dairy Lab Technician,4,Single,54142,14393,9,Yes,23,1,3,0,17,4,1,9,14,11,15,0.8692312811646288,0.55
+20,No,Rarely,1271,Logistics,13,4,Mechanical Engineering,1,662,3,Male,91,2,1,Maintenance Engineer,1,Single,116226,3941,5,No,18,1,1,0,29,0,1,5,2,10,4,0.8602318035251935,0.6
+59,No,Non-Travel,1359,Logistics,7,2,Biotechnology,1,663,4,Male,110,3,3,Cold Storage Supervisor,4,Married,27393,6221,1,No,23,4,3,1,29,1,1,7,6,8,9,0.2703005340152876,0.4
+51,No,Frequently,1424,Quality Control,15,4,Dairy Science,1,664,4,Female,95,2,4,Maintenance Engineer,3,Married,89939,8543,9,Yes,18,1,4,1,24,0,2,14,11,8,16,0.861371950085005,0.6
+53,Yes,Non-Travel,449,Maintenance,44,3,Logistics,1,665,3,Male,135,2,3,Dairy Lab Technician,4,Married,89082,19942,5,No,21,1,2,0,23,1,4,12,2,4,10,0.757023045452657,0.55
+47,No,Rarely,513,Farm Operations,27,4,Food Technology,1,666,3,Female,138,1,3,Dairy Lab Technician,3,Divorced,48893,16012,7,No,11,2,3,2,9,5,2,28,18,13,4,0.7443606736825537,0.55
+50,Yes,Frequently,1006,Maintenance,26,2,Logistics,1,667,1,Female,110,2,2,Cheese Production Technician,3,Married,29388,4121,5,Yes,24,2,1,1,1,3,3,27,9,3,14,0.2630899781877228,0.5
+27,No,Frequently,684,Maintenance,33,3,Dairy Science,1,668,4,Male,67,2,2,Dairy Lab Technician,4,Single,82969,19412,3,No,10,4,4,1,37,5,3,21,7,4,3,0.3256602915985194,0.55
+58,No,Rarely,1434,Farm Operations,15,3,Dairy Science,1,669,4,Female,119,3,4,Maintenance Engineer,1,Married,56660,13726,3,No,20,1,2,1,31,2,4,1,15,3,6,0.8826143659403378,0.6
+45,No,Rarely,243,Logistics,36,1,Biotechnology,1,670,1,Female,131,2,1,Cheese Production Technician,1,Married,109244,7656,8,Yes,13,3,3,1,34,2,1,19,15,11,9,0.349359110008706,0.5
+53,No,Rarely,770,Farm Operations,45,1,Mechanical Engineering,1,671,4,Female,129,4,1,Milk Processing Operator,4,Single,44726,10967,5,Yes,13,2,1,0,36,5,1,0,11,4,3,0.3183373311171804,0.45
+22,No,Frequently,782,Maintenance,27,2,Mechanical Engineering,1,672,2,Female,64,3,4,Maintenance Engineer,3,Single,99544,17764,7,No,22,3,4,2,6,1,2,14,4,6,19,0.4536461330966275,0.6
+31,No,Frequently,1315,Logistics,5,4,Dairy Science,1,673,2,Female,97,3,4,Packaging Machine Operator,1,Divorced,82996,17873,7,No,11,3,1,2,6,4,3,6,19,10,4,0.8393493382744233,0.4
+20,No,Rarely,1488,Production,2,4,Biotechnology,1,674,2,Female,121,3,1,Logistics & Supply Chain Coordinator,2,Single,20111,13079,6,Yes,12,4,3,2,26,0,3,23,5,7,4,0.5333354244895889,0.35
+24,No,Frequently,1094,Farm Operations,33,2,Biotechnology,1,675,4,Female,62,1,3,Dairy Lab Technician,3,Single,37545,4271,2,Yes,12,4,4,2,9,3,4,25,5,1,10,0.8444086033623606,0.55
+49,No,Rarely,419,Farm Operations,16,3,Food Technology,1,676,2,Male,92,3,4,Farm Liaison Officer,4,Married,60168,3607,9,No,14,1,3,0,32,4,3,17,7,3,18,0.434037146290665,0.3
+49,No,Rarely,1124,Logistics,23,2,Mechanical Engineering,1,677,2,Male,109,2,3,Cold Storage Supervisor,3,Single,22379,17679,0,No,10,4,2,1,6,2,1,9,16,7,4,0.3585700516588995,0.4
+36,No,Non-Travel,600,Production,38,2,Dairy Science,1,678,1,Female,106,4,4,Packaging Machine Operator,2,Divorced,115773,18989,4,No,18,2,3,1,5,4,1,14,11,6,7,0.5466421061957248,0.4
+42,No,Non-Travel,926,Production,16,3,Logistics,1,679,1,Female,120,3,4,Dairy Lab Technician,2,Married,107346,5665,9,No,17,1,2,0,5,5,1,4,13,8,6,0.6308338231833219,0.55
+34,No,Frequently,1190,Logistics,14,4,Mechanical Engineering,1,680,3,Male,66,3,3,Maintenance Engineer,1,Divorced,61120,18308,9,No,17,1,3,1,12,5,4,26,1,4,7,0.4740492990294892,0.6
+56,No,Rarely,1098,Quality Control,29,2,Food Technology,1,681,3,Male,99,4,3,Cheese Production Technician,2,Single,37809,7852,1,No,12,3,1,0,12,0,2,23,18,5,12,0.4422213567161722,0.5
+40,No,Frequently,1057,Farm Operations,26,4,Biotechnology,1,682,3,Male,81,3,1,Packaging Machine Operator,3,Divorced,72813,7462,9,No,11,3,1,2,1,2,3,10,5,14,4,0.3526414993412726,0.4
+33,No,Rarely,1003,Farm Operations,35,2,Dairy Science,1,683,3,Male,71,1,4,Farm Liaison Officer,1,Divorced,94005,6270,1,No,10,3,4,0,18,1,4,7,17,10,17,0.39250473635524,0.3
+21,No,Rarely,689,Maintenance,15,3,Mechanical Engineering,1,684,1,Female,104,2,2,Logistics & Supply Chain Coordinator,2,Single,47967,17697,6,No,21,1,1,1,18,3,2,20,3,7,8,0.6711825742066105,0.35
+30,No,Rarely,1137,Logistics,3,3,Logistics,1,685,1,Female,106,4,2,Cheese Production Technician,1,Single,29748,19760,2,No,15,4,1,1,37,5,4,7,4,14,1,0.4589114770295745,0.5
+58,No,Frequently,1043,Maintenance,23,1,Food Technology,1,686,1,Male,62,4,4,Cold Storage Supervisor,1,Married,43424,5462,7,No,22,4,2,1,1,3,3,29,5,11,15,0.2558299292047199,0.4
+57,No,Frequently,1492,Maintenance,29,3,Food Technology,1,687,2,Male,96,1,4,Dairy Quality Analyst,4,Married,106512,17474,8,No,19,4,1,2,25,2,1,5,14,13,13,0.2967087729667742,0.55
+53,Yes,Rarely,466,Production,34,1,Mechanical Engineering,1,688,2,Male,136,2,4,Cold Storage Supervisor,1,Married,43914,2347,7,No,10,1,2,0,5,1,2,14,5,14,16,0.4606654318737775,0.4
+57,No,Frequently,253,Farm Operations,33,2,Logistics,1,689,3,Male,111,1,3,Packaging Machine Operator,1,Single,115603,18384,5,Yes,23,1,2,0,19,5,2,14,7,10,5,0.8471517008935032,0.4
+53,No,Non-Travel,727,Maintenance,41,4,Food Technology,1,690,2,Female,103,2,2,Dairy Lab Technician,2,Divorced,98478,2062,4,No,20,1,2,1,22,0,4,4,8,14,2,0.4653211831521862,0.55
+37,No,Rarely,815,Production,41,3,Dairy Science,1,691,4,Male,78,1,2,Milk Processing Operator,3,Divorced,39491,3783,2,No,14,1,3,0,14,3,4,12,5,4,16,0.2424494542161727,0.45
+49,No,Frequently,1282,Logistics,23,3,Food Technology,1,692,1,Male,71,3,2,Dairy Lab Technician,3,Married,69454,10417,2,Yes,18,1,2,1,5,2,1,13,1,13,12,0.4925959805160111,0.55
+34,No,Non-Travel,1263,Maintenance,7,3,Logistics,1,693,3,Male,114,1,4,Logistics & Supply Chain Coordinator,2,Married,90069,8566,6,No,20,4,3,0,27,3,4,10,15,8,5,0.668172315772116,0.35
+46,No,Rarely,1460,Farm Operations,3,2,Biotechnology,1,694,3,Female,78,4,3,Packaging Machine Operator,3,Single,71925,19426,4,Yes,18,1,2,2,34,1,3,19,19,3,7,0.6155172944637546,0.4
+53,No,Rarely,1154,Maintenance,32,1,Biotechnology,1,695,4,Female,97,4,4,Milk Processing Operator,1,Divorced,109119,12872,5,No,22,4,3,2,10,0,3,20,0,7,5,0.395162073670221,0.45
+57,No,Frequently,585,Logistics,31,2,Mechanical Engineering,1,696,2,Female,54,4,1,Cheese Production Technician,4,Married,57049,17318,5,Yes,21,1,4,0,7,1,3,11,15,11,15,0.6816622461340858,0.5
+52,No,Frequently,933,Maintenance,18,4,Logistics,1,697,3,Male,84,1,1,Milk Processing Operator,1,Single,47821,3234,8,No,24,4,4,2,23,5,3,19,0,13,5,0.6414370617057327,0.45
+43,No,Non-Travel,915,Farm Operations,43,2,Food Technology,1,698,2,Male,123,4,2,Logistics & Supply Chain Coordinator,1,Married,115797,3984,0,No,13,2,3,2,20,4,1,0,0,2,16,0.320521078180278,0.35
+34,Yes,Rarely,849,Production,7,4,Food Technology,1,699,2,Male,132,4,4,Maintenance Engineer,4,Single,49945,19978,7,Yes,16,2,4,2,35,1,1,2,6,4,2,0.3135015024977715,0.6
+49,Yes,Non-Travel,499,Farm Operations,41,3,Biotechnology,1,700,4,Female,120,3,1,Farm Liaison Officer,2,Divorced,37384,3952,9,No,23,4,1,1,6,1,1,7,15,14,11,0.5830281574475585,0.3
+36,No,Rarely,594,Production,1,4,Biotechnology,1,701,3,Female,95,3,1,Dairy Lab Technician,1,Single,48410,19338,4,Yes,20,2,2,0,4,3,4,22,16,7,5,0.6616069927812727,0.55
+24,No,Rarely,1430,Quality Control,14,4,Dairy Science,1,702,2,Male,84,2,4,Packaging Machine Operator,1,Married,97734,5291,5,No,16,2,3,0,28,1,1,11,15,14,6,0.8733374094021824,0.4
+48,No,Frequently,792,Farm Operations,32,1,Biotechnology,1,703,2,Male,94,2,3,Logistics & Supply Chain Coordinator,2,Married,83766,10548,5,No,13,4,4,1,15,2,2,14,15,9,10,0.4953514415122458,0.35
+23,No,Rarely,713,Farm Operations,6,4,Dairy Science,1,704,4,Female,62,2,4,Dairy Quality Analyst,1,Divorced,114890,16504,0,Yes,14,1,4,1,5,5,2,22,5,11,8,0.7354574677703394,0.55
+29,No,Rarely,1401,Logistics,39,4,Food Technology,1,705,4,Male,59,1,4,Farm Liaison Officer,1,Divorced,27169,13787,2,No,20,1,1,2,13,3,2,26,17,6,15,0.2815645231039635,0.3
+36,No,Rarely,595,Maintenance,10,2,Dairy Science,1,706,2,Male,115,2,3,Logistics & Supply Chain Coordinator,3,Married,60129,2968,5,Yes,18,4,2,0,1,3,4,2,2,0,4,0.8227263191209531,0.35
+29,No,Rarely,570,Production,7,3,Dairy Science,1,707,4,Male,119,1,2,Dairy Quality Analyst,2,Married,117445,18625,8,No,16,3,1,1,24,4,4,24,7,11,14,0.6431752789791878,0.55
+36,No,Rarely,1057,Production,26,2,Mechanical Engineering,1,708,2,Female,121,1,2,Dairy Quality Analyst,1,Married,23830,6234,5,No,16,3,3,2,30,5,1,21,3,3,3,0.6403212319458731,0.55
+39,No,Non-Travel,990,Logistics,34,2,Biotechnology,1,709,3,Male,149,2,2,Dairy Quality Analyst,1,Divorced,76306,10338,5,No,19,2,4,0,12,2,3,7,3,1,4,0.2997098436827048,0.55
+43,No,Rarely,857,Logistics,30,3,Dairy Science,1,710,1,Male,74,2,3,Maintenance Engineer,4,Married,106940,9349,0,No,16,3,4,2,17,5,2,23,16,1,6,0.2277086106681285,0.6
+24,No,Frequently,935,Maintenance,36,3,Food Technology,1,711,4,Male,93,1,1,Milk Processing Operator,4,Divorced,85267,15368,8,No,24,2,4,0,16,1,4,18,4,12,2,0.6910143965892337,0.45
+53,Yes,Frequently,583,Maintenance,21,4,Logistics,1,712,1,Male,109,3,3,Cold Storage Supervisor,4,Married,47757,17201,3,No,18,1,1,2,27,4,2,19,13,14,3,0.2819395212752106,0.4
+25,No,Non-Travel,261,Farm Operations,17,4,Dairy Science,1,713,2,Female,96,4,4,Dairy Lab Technician,1,Single,83867,18070,1,No,14,4,1,0,11,2,1,29,14,6,14,0.2888791046387529,0.55
+21,No,Rarely,704,Quality Control,33,1,Biotechnology,1,714,2,Female,89,4,3,Dairy Quality Analyst,1,Single,55650,10734,0,Yes,15,1,2,0,34,4,4,5,11,11,1,0.3312501024428895,0.55
+32,No,Non-Travel,438,Maintenance,10,2,Mechanical Engineering,1,715,2,Female,56,4,1,Logistics & Supply Chain Coordinator,4,Married,53766,10883,2,No,12,4,3,0,21,5,3,17,12,11,4,0.2684225381977217,0.35
+30,No,Frequently,394,Logistics,47,3,Food Technology,1,716,1,Male,95,3,1,Cheese Production Technician,3,Single,101478,3025,2,Yes,10,3,2,0,38,0,3,27,17,2,6,0.6377747643012147,0.5
+42,No,Frequently,877,Maintenance,42,4,Mechanical Engineering,1,717,2,Female,72,1,4,Cheese Production Technician,3,Divorced,52419,14197,4,Yes,20,1,2,2,0,5,4,27,13,2,16,0.4954033640940116,0.5
+35,No,Frequently,1445,Production,12,3,Logistics,1,718,4,Male,132,2,2,Packaging Machine Operator,3,Single,36668,5359,0,No,21,1,4,1,36,1,3,10,18,14,7,0.3862672646866837,0.4
+50,No,Non-Travel,260,Quality Control,16,4,Dairy Science,1,719,3,Female,95,1,1,Dairy Quality Analyst,3,Single,36246,7257,6,No,11,2,1,0,20,4,1,11,6,5,8,0.5085245802601036,0.55
+30,No,Rarely,1352,Farm Operations,41,1,Dairy Science,1,720,3,Male,135,1,1,Logistics & Supply Chain Coordinator,2,Divorced,44996,4951,0,No,17,4,3,0,0,0,3,22,5,5,9,0.7908980014456399,0.35
+35,No,Frequently,1189,Production,32,1,Biotechnology,1,721,4,Female,62,2,1,Dairy Quality Analyst,4,Single,71312,9389,3,No,22,3,2,0,3,1,2,1,4,0,10,0.8489555835305453,0.55
+27,No,Frequently,884,Production,15,3,Dairy Science,1,722,3,Female,70,3,4,Maintenance Engineer,1,Single,23065,16666,5,No,10,1,3,0,31,4,2,26,3,14,0,0.5412333012574091,0.6
+23,No,Frequently,355,Quality Control,27,1,Food Technology,1,723,1,Female,50,4,1,Dairy Quality Analyst,4,Married,30467,16952,0,No,19,4,4,2,0,4,2,4,17,14,14,0.5967270405789618,0.55
+59,No,Non-Travel,1122,Farm Operations,28,3,Logistics,1,724,2,Male,68,4,2,Dairy Lab Technician,3,Divorced,70646,16227,6,Yes,16,3,2,1,12,5,4,27,13,14,7,0.380039951237911,0.55
+23,No,Rarely,1067,Logistics,17,4,Mechanical Engineering,1,725,2,Male,109,1,4,Cheese Production Technician,1,Divorced,41007,19534,9,No,14,1,1,1,16,4,4,3,15,0,18,0.5595202650459834,0.5
+44,Yes,Non-Travel,1102,Farm Operations,46,2,Logistics,1,726,2,Male,82,3,2,Dairy Quality Analyst,2,Married,88079,17624,6,No,22,4,2,1,11,4,4,8,19,10,11,0.7236837248546626,0.55
+22,No,Rarely,1198,Maintenance,2,1,Dairy Science,1,727,1,Female,53,4,1,Dairy Lab Technician,4,Married,48702,3735,2,No,15,2,4,2,6,3,4,12,13,5,5,0.5444960845593186,0.55
+51,No,Rarely,1174,Production,36,4,Mechanical Engineering,1,728,1,Male,52,3,1,Dairy Lab Technician,1,Single,114369,19422,3,No,17,1,2,1,2,4,4,12,4,6,9,0.4114510305524188,0.55
+22,No,Rarely,1430,Maintenance,7,2,Biotechnology,1,729,1,Male,140,2,2,Milk Processing Operator,1,Single,95569,8369,5,No,13,4,4,2,25,5,1,14,10,8,4,0.6074240430574713,0.45
+46,No,Rarely,587,Logistics,13,2,Logistics,1,730,4,Male,101,1,4,Dairy Lab Technician,3,Single,73952,9127,6,No,15,3,2,2,30,3,4,1,11,3,6,0.8626592216200912,0.55
+48,No,Frequently,1086,Maintenance,15,2,Mechanical Engineering,1,731,1,Male,148,1,4,Cheese Production Technician,3,Married,78065,4912,3,No,23,3,3,0,35,3,3,22,17,13,6,0.8215886977881781,0.5
+51,Yes,Rarely,1037,Farm Operations,25,4,Mechanical Engineering,1,732,3,Male,77,3,2,Packaging Machine Operator,4,Divorced,54169,17464,9,No,20,2,1,2,25,0,1,12,3,9,8,0.7384696654228193,0.4
+38,No,Rarely,539,Maintenance,23,4,Mechanical Engineering,1,733,4,Male,119,4,1,Maintenance Engineer,2,Single,36829,14606,8,No,12,1,4,1,2,1,4,6,12,5,14,0.3933467428656463,0.6
+40,No,Non-Travel,403,Logistics,22,3,Food Technology,1,734,4,Female,119,3,3,Cheese Production Technician,1,Married,80135,3242,8,Yes,16,2,3,1,27,3,3,22,19,11,5,0.369091655051481,0.5
+24,No,Non-Travel,360,Logistics,26,2,Logistics,1,735,4,Female,104,2,2,Logistics & Supply Chain Coordinator,3,Divorced,24522,17636,8,Yes,11,4,4,1,16,2,1,16,12,2,15,0.7869760328583184,0.35
+37,No,Non-Travel,591,Logistics,33,2,Mechanical Engineering,1,736,1,Male,106,4,2,Packaging Machine Operator,4,Married,105687,12108,9,Yes,21,3,2,0,37,3,2,7,3,12,6,0.3269222332574716,0.4
+47,No,Non-Travel,968,Farm Operations,11,2,Logistics,1,737,4,Female,136,4,2,Dairy Lab Technician,3,Single,55319,10098,5,No,17,2,4,0,29,2,1,17,6,12,14,0.6239279152406505,0.55
+41,No,Frequently,774,Logistics,10,3,Mechanical Engineering,1,738,1,Female,146,3,1,Dairy Quality Analyst,4,Married,46543,5412,1,No,22,1,4,0,1,0,4,14,1,10,1,0.5072509605080749,0.55
+40,No,Rarely,733,Production,25,2,Biotechnology,1,739,1,Male,65,2,4,Milk Processing Operator,3,Married,50473,13632,1,No,16,4,1,2,7,2,1,14,17,3,7,0.5275905271046788,0.45
+25,No,Rarely,1293,Logistics,37,4,Biotechnology,1,740,4,Male,73,4,1,Packaging Machine Operator,2,Married,27699,15231,3,Yes,21,1,3,1,13,0,1,4,5,8,11,0.5181803817692785,0.4
+20,Yes,Frequently,1092,Maintenance,48,2,Biotechnology,1,741,2,Female,118,1,2,Logistics & Supply Chain Coordinator,1,Married,88165,17183,8,No,21,2,2,2,36,0,2,1,15,13,10,0.829965102706562,0.35
+24,No,Rarely,604,Maintenance,43,1,Dairy Science,1,742,2,Male,90,2,1,Logistics & Supply Chain Coordinator,3,Divorced,60455,9160,2,No,17,3,1,2,34,0,1,15,2,13,5,0.2609659756268185,0.35
+31,No,Frequently,807,Maintenance,38,4,Mechanical Engineering,1,743,4,Female,126,4,1,Packaging Machine Operator,1,Single,95692,19597,5,No,11,3,4,1,38,2,1,28,14,0,19,0.748031014619269,0.4
+45,No,Rarely,1027,Farm Operations,41,3,Dairy Science,1,744,2,Female,96,3,2,Milk Processing Operator,4,Divorced,37441,13123,1,No,12,2,1,0,10,2,2,4,19,4,12,0.7845088701026983,0.45
+53,Yes,Rarely,1343,Maintenance,45,2,Logistics,1,745,3,Female,125,4,1,Dairy Lab Technician,2,Married,50716,18802,0,No,21,1,4,1,14,0,4,22,9,14,15,0.860014003007443,0.55
+33,Yes,Frequently,889,Farm Operations,24,1,Dairy Science,1,746,3,Male,118,1,3,Logistics & Supply Chain Coordinator,1,Married,82175,6960,4,Yes,13,1,2,2,1,0,3,5,8,14,7,0.5168199684563979,0.35
+45,No,Frequently,1101,Farm Operations,40,3,Logistics,1,747,1,Female,80,2,1,Dairy Lab Technician,3,Single,26834,2788,7,Yes,21,1,4,2,36,1,1,28,10,10,16,0.5500456343208416,0.55
+46,No,Frequently,1440,Logistics,46,3,Logistics,1,748,2,Male,141,4,1,Logistics & Supply Chain Coordinator,1,Single,38179,15350,9,Yes,18,1,1,0,31,0,2,11,13,6,12,0.8729061647986416,0.35
+28,No,Frequently,255,Production,33,4,Logistics,1,749,3,Male,141,1,4,Packaging Machine Operator,1,Divorced,46219,4446,9,No,21,3,1,2,39,4,1,4,11,2,3,0.5209157426644141,0.4
+45,No,Rarely,565,Logistics,17,3,Dairy Science,1,750,4,Male,79,4,4,Dairy Quality Analyst,4,Divorced,35782,18183,1,Yes,21,1,4,2,12,1,4,19,6,14,19,0.5524839310833805,0.55
+41,No,Rarely,654,Logistics,24,3,Mechanical Engineering,1,751,2,Male,67,4,2,Cheese Production Technician,2,Single,101363,10752,9,No,14,2,3,1,16,1,4,7,10,1,9,0.4325780227325688,0.5
+49,No,Non-Travel,303,Farm Operations,37,3,Dairy Science,1,752,3,Male,93,2,2,Maintenance Engineer,2,Divorced,94967,15440,8,No,15,2,1,0,14,1,2,10,16,12,19,0.2221392154792549,0.6
+36,No,Frequently,276,Farm Operations,2,3,Mechanical Engineering,1,753,3,Female,76,3,4,Logistics & Supply Chain Coordinator,1,Married,29496,14096,7,No,10,2,3,1,32,4,3,13,8,10,15,0.5031381862330448,0.35
+45,No,Rarely,429,Maintenance,32,2,Mechanical Engineering,1,754,4,Male,148,3,3,Farm Liaison Officer,1,Married,108867,18923,2,No,13,2,3,1,15,1,3,23,12,1,16,0.6585639175931701,0.3
+55,No,Non-Travel,1481,Maintenance,24,2,Logistics,1,755,1,Male,75,1,1,Cold Storage Supervisor,4,Single,59238,8499,0,Yes,23,1,3,1,12,1,1,16,15,0,7,0.68296213742949,0.4
+20,No,Rarely,1487,Logistics,9,2,Dairy Science,1,756,4,Male,109,1,3,Dairy Quality Analyst,1,Divorced,66025,16767,3,No,13,3,3,2,21,2,2,9,2,4,10,0.2045560528192266,0.55
+27,No,Rarely,530,Quality Control,4,2,Mechanical Engineering,1,757,1,Male,67,1,3,Farm Liaison Officer,4,Married,79886,13337,7,No,19,4,1,2,22,5,3,1,4,12,4,0.76073694234098,0.3
+54,No,Rarely,1405,Quality Control,17,1,Biotechnology,1,758,3,Male,146,2,4,Dairy Lab Technician,2,Single,43563,17819,2,Yes,17,1,1,0,35,2,4,2,16,2,15,0.5446909298899829,0.55
+34,No,Frequently,1092,Maintenance,17,2,Mechanical Engineering,1,759,1,Female,138,3,2,Maintenance Engineer,2,Divorced,23712,17784,9,No,17,4,3,2,9,0,3,12,0,10,7,0.564521752970335,0.6
+41,No,Frequently,887,Quality Control,48,3,Biotechnology,1,760,3,Male,105,1,1,Milk Processing Operator,4,Married,114067,7311,1,No,19,3,1,0,16,0,2,16,8,11,15,0.8732205817192571,0.45
+33,No,Rarely,226,Maintenance,30,2,Dairy Science,1,761,3,Male,80,1,2,Milk Processing Operator,1,Divorced,65489,13452,6,No,15,1,3,1,29,3,4,26,16,6,3,0.3991228110590725,0.45
+45,No,Non-Travel,1499,Farm Operations,40,2,Dairy Science,1,762,2,Female,108,4,3,Maintenance Engineer,2,Divorced,52664,16574,3,No,17,4,3,1,12,5,1,2,12,0,5,0.7331563922777171,0.6
+47,No,Rarely,498,Logistics,11,4,Dairy Science,1,763,1,Male,51,4,3,Dairy Quality Analyst,3,Divorced,32420,17952,5,No,18,3,3,2,29,4,4,9,14,8,7,0.6023433719705895,0.55
+42,Yes,Rarely,1156,Production,21,3,Mechanical Engineering,1,764,1,Female,146,1,2,Dairy Quality Analyst,4,Single,74610,4500,4,No,14,4,4,2,29,2,3,27,7,13,8,0.6905589230906268,0.55
+33,No,Rarely,998,Logistics,21,2,Food Technology,1,765,1,Female,88,4,2,Maintenance Engineer,2,Married,25315,16718,1,Yes,10,2,2,0,6,0,3,7,7,1,12,0.492472216246787,0.6
+43,No,Rarely,1314,Maintenance,18,2,Mechanical Engineering,1,766,4,Female,110,4,4,Dairy Quality Analyst,2,Single,90917,4829,9,Yes,10,2,1,2,9,4,3,3,1,7,16,0.3954452772749879,0.55
+21,No,Rarely,679,Maintenance,29,2,Mechanical Engineering,1,767,2,Female,112,4,2,Maintenance Engineer,2,Married,95033,2047,1,Yes,11,3,1,2,34,1,1,12,9,9,8,0.5822881666582541,0.6
+45,No,Frequently,772,Logistics,24,1,Logistics,1,768,2,Male,145,2,2,Logistics & Supply Chain Coordinator,3,Married,114576,4364,8,No,11,3,3,2,1,4,3,28,4,3,12,0.4624588024468529,0.35
+33,No,Non-Travel,657,Maintenance,10,2,Logistics,1,769,2,Male,67,1,4,Cold Storage Supervisor,3,Single,117911,14864,9,No,14,4,4,1,29,2,2,6,15,5,8,0.3560378251807647,0.4
+26,No,Frequently,564,Quality Control,45,4,Mechanical Engineering,1,770,4,Female,66,1,2,Dairy Lab Technician,3,Single,99030,10177,1,No,16,3,4,2,18,5,1,6,18,8,5,0.7874653036796337,0.55
+22,No,Rarely,1058,Quality Control,17,3,Biotechnology,1,771,1,Female,147,4,3,Cheese Production Technician,1,Married,83910,15347,7,No,16,2,1,2,38,3,4,15,0,6,9,0.5330821165009039,0.5
+42,No,Rarely,550,Maintenance,18,3,Logistics,1,772,1,Male,88,2,2,Packaging Machine Operator,4,Married,117288,9931,7,No,24,2,3,1,36,2,3,26,12,14,4,0.7931210188336295,0.4
+37,No,Rarely,452,Maintenance,42,2,Mechanical Engineering,1,773,1,Female,120,4,1,Cold Storage Supervisor,1,Married,80972,14841,0,No,13,1,1,1,2,5,2,4,3,7,6,0.5318221076582441,0.4
+57,No,Rarely,980,Quality Control,48,2,Food Technology,1,774,2,Female,103,2,3,Cheese Production Technician,3,Divorced,110893,13844,0,No,22,4,3,1,24,0,2,27,6,14,10,0.5897583883986857,0.5
+54,No,Frequently,1002,Maintenance,20,2,Biotechnology,1,775,2,Female,148,1,4,Packaging Machine Operator,4,Married,75919,10594,3,Yes,13,3,3,1,33,0,1,16,0,6,8,0.8966961689197683,0.4
+34,No,Rarely,1211,Maintenance,37,3,Dairy Science,1,776,3,Male,143,4,3,Milk Processing Operator,1,Single,102486,15418,1,No,23,3,2,2,21,4,2,9,1,1,9,0.8660529484246118,0.45
+44,No,Frequently,658,Logistics,45,3,Mechanical Engineering,1,777,4,Female,125,1,4,Cold Storage Supervisor,1,Single,101288,4086,0,No,23,3,3,2,37,2,1,3,15,8,10,0.3901829094668234,0.4
+56,Yes,Non-Travel,1116,Production,18,1,Mechanical Engineering,1,778,4,Male,84,2,1,Farm Liaison Officer,1,Single,24132,12419,8,Yes,20,4,2,2,13,0,1,22,13,14,2,0.8080587705144553,0.3
+47,Yes,Rarely,698,Quality Control,17,4,Biotechnology,1,779,2,Male,60,3,1,Cold Storage Supervisor,3,Married,61598,13602,2,No,24,2,1,0,38,1,1,13,4,0,7,0.4732824385880352,0.4
+29,No,Non-Travel,1149,Logistics,9,1,Logistics,1,780,3,Male,110,2,3,Dairy Quality Analyst,2,Married,113812,13182,0,No,19,3,1,1,1,1,4,4,13,13,16,0.2498741165372749,0.55
+58,No,Frequently,707,Production,14,4,Logistics,1,781,1,Female,93,3,2,Cheese Production Technician,4,Divorced,40551,14835,1,Yes,12,3,4,2,31,3,4,1,16,1,6,0.6030467103777802,0.5
+36,No,Frequently,700,Maintenance,49,1,Logistics,1,782,2,Female,117,1,3,Dairy Quality Analyst,3,Divorced,112511,19533,7,Yes,20,2,2,2,2,4,2,13,11,2,11,0.8839363016179647,0.55
+58,No,Frequently,1002,Maintenance,29,3,Dairy Science,1,783,4,Male,74,1,3,Milk Processing Operator,4,Single,88206,18446,4,Yes,11,3,1,2,7,0,4,23,19,2,15,0.8820195809036997,0.45
+41,No,Rarely,797,Logistics,31,1,Biotechnology,1,784,4,Male,97,4,1,Dairy Lab Technician,3,Divorced,94900,5153,6,No,12,1,2,1,25,3,1,17,11,13,14,0.2885257647137276,0.55
+45,No,Rarely,365,Maintenance,4,4,Biotechnology,1,785,4,Male,81,3,4,Milk Processing Operator,1,Divorced,46296,11200,5,No,17,2,1,1,31,1,1,26,2,9,12,0.7398656666324948,0.45
+44,Yes,Rarely,661,Farm Operations,18,2,Logistics,1,786,1,Female,133,2,3,Dairy Quality Analyst,1,Single,110216,12223,0,No,24,2,2,1,10,3,4,23,1,3,17,0.7619831309751453,0.55
+36,No,Rarely,1119,Logistics,20,4,Logistics,1,787,4,Female,144,1,2,Dairy Quality Analyst,2,Married,38066,12273,5,No,10,2,2,2,0,3,2,28,14,4,17,0.458121349021662,0.55
+32,No,Frequently,313,Production,47,2,Food Technology,1,788,1,Male,53,3,1,Cheese Production Technician,2,Divorced,48892,2751,6,No,13,1,3,1,14,0,1,10,10,5,4,0.6610166268319299,0.5
+39,No,Rarely,1191,Logistics,43,3,Food Technology,1,789,1,Male,87,2,3,Logistics & Supply Chain Coordinator,4,Married,95577,10849,3,No,16,2,1,2,3,0,4,15,9,0,13,0.5417116347940552,0.35
+44,No,Non-Travel,406,Quality Control,44,4,Mechanical Engineering,1,790,1,Female,112,3,3,Dairy Quality Analyst,2,Single,94590,19084,7,No,14,4,4,0,3,0,3,17,17,13,10,0.3595251683969487,0.55
+23,No,Frequently,1458,Logistics,9,1,Mechanical Engineering,1,791,2,Male,96,2,2,Dairy Quality Analyst,2,Single,97173,18220,7,No,11,4,3,1,27,4,2,26,1,12,2,0.7328849968574913,0.55
+29,No,Rarely,714,Maintenance,13,4,Biotechnology,1,792,1,Female,50,2,3,Dairy Lab Technician,4,Divorced,96293,12348,6,No,10,4,4,1,9,3,2,15,6,7,16,0.3839268954686892,0.55
+22,No,Rarely,1431,Maintenance,15,2,Biotechnology,1,793,3,Female,52,2,3,Cold Storage Supervisor,3,Single,84771,19924,1,No,15,2,2,2,10,3,2,20,6,5,11,0.4383134271291614,0.4
+37,No,Non-Travel,908,Farm Operations,27,3,Dairy Science,1,794,4,Male,135,2,3,Cold Storage Supervisor,2,Single,47484,8167,5,No,22,2,3,1,22,4,3,3,6,9,2,0.3330128834408227,0.4
+55,No,Non-Travel,1348,Farm Operations,15,1,Dairy Science,1,795,2,Male,111,3,3,Dairy Quality Analyst,3,Single,97865,8364,5,No,22,2,2,1,2,1,1,0,13,8,1,0.703489912652093,0.55
+41,No,Frequently,337,Farm Operations,28,4,Food Technology,1,796,4,Female,113,3,2,Milk Processing Operator,1,Divorced,119074,3983,6,Yes,14,1,1,2,38,2,2,13,1,4,3,0.5211068376814055,0.45
+53,No,Rarely,538,Production,37,2,Mechanical Engineering,1,797,1,Female,66,4,3,Dairy Lab Technician,2,Divorced,47115,16629,5,Yes,12,4,1,2,38,1,4,11,1,6,17,0.5103612783872532,0.55
+27,No,Rarely,736,Farm Operations,19,1,Food Technology,1,798,2,Female,127,3,3,Milk Processing Operator,1,Divorced,46038,18288,1,No,20,3,4,2,16,4,2,23,14,10,19,0.6231940068230089,0.45
+59,No,Rarely,267,Production,26,3,Food Technology,1,799,3,Female,111,3,3,Packaging Machine Operator,1,Single,56622,13273,7,Yes,20,3,1,0,21,3,4,9,10,3,13,0.3100844130731361,0.4
+38,No,Rarely,582,Farm Operations,26,1,Mechanical Engineering,1,800,1,Female,84,4,1,Logistics & Supply Chain Coordinator,3,Married,55886,9648,3,No,24,2,4,2,26,3,2,27,9,5,7,0.8287077227380315,0.35
+56,No,Frequently,218,Production,25,3,Dairy Science,1,801,4,Male,62,3,2,Cold Storage Supervisor,4,Single,71284,9894,8,No,20,1,2,1,15,0,4,18,2,5,1,0.5255762693651517,0.4
+25,No,Frequently,882,Logistics,26,1,Mechanical Engineering,1,802,3,Female,84,2,1,Cold Storage Supervisor,2,Divorced,29901,15305,7,Yes,18,2,3,0,15,0,4,28,16,12,18,0.4565688010774208,0.4
+45,Yes,Frequently,273,Logistics,26,4,Logistics,1,803,1,Female,92,1,1,Dairy Lab Technician,3,Married,76377,14925,2,Yes,12,3,1,2,39,3,4,3,8,3,9,0.2886834262336347,0.55
+53,No,Non-Travel,772,Maintenance,46,2,Logistics,1,804,3,Female,51,1,2,Maintenance Engineer,4,Married,102910,12327,2,Yes,11,4,2,0,2,3,3,19,14,5,4,0.31756794305719,0.6
+25,No,Frequently,1138,Production,28,4,Logistics,1,805,1,Male,105,4,1,Milk Processing Operator,1,Divorced,69862,13411,7,Yes,14,3,3,0,32,5,3,20,13,7,10,0.844252219739702,0.45
+56,No,Rarely,1499,Quality Control,49,4,Biotechnology,1,806,2,Male,126,3,1,Dairy Lab Technician,2,Married,52806,8900,1,No,18,4,2,1,1,0,3,2,18,10,8,0.5196319233798056,0.55
+52,No,Rarely,1271,Maintenance,18,3,Dairy Science,1,807,1,Female,100,3,1,Cheese Production Technician,1,Married,37659,18137,8,No,17,4,4,0,38,0,1,24,16,4,15,0.7055287435514825,0.5
+41,No,Non-Travel,410,Logistics,32,3,Dairy Science,1,808,2,Female,103,4,2,Maintenance Engineer,1,Divorced,43453,5800,3,No,15,1,2,2,26,1,4,3,19,1,4,0.2563614468609732,0.6
+40,No,Rarely,1054,Production,3,3,Biotechnology,1,809,1,Male,65,1,3,Farm Liaison Officer,2,Married,50498,4478,5,No,12,3,4,0,14,3,1,29,16,8,14,0.6504251808885386,0.3
+25,No,Non-Travel,850,Farm Operations,2,4,Food Technology,1,810,1,Male,67,2,4,Milk Processing Operator,4,Married,90393,11967,2,No,15,2,4,0,6,3,3,25,15,10,13,0.8450634346361947,0.45
+25,Yes,Non-Travel,1193,Quality Control,33,1,Logistics,1,811,4,Male,56,3,4,Maintenance Engineer,4,Divorced,36312,12158,2,No,14,1,1,1,8,4,4,14,19,3,8,0.4099744156170438,0.6
+23,No,Rarely,894,Logistics,42,1,Logistics,1,812,3,Male,94,4,2,Dairy Lab Technician,2,Married,21436,9054,2,No,10,4,4,1,5,1,1,10,7,3,19,0.6053983504994075,0.55
+49,No,Frequently,739,Maintenance,19,4,Food Technology,1,813,3,Female,85,2,4,Cheese Production Technician,2,Married,47569,8059,9,No,14,3,4,2,11,2,3,15,6,10,4,0.8581533730210953,0.5
+30,No,Non-Travel,1414,Production,17,4,Mechanical Engineering,1,814,3,Male,90,4,2,Logistics & Supply Chain Coordinator,3,Married,78813,11959,1,Yes,23,2,2,1,29,2,1,26,11,6,14,0.7035257876633041,0.35
+49,No,Frequently,1100,Quality Control,44,2,Mechanical Engineering,1,815,1,Female,143,4,2,Maintenance Engineer,3,Married,110485,14007,7,Yes,16,1,4,2,19,2,1,3,0,9,8,0.2436278516688541,0.6
+50,No,Non-Travel,979,Production,33,3,Dairy Science,1,816,1,Female,91,4,4,Logistics & Supply Chain Coordinator,1,Divorced,93229,10433,8,Yes,18,2,4,2,19,5,3,5,11,13,3,0.4651160030823071,0.35
+43,No,Non-Travel,1336,Farm Operations,12,3,Biotechnology,1,817,1,Male,56,1,1,Dairy Quality Analyst,2,Single,65986,8209,7,Yes,21,3,2,1,26,0,4,7,5,9,3,0.2600409292611019,0.55
+28,Yes,Rarely,369,Maintenance,49,4,Dairy Science,1,818,2,Male,64,1,3,Cold Storage Supervisor,4,Single,73177,9115,9,No,24,2,3,0,19,2,2,12,15,5,19,0.8029223173394218,0.4
+22,No,Rarely,1237,Production,3,4,Mechanical Engineering,1,819,2,Male,109,4,4,Packaging Machine Operator,1,Married,29305,15068,2,Yes,10,1,1,1,6,4,2,22,17,13,6,0.6351638908425308,0.4
+50,No,Non-Travel,487,Logistics,43,1,Food Technology,1,820,4,Male,89,3,4,Cold Storage Supervisor,1,Divorced,52646,5368,6,No,12,2,2,0,39,0,1,19,18,3,14,0.86946722138372,0.4
+59,No,Frequently,388,Maintenance,49,4,Dairy Science,1,821,1,Female,132,2,4,Farm Liaison Officer,1,Divorced,112838,18128,9,No,17,3,4,0,39,0,1,3,2,5,16,0.213829430430065,0.3
+56,No,Rarely,1113,Logistics,26,1,Logistics,1,822,3,Female,86,3,4,Cheese Production Technician,1,Married,96126,4827,1,No,15,1,2,2,29,2,1,4,2,2,17,0.496161158897733,0.5
+55,No,Rarely,1378,Production,35,4,Logistics,1,823,3,Female,115,1,2,Logistics & Supply Chain Coordinator,4,Single,60430,17990,3,No,22,4,3,2,7,0,4,9,4,6,6,0.2730548696810763,0.35
+43,No,Frequently,893,Maintenance,8,2,Food Technology,1,824,4,Male,104,2,2,Dairy Lab Technician,1,Married,88659,4487,5,Yes,14,1,2,1,1,1,1,4,2,5,18,0.4453414758339389,0.55
+50,No,Non-Travel,1087,Logistics,36,2,Mechanical Engineering,1,825,3,Female,126,4,3,Logistics & Supply Chain Coordinator,2,Divorced,24158,15347,4,No,22,3,2,0,13,1,1,11,18,2,9,0.3133207763496109,0.35
+25,Yes,Non-Travel,670,Farm Operations,7,1,Logistics,1,826,4,Male,144,3,3,Dairy Lab Technician,3,Divorced,94236,18277,8,Yes,19,2,2,1,9,2,1,0,4,0,12,0.4301556319953941,0.55
+21,No,Frequently,1298,Farm Operations,46,3,Logistics,1,827,1,Female,129,3,4,Dairy Lab Technician,4,Single,96067,3643,9,No,11,4,2,2,17,4,3,28,13,11,1,0.7734834033054203,0.55
+39,No,Rarely,476,Production,46,2,Biotechnology,1,828,3,Male,105,4,4,Farm Liaison Officer,2,Divorced,47738,19596,3,No,12,4,4,0,17,0,2,23,15,9,19,0.3124895285378925,0.3
+47,No,Rarely,1139,Maintenance,36,1,Dairy Science,1,829,1,Female,93,3,4,Maintenance Engineer,2,Divorced,29879,2019,4,No,21,2,2,1,15,3,2,9,0,4,10,0.5315653298665317,0.6
+30,No,Non-Travel,770,Quality Control,16,4,Mechanical Engineering,1,830,2,Female,106,1,3,Cold Storage Supervisor,2,Divorced,25543,2675,3,No,11,3,3,1,4,2,3,28,16,9,4,0.8451081938423683,0.4
+23,Yes,Rarely,1056,Maintenance,24,4,Dairy Science,1,831,3,Male,55,4,4,Dairy Quality Analyst,3,Single,67924,18992,7,No,10,1,2,2,30,5,4,4,10,1,5,0.8991455014980145,0.55
+34,No,Rarely,1200,Farm Operations,1,1,Mechanical Engineering,1,832,2,Female,141,3,1,Logistics & Supply Chain Coordinator,3,Divorced,62348,18445,7,Yes,16,3,2,2,36,0,4,18,8,6,2,0.3754487827225583,0.35
+25,Yes,Rarely,1405,Logistics,49,3,Logistics,1,833,3,Female,81,4,3,Maintenance Engineer,3,Married,104117,11457,2,Yes,23,4,4,2,19,2,4,18,3,12,0,0.8548977195362701,0.6
+49,No,Frequently,657,Quality Control,25,1,Biotechnology,1,834,1,Male,123,2,1,Dairy Quality Analyst,2,Single,56679,3154,0,No,12,1,4,2,22,2,3,19,1,6,2,0.3829720765607178,0.55
+57,No,Non-Travel,1117,Production,10,1,Dairy Science,1,835,4,Male,67,4,4,Cheese Production Technician,3,Married,99118,11820,5,No,16,1,2,1,31,4,2,11,8,3,2,0.4894699492885153,0.5
+21,No,Rarely,1032,Quality Control,16,2,Logistics,1,836,1,Male,117,3,2,Packaging Machine Operator,1,Married,63888,11818,1,No,21,2,4,2,16,3,2,22,4,5,3,0.8145465285633291,0.4
+34,No,Rarely,1287,Production,16,1,Mechanical Engineering,1,837,1,Male,122,1,1,Logistics & Supply Chain Coordinator,3,Single,50276,5716,1,Yes,16,3,4,2,12,0,1,15,3,0,6,0.7503232734469736,0.35
+30,Yes,Frequently,1038,Quality Control,8,1,Dairy Science,1,838,1,Male,56,4,3,Farm Liaison Officer,4,Married,24799,7242,2,No,17,1,2,1,12,2,2,4,4,1,14,0.8002412900566147,0.3
+27,No,Non-Travel,1483,Production,29,4,Dairy Science,1,839,3,Female,57,4,1,Dairy Quality Analyst,2,Single,110627,7022,7,No,10,2,4,1,16,2,4,16,17,14,10,0.7601796755131154,0.55
+45,No,Rarely,392,Production,39,2,Logistics,1,840,4,Male,113,3,3,Dairy Lab Technician,2,Married,113770,19826,2,No,14,3,1,0,14,0,4,13,12,5,17,0.3645427035070289,0.55
+24,No,Rarely,815,Quality Control,28,4,Dairy Science,1,841,2,Female,56,1,4,Maintenance Engineer,1,Single,110141,3653,6,No,19,4,1,1,25,2,1,11,4,1,11,0.5911565808014214,0.6
+25,No,Rarely,605,Quality Control,6,4,Biotechnology,1,842,1,Female,90,1,1,Cold Storage Supervisor,3,Divorced,80558,4502,9,No,18,4,1,0,27,2,1,12,18,11,3,0.4696755028533453,0.4
+45,No,Non-Travel,1142,Production,16,3,Biotechnology,1,843,3,Male,89,2,2,Farm Liaison Officer,3,Divorced,56534,18665,9,Yes,21,3,4,2,29,2,2,20,2,11,10,0.521797677913858,0.3
+23,No,Rarely,920,Farm Operations,20,3,Logistics,1,844,2,Female,52,2,1,Logistics & Supply Chain Coordinator,4,Married,51668,16086,8,No,20,1,1,0,34,1,1,13,17,10,5,0.3077694114865415,0.35
+38,Yes,Rarely,292,Quality Control,16,2,Mechanical Engineering,1,845,1,Female,66,3,2,Maintenance Engineer,1,Divorced,24111,5403,7,Yes,16,1,3,0,21,1,1,4,5,3,18,0.4210372914576193,0.6
+39,Yes,Frequently,629,Maintenance,7,2,Logistics,1,846,2,Male,115,1,3,Farm Liaison Officer,4,Single,44686,3235,0,Yes,10,4,1,2,9,3,3,21,5,3,17,0.8003529849955309,0.3
+52,No,Frequently,853,Logistics,41,3,Biotechnology,1,847,1,Female,128,1,4,Packaging Machine Operator,4,Married,92551,15149,6,No,17,4,3,2,10,4,2,29,4,9,14,0.8282908869203147,0.4
+39,No,Rarely,633,Production,14,3,Food Technology,1,848,2,Male,142,2,4,Logistics & Supply Chain Coordinator,2,Divorced,92392,16396,6,No,12,1,4,2,37,0,4,22,0,8,2,0.627107158729397,0.35
+31,No,Non-Travel,1335,Production,43,3,Food Technology,1,849,2,Male,101,2,2,Cheese Production Technician,2,Divorced,36490,16430,7,No,22,3,1,0,32,4,3,4,7,14,16,0.548787079900527,0.5
+20,No,Rarely,574,Logistics,26,3,Dairy Science,1,850,4,Male,71,3,3,Cold Storage Supervisor,3,Married,55194,19169,9,No,13,4,3,1,5,4,4,28,0,9,0,0.6989877817045103,0.4
+45,No,Frequently,1282,Farm Operations,26,3,Dairy Science,1,851,4,Female,53,1,4,Cheese Production Technician,3,Divorced,34497,15864,4,No,13,1,4,1,36,1,1,26,5,6,1,0.6261972751555416,0.5
+33,No,Rarely,1266,Logistics,14,4,Food Technology,1,852,1,Female,55,4,3,Dairy Quality Analyst,4,Divorced,73516,17506,9,Yes,24,3,1,1,6,3,1,29,19,13,18,0.8885725044434696,0.55
+57,No,Frequently,406,Quality Control,7,2,Biotechnology,1,853,3,Female,87,2,2,Dairy Quality Analyst,3,Married,108730,13509,8,No,19,2,2,2,11,4,4,17,13,6,8,0.3330621545149422,0.55
+56,No,Rarely,979,Logistics,33,4,Dairy Science,1,854,4,Female,75,3,2,Cold Storage Supervisor,4,Divorced,64104,5194,8,Yes,23,3,1,2,6,4,3,13,10,11,7,0.5143313083725372,0.4
+30,No,Non-Travel,1341,Production,26,4,Logistics,1,855,2,Male,60,1,1,Maintenance Engineer,3,Divorced,25316,6789,7,No,21,1,1,1,1,2,3,17,1,10,11,0.8427683515998876,0.6
+55,No,Frequently,731,Logistics,45,1,Logistics,1,856,4,Female,139,1,4,Dairy Quality Analyst,3,Divorced,58130,12638,5,No,17,3,1,2,0,0,3,28,3,0,14,0.8403159419359669,0.55
+32,No,Frequently,1445,Maintenance,20,4,Biotechnology,1,857,4,Male,66,2,4,Milk Processing Operator,2,Divorced,90229,7350,5,No,10,1,2,0,22,3,1,19,12,10,6,0.5467427925928214,0.45
+22,No,Frequently,365,Quality Control,3,3,Dairy Science,1,858,1,Female,137,3,1,Milk Processing Operator,2,Married,49954,2533,0,No,17,4,3,0,24,0,2,0,6,4,15,0.294366301400967,0.45
+52,No,Frequently,842,Logistics,4,3,Logistics,1,859,4,Female,141,4,2,Farm Liaison Officer,2,Single,41652,5663,5,Yes,18,2,3,2,17,1,1,6,5,2,6,0.7704705772450318,0.3
+25,No,Rarely,1379,Production,26,1,Dairy Science,1,860,4,Female,148,2,2,Farm Liaison Officer,2,Single,34178,2129,3,No,18,4,2,1,6,4,4,28,2,2,19,0.6096156305523432,0.3
+29,No,Rarely,1407,Quality Control,11,1,Dairy Science,1,861,2,Female,80,3,2,Logistics & Supply Chain Coordinator,1,Divorced,71163,14563,3,Yes,14,4,1,1,2,4,3,16,8,5,11,0.7412162111000797,0.35
+24,No,Non-Travel,289,Production,2,1,Logistics,1,862,4,Female,126,1,2,Farm Liaison Officer,2,Divorced,34751,3858,1,Yes,13,1,1,0,28,5,2,2,13,3,16,0.5237665419874131,0.3
+42,No,Rarely,1317,Farm Operations,14,1,Food Technology,1,863,2,Male,84,4,3,Packaging Machine Operator,1,Single,85961,17735,3,Yes,13,1,1,2,9,0,3,9,19,7,10,0.3427187453557786,0.4
+29,No,Frequently,212,Maintenance,44,1,Logistics,1,864,4,Female,65,3,4,Farm Liaison Officer,2,Divorced,23044,14342,4,No,18,1,3,1,4,1,1,6,10,13,3,0.2167925852356645,0.3
+21,No,Non-Travel,1172,Farm Operations,30,4,Biotechnology,1,865,4,Female,128,4,4,Packaging Machine Operator,3,Single,83165,5649,4,No,24,1,3,1,33,5,2,26,4,3,18,0.5913967881878265,0.4
+32,No,Rarely,1004,Maintenance,49,1,Mechanical Engineering,1,866,3,Female,67,3,2,Farm Liaison Officer,4,Married,31480,12978,4,No,17,4,2,2,7,5,2,27,13,7,1,0.3127323252171127,0.3
+59,No,Frequently,1144,Logistics,12,4,Logistics,1,867,4,Female,111,3,2,Cheese Production Technician,3,Married,85439,6860,3,No,19,1,4,2,13,2,1,11,18,13,1,0.330996046018475,0.5
+21,No,Rarely,941,Quality Control,26,2,Dairy Science,1,868,2,Male,76,3,2,Dairy Lab Technician,3,Married,63874,11412,0,No,24,1,2,1,39,5,3,21,7,11,16,0.505413941670015,0.55
+39,Yes,Frequently,1075,Logistics,44,1,Dairy Science,1,869,2,Female,84,3,4,Packaging Machine Operator,1,Married,86775,10833,9,No,19,4,3,2,5,5,3,14,6,14,8,0.5094539514072285,0.4
+20,No,Rarely,1373,Maintenance,33,1,Logistics,1,870,1,Male,94,4,4,Maintenance Engineer,2,Married,26566,16135,7,No,21,2,1,2,0,2,3,22,6,11,0,0.3920709631439937,0.6
+56,No,Rarely,859,Maintenance,13,4,Mechanical Engineering,1,871,1,Female,84,2,2,Logistics & Supply Chain Coordinator,4,Married,105311,2723,2,No,16,2,1,2,32,4,1,20,2,3,9,0.2923455458964279,0.35
+28,No,Frequently,1231,Maintenance,14,2,Logistics,1,872,3,Male,77,4,3,Cold Storage Supervisor,4,Single,73149,2737,1,No,21,3,1,1,39,4,4,15,2,2,14,0.8614669262756363,0.4
+36,Yes,Non-Travel,1252,Production,24,4,Mechanical Engineering,1,873,2,Male,58,3,1,Packaging Machine Operator,2,Divorced,23006,15879,8,Yes,12,4,1,0,10,3,4,7,17,4,14,0.2921484311147819,0.4
+28,No,Frequently,495,Quality Control,34,4,Mechanical Engineering,1,874,2,Male,125,4,1,Dairy Quality Analyst,1,Single,92561,3299,6,No,13,1,4,2,23,5,3,5,12,11,1,0.4455408092207906,0.55
+30,No,Frequently,1185,Logistics,44,1,Biotechnology,1,875,2,Male,64,4,1,Dairy Lab Technician,1,Married,39423,2339,8,No,24,3,2,1,9,0,2,27,0,12,13,0.4134075948252124,0.55
+34,No,Rarely,1125,Logistics,26,3,Dairy Science,1,876,3,Male,70,4,4,Cheese Production Technician,1,Divorced,110710,2152,1,Yes,18,2,2,0,22,4,4,3,4,4,3,0.8064365278709864,0.5
+43,No,Frequently,839,Farm Operations,21,3,Dairy Science,1,877,2,Female,101,3,4,Milk Processing Operator,4,Divorced,112199,11613,8,No,23,2,3,1,15,1,3,29,3,9,17,0.4870437139349993,0.45
+57,No,Rarely,539,Maintenance,28,4,Mechanical Engineering,1,878,1,Male,84,4,1,Cheese Production Technician,1,Married,53952,15755,9,Yes,22,4,2,1,36,0,4,10,15,9,8,0.286830449464055,0.5
+54,No,Non-Travel,827,Maintenance,48,1,Dairy Science,1,879,3,Female,146,1,1,Farm Liaison Officer,1,Married,47326,17982,8,Yes,17,1,4,1,15,3,3,16,14,0,1,0.2071827198831468,0.3
+49,No,Non-Travel,638,Maintenance,36,2,Food Technology,1,880,1,Male,100,3,3,Logistics & Supply Chain Coordinator,4,Married,51139,2426,8,Yes,21,1,4,0,30,5,4,1,17,14,1,0.7053647224321673,0.35
+50,No,Frequently,1367,Logistics,40,3,Mechanical Engineering,1,881,1,Male,132,4,4,Dairy Lab Technician,4,Married,82103,11327,9,No,21,3,4,1,5,2,4,27,16,7,17,0.7001507647974952,0.55
+24,No,Non-Travel,1141,Farm Operations,2,2,Dairy Science,1,882,3,Female,104,1,4,Dairy Quality Analyst,3,Married,80857,13521,9,No,10,2,1,0,29,3,2,5,13,7,16,0.4924485699192594,0.55
+33,Yes,Rarely,1029,Production,42,3,Food Technology,1,883,4,Male,136,4,1,Packaging Machine Operator,4,Married,93638,19333,3,No,12,3,3,2,36,0,2,3,13,7,8,0.2884156002186265,0.4
+30,No,Frequently,718,Quality Control,9,1,Biotechnology,1,884,4,Male,126,2,3,Cheese Production Technician,2,Divorced,92652,3373,9,Yes,23,3,4,0,0,2,4,2,18,13,7,0.4601436688009235,0.5
+28,No,Rarely,1175,Production,23,4,Dairy Science,1,885,1,Male,93,4,3,Dairy Lab Technician,4,Married,32937,9082,2,No,21,3,2,1,24,1,3,6,5,9,1,0.6129177156419217,0.55
+53,No,Non-Travel,1268,Logistics,15,2,Food Technology,1,886,4,Male,114,4,1,Packaging Machine Operator,4,Married,50161,11893,5,No,19,1,2,0,20,2,2,6,12,3,1,0.6927600592647887,0.4
+31,No,Rarely,1154,Maintenance,13,2,Logistics,1,887,2,Female,142,2,1,Logistics & Supply Chain Coordinator,1,Divorced,24383,9593,2,Yes,11,2,2,1,34,2,1,15,17,12,4,0.2547679247039933,0.35
+54,No,Frequently,1462,Quality Control,23,4,Logistics,1,888,3,Male,137,3,4,Cold Storage Supervisor,3,Single,105856,11495,8,No,11,3,4,2,37,1,2,1,14,13,11,0.5894152294302752,0.4
+54,No,Non-Travel,1151,Logistics,17,2,Food Technology,1,889,1,Male,129,2,1,Milk Processing Operator,1,Married,90043,18754,2,Yes,22,2,4,0,4,4,4,7,6,8,15,0.3932868549136963,0.45
+20,Yes,Rarely,1143,Logistics,48,3,Mechanical Engineering,1,890,2,Female,74,3,2,Logistics & Supply Chain Coordinator,3,Divorced,34735,9837,1,Yes,22,2,2,2,11,4,4,14,18,9,13,0.6320864009935498,0.35
+59,No,Rarely,354,Logistics,2,4,Mechanical Engineering,1,891,4,Female,136,2,3,Farm Liaison Officer,1,Divorced,79919,13172,7,No,17,3,4,0,4,2,1,26,16,2,19,0.6536980860053325,0.3
+41,No,Frequently,1404,Quality Control,20,3,Dairy Science,1,892,2,Male,141,4,1,Cold Storage Supervisor,2,Single,115249,12317,5,No,15,3,2,1,8,2,2,15,8,6,1,0.837422591242303,0.4
+48,No,Rarely,1438,Quality Control,20,3,Logistics,1,893,4,Male,96,4,2,Farm Liaison Officer,1,Married,102055,12934,7,Yes,21,4,1,0,8,3,4,0,10,5,7,0.4872648627722719,0.3
+27,Yes,Rarely,287,Farm Operations,46,1,Mechanical Engineering,1,894,1,Female,129,3,3,Cheese Production Technician,1,Married,87561,7230,6,Yes,21,1,4,2,34,4,1,26,4,8,3,0.5763134620947223,0.5
+30,No,Rarely,1479,Farm Operations,3,3,Mechanical Engineering,1,895,2,Male,105,3,2,Cold Storage Supervisor,2,Married,105455,15645,2,Yes,21,2,1,0,0,1,1,9,1,11,19,0.3877505859323565,0.4
+56,Yes,Rarely,1296,Production,12,1,Logistics,1,896,3,Female,87,1,2,Farm Liaison Officer,2,Divorced,57622,10954,7,Yes,22,3,1,2,9,5,3,6,14,13,8,0.4005899169015892,0.3
+33,No,Non-Travel,1130,Quality Control,40,2,Biotechnology,1,897,1,Male,60,1,1,Cold Storage Supervisor,4,Married,58135,14254,9,Yes,15,3,4,2,38,5,2,15,11,12,19,0.2322236470929537,0.4
+49,No,Frequently,378,Quality Control,2,2,Mechanical Engineering,1,898,2,Female,116,4,3,Logistics & Supply Chain Coordinator,1,Married,55658,19388,0,No,13,2,2,1,35,2,2,9,9,3,18,0.4002482596089544,0.35
+54,No,Rarely,411,Quality Control,36,1,Food Technology,1,899,2,Female,64,4,2,Dairy Lab Technician,2,Married,104677,9057,0,No,10,3,3,0,36,2,2,11,9,3,1,0.2446800827134605,0.55
+40,No,Rarely,1457,Farm Operations,14,3,Dairy Science,1,900,4,Female,50,1,4,Milk Processing Operator,2,Married,49696,5755,9,No,20,4,1,2,34,5,4,16,19,5,15,0.8747410534100808,0.45
+56,No,Rarely,664,Logistics,16,4,Mechanical Engineering,1,901,1,Male,56,1,3,Milk Processing Operator,4,Single,23773,4846,7,No,16,2,4,1,16,3,1,12,10,7,10,0.6369842647632731,0.45
+24,Yes,Rarely,1446,Maintenance,19,4,Mechanical Engineering,1,902,1,Male,50,3,4,Farm Liaison Officer,3,Single,44956,4964,8,No,17,3,1,1,12,3,3,11,9,2,7,0.3212039928304058,0.3
+38,Yes,Rarely,830,Farm Operations,34,1,Biotechnology,1,903,1,Male,98,2,1,Farm Liaison Officer,2,Single,35819,10878,9,Yes,11,2,2,1,5,3,2,14,6,10,11,0.2817364518742346,0.3
+33,No,Rarely,1024,Quality Control,44,2,Food Technology,1,904,1,Male,145,3,4,Cold Storage Supervisor,2,Married,21528,14648,5,Yes,11,3,4,2,36,0,3,13,13,7,2,0.4590858343342804,0.4
+45,No,Rarely,1487,Farm Operations,46,2,Dairy Science,1,905,4,Female,122,1,3,Cheese Production Technician,1,Married,106491,4755,4,No,10,3,3,0,31,1,3,18,12,13,12,0.4153531272331889,0.5
+23,No,Frequently,1430,Production,6,4,Mechanical Engineering,1,906,3,Female,78,4,2,Farm Liaison Officer,4,Divorced,64588,8473,1,Yes,13,1,4,2,10,0,1,18,4,7,1,0.3954783466401171,0.3
+44,No,Rarely,806,Quality Control,13,1,Dairy Science,1,907,1,Female,75,1,2,Cold Storage Supervisor,1,Divorced,90585,16554,8,Yes,15,2,1,1,16,2,2,25,18,13,12,0.5277372314517148,0.4
+44,No,Frequently,1084,Production,36,4,Logistics,1,908,4,Male,136,4,3,Maintenance Engineer,3,Divorced,119152,3693,5,Yes,23,1,4,2,4,3,3,13,9,13,7,0.8390116900835245,0.6
+37,No,Frequently,565,Quality Control,22,3,Mechanical Engineering,1,909,3,Male,94,4,2,Milk Processing Operator,4,Married,40511,13084,7,No,14,3,4,2,5,3,2,17,7,6,14,0.5976351780821207,0.45
+59,No,Frequently,475,Farm Operations,18,3,Mechanical Engineering,1,910,3,Male,142,4,4,Farm Liaison Officer,1,Single,30119,14003,8,No,13,2,1,1,9,5,2,29,17,6,8,0.5648620532106334,0.3
+27,No,Frequently,579,Logistics,12,1,Logistics,1,911,4,Female,146,4,2,Logistics & Supply Chain Coordinator,2,Single,95893,19068,8,No,23,2,3,0,32,5,2,25,0,4,10,0.7645839046127405,0.35
+58,No,Frequently,1491,Maintenance,30,1,Biotechnology,1,912,1,Male,120,2,2,Dairy Quality Analyst,2,Single,36167,4919,7,No,13,4,2,1,29,3,3,28,4,1,2,0.2028172281178224,0.55
+59,No,Non-Travel,1144,Production,40,3,Mechanical Engineering,1,913,3,Male,61,1,4,Cold Storage Supervisor,4,Married,76503,5756,9,No,19,4,4,1,20,4,1,4,10,11,6,0.3381699684086634,0.4
+33,No,Frequently,1287,Farm Operations,7,2,Dairy Science,1,914,1,Female,144,3,4,Milk Processing Operator,2,Single,107789,5283,7,No,24,3,3,2,16,5,1,19,19,13,13,0.5473301540721852,0.45
+51,No,Frequently,1009,Logistics,32,1,Food Technology,1,915,1,Female,81,4,4,Farm Liaison Officer,1,Divorced,54889,6691,2,Yes,16,3,2,1,26,1,3,28,10,14,14,0.6937163423654467,0.3
+57,Yes,Non-Travel,1124,Farm Operations,48,3,Dairy Science,1,916,2,Male,69,4,1,Dairy Lab Technician,4,Divorced,65678,9350,2,Yes,16,3,1,2,2,0,4,5,15,1,8,0.5395197364577469,0.55
+52,No,Frequently,693,Production,19,3,Biotechnology,1,917,1,Female,100,3,4,Cold Storage Supervisor,2,Single,115334,19540,1,Yes,11,3,3,1,28,1,2,17,9,12,19,0.314601186910614,0.4
+42,No,Rarely,1321,Maintenance,6,2,Food Technology,1,918,2,Male,130,3,4,Cheese Production Technician,2,Divorced,80262,5061,0,Yes,22,4,3,1,1,5,2,13,14,11,10,0.8509879723631035,0.5
+34,No,Rarely,1294,Farm Operations,20,2,Dairy Science,1,919,3,Female,85,4,1,Farm Liaison Officer,3,Single,24681,7919,3,Yes,16,2,4,0,28,3,1,3,6,9,6,0.4300655917738116,0.3
+52,No,Rarely,563,Quality Control,27,2,Dairy Science,1,920,4,Female,116,3,2,Cold Storage Supervisor,3,Single,100291,19676,1,Yes,11,1,1,1,35,2,3,27,14,11,11,0.7517509769761528,0.4
+44,No,Non-Travel,769,Logistics,43,2,Logistics,1,921,2,Female,50,3,4,Farm Liaison Officer,4,Divorced,86008,12076,1,No,13,2,4,0,33,4,3,22,15,7,18,0.8239893342183289,0.3
+36,No,Frequently,962,Farm Operations,37,4,Biotechnology,1,922,4,Male,76,2,3,Dairy Quality Analyst,3,Divorced,118417,11752,4,No,24,2,1,1,36,5,4,0,5,10,17,0.4425145643820665,0.55
+52,No,Non-Travel,475,Logistics,48,2,Logistics,1,923,3,Male,89,3,4,Packaging Machine Operator,1,Divorced,33690,18012,3,No,10,4,2,1,0,1,4,12,10,5,12,0.7917182469310733,0.4
+21,No,Frequently,249,Quality Control,7,4,Food Technology,1,924,1,Male,146,1,4,Packaging Machine Operator,2,Divorced,45912,11175,0,No,14,2,4,1,25,2,1,10,16,7,10,0.6975415782167582,0.4
+33,No,Rarely,927,Maintenance,5,1,Logistics,1,925,3,Female,133,1,1,Cold Storage Supervisor,2,Single,26473,9902,8,No,10,2,1,0,0,5,4,2,14,2,0,0.8329965856634043,0.4
+59,No,Rarely,1105,Maintenance,11,3,Biotechnology,1,926,4,Female,63,1,3,Cheese Production Technician,2,Divorced,61298,4067,3,No,13,3,1,2,3,3,4,16,15,0,5,0.3759174912060843,0.5
+59,No,Frequently,1127,Quality Control,15,4,Mechanical Engineering,1,927,3,Female,149,4,2,Farm Liaison Officer,4,Divorced,38669,3979,4,No,22,1,3,0,38,3,3,17,1,12,1,0.8518943242967929,0.3
+58,No,Frequently,763,Logistics,3,1,Mechanical Engineering,1,928,1,Female,118,1,2,Cold Storage Supervisor,4,Married,119500,2700,6,Yes,18,2,4,1,13,3,3,24,3,5,12,0.2457145336689512,0.4
+25,No,Non-Travel,982,Farm Operations,5,1,Food Technology,1,929,3,Male,136,2,3,Dairy Lab Technician,3,Divorced,101998,6046,1,Yes,22,2,4,2,17,3,4,9,18,1,12,0.7555698997139542,0.55
+25,No,Rarely,684,Quality Control,23,4,Mechanical Engineering,1,930,1,Male,128,1,4,Cheese Production Technician,2,Divorced,40943,4073,7,No,21,1,2,1,33,5,1,15,5,11,18,0.5049655144911429,0.5
+22,No,Frequently,1307,Production,37,1,Logistics,1,931,2,Male,55,4,1,Dairy Lab Technician,2,Single,58785,13945,1,No,17,3,1,0,0,4,4,20,17,14,8,0.3245229767970725,0.55
+26,No,Frequently,783,Logistics,9,1,Food Technology,1,932,4,Female,82,2,3,Logistics & Supply Chain Coordinator,2,Single,83427,18778,9,Yes,15,4,3,0,21,4,1,12,10,8,18,0.2555820685718757,0.35
+27,No,Frequently,435,Maintenance,15,4,Biotechnology,1,933,1,Female,104,1,3,Packaging Machine Operator,2,Married,82001,5048,4,Yes,24,4,1,2,15,1,4,19,8,4,0,0.4726832597292566,0.4
+34,No,Frequently,255,Quality Control,3,1,Food Technology,1,934,1,Male,68,2,2,Packaging Machine Operator,2,Divorced,81724,2522,1,No,17,2,1,0,21,5,3,11,2,4,7,0.4725267452085647,0.4
+48,No,Frequently,559,Maintenance,29,2,Food Technology,1,935,3,Female,126,2,1,Farm Liaison Officer,1,Divorced,30832,13101,1,Yes,14,3,1,1,15,3,3,3,1,12,13,0.3609701690148897,0.3
+52,No,Rarely,309,Logistics,6,2,Dairy Science,1,936,2,Male,78,4,3,Dairy Quality Analyst,2,Divorced,25385,10741,3,No,16,4,4,2,27,4,1,7,17,9,15,0.3508607788469899,0.55
+49,No,Frequently,391,Maintenance,17,3,Dairy Science,1,937,1,Female,110,4,1,Cold Storage Supervisor,1,Divorced,115898,19852,3,Yes,17,4,1,1,27,5,4,11,14,7,3,0.4796600086327712,0.4
+58,No,Frequently,1103,Quality Control,26,1,Food Technology,1,938,2,Female,119,2,4,Cold Storage Supervisor,2,Divorced,34708,14674,7,No,16,4,2,2,21,2,4,18,17,5,17,0.48707971824361,0.4
+46,No,Non-Travel,1316,Logistics,21,3,Mechanical Engineering,1,939,2,Male,128,1,2,Logistics & Supply Chain Coordinator,4,Divorced,78600,19805,5,Yes,23,4,3,2,5,4,1,14,18,2,13,0.5096553594142346,0.35
+55,Yes,Non-Travel,1061,Production,8,2,Dairy Science,1,940,3,Male,129,4,4,Maintenance Engineer,4,Married,43438,2285,9,No,13,4,3,1,24,4,4,27,14,8,8,0.8081315707094376,0.6
+48,No,Rarely,767,Quality Control,21,2,Biotechnology,1,941,1,Female,73,2,1,Dairy Quality Analyst,1,Divorced,102747,13957,7,Yes,14,2,1,0,1,1,2,15,16,9,14,0.6278781544959302,0.55
+57,No,Rarely,1283,Farm Operations,11,2,Logistics,1,942,3,Male,72,3,4,Cold Storage Supervisor,2,Divorced,100107,9108,6,No,22,4,3,1,6,4,3,11,17,3,2,0.2143032162500675,0.4
+52,No,Non-Travel,849,Quality Control,38,1,Dairy Science,1,943,4,Male,59,3,2,Dairy Quality Analyst,4,Divorced,80062,16990,9,No,23,2,1,0,16,2,3,19,17,9,3,0.5633694692335286,0.55
+56,No,Frequently,238,Logistics,8,1,Food Technology,1,944,4,Female,103,4,1,Cheese Production Technician,4,Married,85428,19829,3,No,19,1,4,0,34,3,1,17,10,3,17,0.7337159071900281,0.5
+46,No,Non-Travel,1272,Quality Control,42,2,Mechanical Engineering,1,945,1,Female,90,1,3,Farm Liaison Officer,2,Divorced,106843,7837,1,No,15,1,3,1,19,0,4,21,17,11,13,0.239490014651162,0.3
+52,No,Rarely,836,Production,24,3,Logistics,1,946,2,Female,98,3,4,Milk Processing Operator,2,Married,31002,17032,8,No,23,3,4,2,1,1,1,11,2,12,14,0.4958255154918746,0.45
+23,No,Frequently,1236,Production,35,3,Dairy Science,1,947,1,Male,66,3,2,Cheese Production Technician,4,Single,56153,3466,1,No,23,2,4,1,6,2,2,15,12,1,7,0.5158471002802969,0.5
+41,No,Non-Travel,235,Farm Operations,14,4,Mechanical Engineering,1,948,1,Female,105,3,3,Dairy Lab Technician,2,Divorced,42440,11106,0,No,21,3,2,2,31,1,4,24,13,2,9,0.8678143166350429,0.55
+21,No,Non-Travel,300,Maintenance,14,2,Mechanical Engineering,1,949,4,Female,94,1,2,Packaging Machine Operator,3,Married,87501,10479,7,No,20,1,2,0,18,5,2,27,3,3,11,0.5329787676480722,0.4
+29,No,Rarely,1309,Logistics,10,3,Mechanical Engineering,1,950,4,Female,79,1,1,Milk Processing Operator,2,Single,52556,12280,9,No,15,1,3,2,11,3,1,19,17,6,8,0.7249301838635416,0.45
+24,Yes,Frequently,1446,Logistics,12,2,Food Technology,1,951,2,Female,93,4,1,Logistics & Supply Chain Coordinator,4,Married,87963,7932,8,Yes,22,1,1,1,8,4,3,10,4,12,7,0.412031431646337,0.35
+29,Yes,Frequently,365,Maintenance,38,3,Biotechnology,1,952,2,Female,123,4,4,Maintenance Engineer,4,Married,110725,11996,0,No,18,1,1,2,26,5,2,21,13,2,16,0.7455146558319019,0.6
+52,No,Rarely,582,Production,44,4,Mechanical Engineering,1,953,1,Male,104,3,2,Logistics & Supply Chain Coordinator,1,Single,110674,3178,6,No,19,4,1,0,13,4,4,19,11,7,8,0.4258636565481384,0.35
+57,No,Frequently,989,Production,46,4,Logistics,1,954,3,Female,68,1,2,Cold Storage Supervisor,3,Divorced,26563,4551,1,No,23,1,1,0,1,2,1,13,6,7,12,0.5010165111415068,0.4
+32,No,Frequently,230,Quality Control,34,2,Dairy Science,1,955,1,Female,78,2,2,Milk Processing Operator,4,Divorced,99923,18025,5,No,23,4,2,2,20,3,1,1,11,9,13,0.5356375944681885,0.45
+50,No,Non-Travel,210,Farm Operations,41,3,Logistics,1,956,2,Male,51,3,1,Packaging Machine Operator,3,Married,25840,11780,4,No,11,4,1,0,3,0,1,12,7,10,4,0.8484540785926078,0.4
+55,No,Rarely,295,Farm Operations,10,1,Food Technology,1,957,3,Female,85,4,4,Farm Liaison Officer,2,Single,35154,12148,0,No,15,3,1,0,20,0,3,13,2,1,8,0.2374174834634073,0.3
+43,Yes,Rarely,1413,Farm Operations,17,4,Food Technology,1,958,4,Female,68,1,2,Maintenance Engineer,4,Divorced,44194,11967,1,No,22,4,4,2,21,4,1,5,0,3,15,0.337807005707565,0.6
+34,Yes,Rarely,652,Quality Control,17,2,Logistics,1,959,2,Male,56,4,2,Dairy Quality Analyst,1,Married,85020,6862,1,No,12,3,1,0,1,5,1,11,2,7,18,0.6940199223382527,0.55
+48,No,Rarely,391,Farm Operations,3,2,Biotechnology,1,960,2,Female,75,4,3,Cold Storage Supervisor,4,Single,66861,11179,9,No,23,4,1,2,16,3,3,6,10,0,6,0.6043043619173781,0.4
+27,No,Rarely,685,Maintenance,31,3,Food Technology,1,961,3,Male,128,1,2,Logistics & Supply Chain Coordinator,1,Married,42448,7855,9,No,11,4,2,2,18,3,1,3,17,0,11,0.3760719732904831,0.35
+24,No,Frequently,1489,Quality Control,1,2,Food Technology,1,962,2,Female,87,3,4,Milk Processing Operator,3,Single,116460,19587,5,No,15,1,3,0,39,2,1,27,6,13,1,0.4024406212437034,0.45
+48,No,Rarely,1351,Maintenance,12,4,Logistics,1,963,2,Male,52,1,3,Logistics & Supply Chain Coordinator,1,Divorced,43528,3119,0,No,13,2,4,2,23,5,2,26,8,13,17,0.4571166399260759,0.35
+23,No,Non-Travel,437,Quality Control,39,2,Food Technology,1,964,2,Male,129,3,3,Milk Processing Operator,2,Divorced,49402,5975,3,No,14,4,4,0,19,0,1,6,3,3,17,0.5152428645312299,0.45
+31,No,Non-Travel,1335,Farm Operations,4,2,Biotechnology,1,965,2,Female,115,4,3,Farm Liaison Officer,2,Married,24352,14919,9,No,14,2,3,0,37,2,3,12,9,10,15,0.7726191262769446,0.3
+21,No,Frequently,1368,Maintenance,42,1,Biotechnology,1,966,2,Male,144,1,1,Packaging Machine Operator,2,Divorced,20184,11602,4,Yes,12,2,4,0,11,1,2,10,17,1,10,0.2096708335303738,0.4
+46,No,Non-Travel,1288,Maintenance,13,1,Biotechnology,1,967,2,Male,141,2,3,Dairy Quality Analyst,4,Divorced,30384,14695,1,No,21,2,1,1,24,3,1,7,15,0,1,0.8286138188494347,0.55
+50,Yes,Frequently,1470,Maintenance,34,4,Dairy Science,1,968,2,Female,120,3,2,Farm Liaison Officer,2,Single,34319,3292,1,No,13,4,1,0,22,0,3,26,11,7,13,0.4891189781420697,0.3
+55,Yes,Frequently,934,Quality Control,42,3,Biotechnology,1,969,2,Female,143,2,1,Cheese Production Technician,2,Divorced,40449,11386,6,Yes,12,2,3,2,33,2,4,18,18,1,3,0.3613482622964892,0.5
+55,No,Rarely,1190,Logistics,21,1,Biotechnology,1,970,4,Male,92,3,1,Packaging Machine Operator,4,Single,76333,12140,6,Yes,16,4,2,2,31,4,1,1,2,3,6,0.5558888896691416,0.4
+45,No,Rarely,1024,Farm Operations,22,3,Dairy Science,1,971,2,Female,111,1,1,Farm Liaison Officer,3,Single,61205,13772,5,No,24,1,2,2,23,1,4,20,7,2,1,0.6617690298897048,0.3
+46,No,Frequently,305,Maintenance,4,4,Mechanical Engineering,1,972,4,Male,120,2,1,Maintenance Engineer,2,Married,30426,8590,0,No,10,4,4,1,24,2,2,17,18,14,13,0.2313265534355224,0.6
+24,Yes,Non-Travel,380,Logistics,18,1,Food Technology,1,973,4,Male,149,1,1,Logistics & Supply Chain Coordinator,2,Single,27504,15977,2,No,24,3,2,1,2,4,3,25,8,1,6,0.7010441461662578,0.35
+39,No,Rarely,383,Farm Operations,5,3,Biotechnology,1,974,1,Female,142,3,1,Packaging Machine Operator,4,Divorced,76578,19401,8,No,15,1,2,2,24,0,2,20,18,7,8,0.7325328313087036,0.4
+30,No,Non-Travel,425,Farm Operations,19,1,Food Technology,1,975,1,Female,73,3,1,Maintenance Engineer,3,Single,78209,7176,9,No,13,2,2,2,27,0,4,9,16,2,7,0.3163275990263935,0.6
+29,No,Frequently,976,Maintenance,2,4,Logistics,1,976,4,Male,88,3,3,Logistics & Supply Chain Coordinator,3,Single,53368,14399,0,No,10,2,2,1,11,1,4,28,12,14,8,0.317516999863832,0.35
+59,No,Rarely,989,Maintenance,12,4,Food Technology,1,977,4,Female,117,3,4,Cheese Production Technician,3,Married,72185,8647,1,Yes,10,3,2,2,25,4,4,5,1,8,6,0.3426491881786138,0.5
+57,No,Non-Travel,1312,Quality Control,17,1,Dairy Science,1,978,2,Female,142,4,2,Dairy Lab Technician,4,Divorced,117630,8015,7,No,14,1,2,0,7,3,3,23,3,9,18,0.7576400984471126,0.55
+25,No,Frequently,887,Logistics,10,3,Food Technology,1,979,1,Male,93,3,2,Packaging Machine Operator,1,Divorced,100221,17845,6,Yes,23,3,2,0,4,0,4,21,10,4,16,0.3904021391518324,0.4
+27,No,Rarely,729,Logistics,34,2,Food Technology,1,980,3,Male,54,2,3,Maintenance Engineer,1,Divorced,28724,4056,8,No,14,2,4,2,10,5,4,3,1,8,12,0.7571550866380481,0.6
+42,No,Frequently,1171,Maintenance,6,2,Food Technology,1,981,1,Male,104,3,3,Logistics & Supply Chain Coordinator,2,Single,25084,14176,9,No,19,4,1,0,34,3,3,18,3,2,10,0.5783667012571942,0.35
+45,No,Rarely,1135,Farm Operations,8,1,Mechanical Engineering,1,982,4,Male,142,1,1,Logistics & Supply Chain Coordinator,2,Divorced,54810,12003,3,No,16,2,2,2,26,3,4,13,3,11,17,0.7370199311202661,0.35
+31,No,Frequently,305,Maintenance,11,3,Mechanical Engineering,1,983,4,Male,79,4,4,Farm Liaison Officer,2,Divorced,102277,15747,3,No,22,3,1,1,37,2,1,13,19,4,16,0.5875711291757275,0.3
+45,No,Rarely,1494,Farm Operations,12,2,Logistics,1,984,2,Male,78,2,1,Milk Processing Operator,1,Single,102297,5114,6,Yes,21,4,3,2,18,2,4,17,0,13,15,0.4350382294482535,0.45
+32,No,Rarely,1030,Farm Operations,9,4,Dairy Science,1,985,2,Female,75,4,3,Farm Liaison Officer,4,Married,98872,15442,0,No,13,4,1,1,31,0,3,28,10,9,9,0.8374998998606407,0.3
+59,Yes,Non-Travel,878,Maintenance,2,3,Food Technology,1,986,1,Male,132,4,1,Maintenance Engineer,2,Married,40872,9383,9,Yes,23,2,3,0,27,3,4,16,1,5,3,0.700706963300225,0.6
+37,No,Frequently,1048,Production,8,2,Food Technology,1,987,2,Female,75,4,2,Cold Storage Supervisor,4,Single,98950,3629,8,Yes,18,4,4,0,35,2,3,17,18,8,3,0.5388383617609701,0.4
+44,No,Rarely,1255,Logistics,11,3,Food Technology,1,988,3,Female,86,1,2,Packaging Machine Operator,2,Married,90333,19927,1,No,13,1,1,0,17,4,4,17,7,7,10,0.6461999334626887,0.4
+52,Yes,Rarely,592,Farm Operations,36,1,Food Technology,1,989,3,Male,140,4,1,Farm Liaison Officer,4,Married,88843,19820,0,Yes,16,2,3,2,9,4,1,4,19,1,7,0.6310903491082951,0.3
+59,Yes,Non-Travel,239,Farm Operations,10,3,Mechanical Engineering,1,990,2,Female,143,4,4,Logistics & Supply Chain Coordinator,4,Married,118104,5317,6,No,14,2,1,1,31,4,3,8,3,1,8,0.450681351552989,0.35
+31,No,Rarely,859,Production,21,2,Logistics,1,991,3,Male,102,3,1,Logistics & Supply Chain Coordinator,1,Divorced,22596,13251,5,No,24,1,4,1,17,4,3,0,15,12,15,0.4966402227456652,0.35
+55,No,Rarely,1441,Quality Control,20,1,Biotechnology,1,992,3,Female,79,1,1,Dairy Lab Technician,4,Married,37167,6116,2,Yes,14,2,1,0,11,3,3,3,14,4,9,0.4227797443431844,0.55
+23,No,Rarely,1180,Production,48,3,Dairy Science,1,993,1,Male,52,2,4,Packaging Machine Operator,3,Divorced,107844,11623,0,Yes,15,3,3,0,7,4,3,25,4,4,8,0.899662691990817,0.4
+24,Yes,Rarely,1305,Production,8,4,Food Technology,1,994,3,Male,92,2,4,Dairy Lab Technician,1,Married,109751,8123,4,No,17,3,2,1,32,3,4,6,4,4,2,0.6060451177890724,0.55
+56,Yes,Non-Travel,1044,Farm Operations,36,2,Logistics,1,995,4,Male,56,2,4,Cheese Production Technician,2,Divorced,97331,5061,9,No,24,2,2,2,37,0,4,10,14,3,1,0.2644387247682236,0.5
+27,No,Frequently,400,Logistics,29,1,Biotechnology,1,996,4,Male,98,1,2,Farm Liaison Officer,1,Single,100520,10089,3,No,14,1,2,0,13,0,1,13,16,7,8,0.5633750285911449,0.3
+47,No,Rarely,646,Production,42,3,Logistics,1,997,1,Female,122,2,1,Dairy Quality Analyst,3,Single,78326,5731,4,No,24,4,4,2,1,4,1,9,2,10,12,0.2349733752702879,0.55
+50,No,Frequently,1261,Quality Control,12,4,Mechanical Engineering,1,998,2,Female,90,1,3,Maintenance Engineer,3,Married,97670,8327,0,No,12,1,2,0,8,4,4,18,17,4,5,0.4020564338190761,0.6
+28,No,Rarely,1434,Maintenance,14,2,Biotechnology,1,999,1,Female,126,3,4,Maintenance Engineer,4,Divorced,30782,18361,0,No,15,3,4,0,4,4,2,7,10,0,3,0.5121727811833282,0.6
+48,No,Non-Travel,643,Production,48,4,Logistics,1,1000,2,Female,128,3,4,Cheese Production Technician,3,Single,62002,17907,4,Yes,23,2,2,2,33,0,3,2,5,9,13,0.5739893406213383,0.5

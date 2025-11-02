@@ -1,0 +1,216 @@
+{
+  "summary": {
+    "total_employees": 1000,
+    "attrition_rate": 14.5,
+    "avg_age": 39.99,
+    "avg_monthly_income": 68951.16,
+    "avg_years_at_company": 14.33
+  },
+  "department_distribution": {
+    "Logistics": 214,
+    "Farm Operations": 204,
+    "Maintenance": 204,
+    "Quality Control": 194,
+    "Production": 184
+  },
+  "job_role_distribution": {
+    "Logistics & Supply Chain Coordinator": 128,
+    "Maintenance Engineer": 119,
+    "Milk Processing Operator": 115,
+    "Dairy Lab Technician": 112,
+    "Dairy Quality Analyst": 111,
+    "Cold Storage Supervisor": 106,
+    "Cheese Production Technician": 105,
+    "Packaging Machine Operator": 105,
+    "Farm Liaison Officer": 99
+  },
+  "gender_distribution": {
+    "Male": 506,
+    "Female": 494
+  },
+  "marital_status_distribution": {
+    "Married": 352,
+    "Divorced": 334,
+    "Single": 314
+  },
+  "skill_analysis": {
+    "avg_operator_skill": 0.553,
+    "avg_required_skill": 0.457,
+    "skill_gap": -0.096
+  },
+  "education_field_distribution": {
+    "Dairy Science": 231,
+    "Mechanical Engineering": 199,
+    "Food Technology": 195,
+    "Biotechnology": 193,
+    "Logistics": 182
+  },
+  "job_satisfaction_distribution": {
+    "1": 239,
+    "2": 252,
+    "3": 239,
+    "4": 270
+  },
+  "salary_by_department": {
+    "Farm Operations": {
+      "mean": 68500.52,
+      "median": 67085.5,
+      "std": 28524.3
+    },
+    "Logistics": {
+      "mean": 68303.36,
+      "median": 67928.0,
+      "std": 28304.4
+    },
+    "Maintenance": {
+      "mean": 67912.15,
+      "median": 69736.0,
+      "std": 28065.15
+    },
+    "Production": {
+      "mean": 68990.13,
+      "median": 67353.5,
+      "std": 30061.66
+    },
+    "Quality Control": {
+      "mean": 71195.25,
+      "median": 75710.0,
+      "std": 31407.21
+    }
+  },
+  "salary_by_role": {
+    "Dairy Quality Analyst": 72405.3,
+    "Milk Processing Operator": 71108.3,
+    "Cheese Production Technician": 71073.3,
+    "Packaging Machine Operator": 70124.79,
+    "Cold Storage Supervisor": 69647.24,
+    "Dairy Lab Technician": 67948.12,
+    "Maintenance Engineer": 67830.5,
+    "Farm Liaison Officer": 66099.42,
+    "Logistics & Supply Chain Coordinator": 64862.92
+  },
+  "training_analysis": {
+    "avg_training_last_year": 2.47,
+    "total_training_sessions": 2466,
+    "employees_needing_training": 180
+  },
+  "performance_metrics": {
+    "avg_performance_rating": 2.48,
+    "high_performers": "236",
+    "avg_job_involvement": 2.52
+  },
+  "work_life_balance": {
+    "1": 272,
+    "2": 222,
+    "3": 241,
+    "4": 265
+  },
+  "distance_analysis": {
+    "avg_distance": 24.77,
+    "max_distance": 49,
+    "remote_workers": 365
+  },
+  "overtime_analysis": {
+    "No": 674,
+    "Yes": 326
+  },
+  "attrition_by_department": {
+    "Farm Operations": 35,
+    "Logistics": 27,
+    "Maintenance": 35,
+    "Production": 23,
+    "Quality Control": 25
+  },
+  "attrition_rate_by_department": {
+    "Farm Operations": 17.16,
+    "Logistics": 12.62,
+    "Maintenance": 17.16,
+    "Production": 12.5,
+    "Quality Control": 12.89
+  },
+  "tenure_analysis": {
+    "avg_years_at_company": 14.33,
+    "avg_years_in_role": 9.41,
+    "avg_years_since_promotion": 7.01,
+    "avg_years_with_manager": 9.39
+  },
+  "age_group_distribution": {
+    "46-55": 263,
+    "36-45": 245,
+    "26-35": 225,
+    "18-25": 160,
+    "55+": 107
+  },
+  "income_group_distribution": {
+    "75K-100K": 240,
+    "50K-75K": 237,
+    "30K-50K": 207,
+    ">100K": 202,
+    "<30K": 114
+  },
+  "correlation_matrix": {
+    "Age": {
+      "Age": 1.0,
+      "MonthlyIncome": 0.004474060032361019,
+      "YearsAtCompany": -0.04862868184016443,
+      "JobSatisfaction": 0.03410267105247543,
+      "EnvironmentSatisfaction": 0.03200945772823722,
+      "OperatorSkillScore": -0.05106107735840081,
+      "TotalWorkingYears": 0.018497486062478443
+    },
+    "MonthlyIncome": {
+      "Age": 0.004474060032361019,
+      "MonthlyIncome": 1.0,
+      "YearsAtCompany": -0.003985116742019746,
+      "JobSatisfaction": 0.031877771559509514,
+      "EnvironmentSatisfaction": 0.03704859303578482,
+      "OperatorSkillScore": -0.024684771689091573,
+      "TotalWorkingYears": 0.02413035495756588
+    },
+    "YearsAtCompany": {
+      "Age": -0.04862868184016443,
+      "MonthlyIncome": -0.003985116742019746,
+      "YearsAtCompany": 1.0,
+      "JobSatisfaction": 0.025276499730884874,
+      "EnvironmentSatisfaction": -0.019202248225539852,
+      "OperatorSkillScore": 0.0224830866321177,
+      "TotalWorkingYears": -0.015649776968054602
+    },
+    "JobSatisfaction": {
+      "Age": 0.03410267105247543,
+      "MonthlyIncome": 0.031877771559509514,
+      "YearsAtCompany": 0.025276499730884874,
+      "JobSatisfaction": 1.0,
+      "EnvironmentSatisfaction": -0.055425320374448465,
+      "OperatorSkillScore": -0.0036061196964837063,
+      "TotalWorkingYears": -0.0526749345185159
+    },
+    "EnvironmentSatisfaction": {
+      "Age": 0.03200945772823722,
+      "MonthlyIncome": 0.03704859303578482,
+      "YearsAtCompany": -0.019202248225539852,
+      "JobSatisfaction": -0.055425320374448465,
+      "EnvironmentSatisfaction": 1.0,
+      "OperatorSkillScore": 0.05226650384266881,
+      "TotalWorkingYears": 0.027253440554234103
+    },
+    "OperatorSkillScore": {
+      "Age": -0.05106107735840081,
+      "MonthlyIncome": -0.024684771689091573,
+      "YearsAtCompany": 0.0224830866321177,
+      "JobSatisfaction": -0.0036061196964837063,
+      "EnvironmentSatisfaction": 0.05226650384266881,
+      "OperatorSkillScore": 1.0,
+      "TotalWorkingYears": 0.022816733611451995
+    },
+    "TotalWorkingYears": {
+      "Age": 0.018497486062478443,
+      "MonthlyIncome": 0.02413035495756588,
+      "YearsAtCompany": -0.015649776968054602,
+      "JobSatisfaction": -0.0526749345185159,
+      "EnvironmentSatisfaction": 0.027253440554234103,
+      "OperatorSkillScore": 0.022816733611451995,
+      "TotalWorkingYears": 1.0
+    }
+  }
+}
