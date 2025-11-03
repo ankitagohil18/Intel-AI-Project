@@ -224,7 +224,14 @@ export function WorkerManagement() {
 
       setIsDialogOpen(false);
       setEditingWorker(null);
-      setFormData({ department: "", experience: "" });
+      setFormData({
+        name: "",
+        email: "",
+        phone: "",
+        department: "",
+        skills: "",
+        experience: "",
+      });
     } catch (error) {
       console.error("Failed to save worker:", error);
     } finally {
@@ -286,7 +293,14 @@ export function WorkerManagement() {
               className="w-full sm:w-auto"
               onClick={() => {
                 setEditingWorker(null);
-                setFormData({ department: "", experience: "" });
+                setFormData({
+                  name: "",
+                  email: "",
+                  phone: "",
+                  department: "",
+                  skills: "",
+                  experience: "",
+                });
               }}
             >
               <Plus className="h-4 w-4 mr-2" /> Add Worker
