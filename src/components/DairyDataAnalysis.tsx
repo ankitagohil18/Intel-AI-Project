@@ -46,8 +46,8 @@ const DairyDataAnalysis = () => {
   const [analysisData, setAnalysisData] = useState<any>(null);
 
   useEffect(() => {
-    // Load analysis data from public folder
-    fetch("/dairy_analysis_results.json")
+    // Load analysis data from backend API
+    fetch("http://localhost:8000/analysis")
       .then((res) => res.json())
       .then((data) => {
         setAnalysisData(data);
