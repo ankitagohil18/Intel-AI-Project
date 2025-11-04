@@ -22,21 +22,21 @@ const Index = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex gap-2 mb-6 flex-wrap">
           <Button
-            onClick={() => setActiveView("dashboard")}
-            variant={activeView === "dashboard" ? "default" : "outline"}
+            onClick={() => setActiveView("dairy")}
+            variant={activeView === "dairy" ? "default" : "outline"}
             className="flex items-center gap-2"
           >
             <BarChart3 className="h-4 w-4" />
             Dashboard
           </Button>
-          <Button
+          {/* <Button
             onClick={() => setActiveView("dairy")}
             variant={activeView === "dairy" ? "default" : "outline"}
             className="flex items-center gap-2"
           >
             <Database className="h-4 w-4" />
             Dairy Data Analysis
-          </Button>
+          </Button> */}
           <Button
             onClick={() => setActiveView("ai")}
             variant={activeView === "ai" ? "default" : "outline"}

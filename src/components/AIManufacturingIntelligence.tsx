@@ -18,68 +18,126 @@ import {
   RefreshCw
 } from 'lucide-react';
 
+const API_BASE_URL = 'http://localhost:8000';
+
+interface Predictions {
+  productionEfficiency: number;
+  qualityPrediction: number;
+  defectProbability: number;
+  energyOptimization: number;
+  maintenancePrediction: number;
+}
+
+interface AIInsight {
+  id: number;
+  type: string;
+  severity: string;
+  title: string;
+  description: string;
+  impact: string;
+  confidence: number;
+  action: string;
+  icon: string;
+}
+
+interface PerformanceMetrics {
+  aiAccuracy: number;
+  dataProcessed: number;
+  modelsRunning: number;
+  predictionsToday: number;
+}
+
+interface ManufacturingStatus {
+  name: string;
+  status: string;
+  description: string;
+  badge: string;
+}
+
+const iconMap: Record<string, any> = {
+  TrendingUp,
+  Target,
+  AlertTriangle,
+  Users,
+  Brain,
+  BarChart3
+};
+
 const AIManufacturingIntelligence = () => {
   const [isAnalyzing, setIsAnalyzing] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
   const [lastUpdate, setLastUpdate] = useState(new Date());
+  const [error, setError] = useState<string | null>(null);
 
-  // Simulated AI predictions and analytics
-  const [predictions] = useState({
-    productionEfficiency: 87.5,
-    qualityPrediction: 94.2,
-    defectProbability: 5.8,
-    energyOptimization: 78.3,
-    maintenancePrediction: 15 // days until next maintenance
+  // AI predictions and analytics
+  const [predictions, setPredictions] = useState<Predictions>({
+    productionEfficiency: 0,
+    qualityPrediction: 0,
+    defectProbability: 0,
+    energyOptimization: 0,
+    maintenancePrediction: 0
   });
 
-  const [aiInsights] = useState([
-    {
-      id: 1,
-      type: 'optimization',
-      severity: 'high',
-      title: 'Production Line Optimization Opportunity',
-      description: 'AI detected 23% efficiency improvement possible by adjusting worker schedules during peak hours',
-      impact: '+23% productivity',
-      confidence: 92,
-      action: 'Implement shift rotation model',
-      icon: TrendingUp
-    },
-    {
-      id: 2,
-      type: 'quality',
-      severity: 'medium',
-      title: 'Quality Control Pattern Detection',
-      description: 'Machine learning identified correlation between humidity levels and product defects',
-      impact: '-15% defect rate',
-      confidence: 88,
-      action: 'Install humidity control system',
-      icon: Target
-    },
-    {
-      id: 3,
-      type: 'predictive',
-      severity: 'low',
-      title: 'Predictive Maintenance Alert',
-      description: 'Neural network predicts equipment maintenance needed in 15 days based on vibration patterns',
-      impact: 'Prevent downtime',
-      confidence: 85,
-      action: 'Schedule maintenance window',
-      icon: AlertTriangle
-    }
-  ]);
-
-  const [performanceMetrics] = useState({
-    aiAccuracy: 94.7,
-    dataProcessed: 2.3, // TB
-    modelsRunning: 12,
-    predictionsToday: 847
+  const [aiInsights, setAiInsights] = useState<AIInsight[]>([]);
+  const [performanceMetrics, setPerformanceMetrics] = useState<PerformanceMetrics>({
+    aiAccuracy: 0,
+    dataProcessed: 0,
+    modelsRunning: 0,
+    predictionsToday: 0
   });
+  const [manufacturingStatus, setManufacturingStatus] = useState<ManufacturingStatus[]>([]);
 
-  const runAIAnalysis = () => {
-    setIsAnalyzing(true);
-    setTimeout(() => {
-      setIsAnalyzing(false);
+  const loadDashboardData = async () => {
+    try {
+      setIsLoading(true);
+      setError(null);
+      const response = await fetch(`${API_BASE_URL}/ai-manufacturing/dashboard`);
+      if (!response.ok) {
+        throw new Error('Failed to fetch dashboard data');
+      }
+      const data = await response.json();
+      
+      setPredictions(data.predictions || predictions);
+      setAiInsights(data.insights || []);
+      setPerformanceMetrics(data.performance || performanceMetrics);
+      setManufacturingStatus(data.status || []);
       setLastUpdate(new Date());
-    }, 3000);
+    } catch (err) {
+      console.error('Error loading dashboard data:', err);
+      setError(err instanceof Error ? err.message : 'Failed to load data');
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
+  useEffect(() => {
+    loadDashboardData();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  const runAIAnalysis = async () => {
+    setIsAnalyzing(true);
+    setError(null);
+    try {
+      const response = await fetch(`${API_BASE_URL}/ai-manufacturing/analyze`, {
+        method: 'POST'
+      });
+      if (!response.ok) {
+        throw new Error('Failed to run AI analysis');
+      }
+      const data = await response.json();
+      
+      setPredictions(data.predictions || predictions);
+      setAiInsights(data.insights || []);
+      setPerformanceMetrics(data.performance || performanceMetrics);
+      setManufacturingStatus(data.status || []);
+      setLastUpdate(new Date());
+    } catch (err) {
+      console.error('Error running AI analysis:', err);
+      setError(err instanceof Error ? err.message : 'Failed to run analysis');
+    } finally {
+      setIsAnalyzing(false);
+    }
   };
 
   const getSeverityColor = (severity: string) => {
@@ -90,6 +148,17 @@ const AIManufacturingIntelligence = () => {
       default: return 'bg-gray-100 text-gray-800 border-gray-200';
     }
   };
+
+  if (isLoading) {
+    return (
+      <div className="flex items-center justify-center h-96">
+        <div className="text-center">
+          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600 mx-auto mb-4"></div>
+          <p className="text-gray-600">Loading AI Manufacturing Intelligence...</p>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="space-y-6">
@@ -117,6 +186,20 @@ const AIManufacturingIntelligence = () => {
           </Button>
         </div>
       </div>
+
+      {error && (
+        <div className="bg-red-50 border border-red-200 text-red-800 px-4 py-3 rounded-lg">
+          <p className="font-medium">Error: {error}</p>
+          <Button 
+            onClick={loadDashboardData} 
+            variant="outline" 
+            size="sm" 
+            className="mt-2"
+          >
+            Retry
+          </Button>
+        </div>
+      )}
 
       <Tabs defaultValue="dashboard" className="space-y-4">
         <TabsList className="grid w-full grid-cols-4">
@@ -217,29 +300,36 @@ const AIManufacturingIntelligence = () => {
               </CardHeader>
               <CardContent>
                 <div className="space-y-4">
-                  <div className="flex items-center justify-between p-3 bg-green-50 rounded-lg">
-                    <div>
-                      <p className="font-medium text-green-800">Production Line A</p>
-                      <p className="text-sm text-green-600">Operating at optimal efficiency</p>
+                  {manufacturingStatus.length > 0 ? (
+                    manufacturingStatus.map((status, index) => {
+                      const bgColor = status.status === 'Optimal' ? 'bg-green-50' : 
+                                     status.status === 'Monitoring' ? 'bg-yellow-50' : 
+                                     'bg-blue-50';
+                      const textColor = status.status === 'Optimal' ? 'text-green-800' : 
+                                       status.status === 'Monitoring' ? 'text-yellow-800' : 
+                                       'text-blue-800';
+                      const badgeColor = status.status === 'Optimal' ? 'bg-green-100 text-green-800' : 
+                                        status.status === 'Monitoring' ? 'bg-yellow-100 text-yellow-800' : 
+                                        'bg-blue-100 text-blue-800';
+                      const descColor = status.status === 'Optimal' ? 'text-green-600' : 
+                                       status.status === 'Monitoring' ? 'text-yellow-600' : 
+                                       'text-blue-600';
+                      
+                      return (
+                        <div key={index} className={`flex items-center justify-between p-3 ${bgColor} rounded-lg`}>
+                          <div>
+                            <p className={`font-medium ${textColor}`}>{status.name}</p>
+                            <p className={`text-sm ${descColor}`}>{status.description}</p>
+                          </div>
+                          <Badge className={badgeColor}>{status.badge}</Badge>
+                        </div>
+                      );
+                    })
+                  ) : (
+                    <div className="text-center text-gray-500 py-4">
+                      No status data available
                     </div>
-                    <Badge className="bg-green-100 text-green-800">Optimal</Badge>
-                  </div>
-                  
-                  <div className="flex items-center justify-between p-3 bg-yellow-50 rounded-lg">
-                    <div>
-                      <p className="font-medium text-yellow-800">Quality Control Station</p>
-                      <p className="text-sm text-yellow-600">Minor anomaly detected</p>
-                    </div>
-                    <Badge className="bg-yellow-100 text-yellow-800">Monitoring</Badge>
-                  </div>
-                  
-                  <div className="flex items-center justify-between p-3 bg-blue-50 rounded-lg">
-                    <div>
-                      <p className="font-medium text-blue-800">Workforce Allocation</p>
-                      <p className="text-sm text-blue-600">AI optimized for peak hours</p>
-                    </div>
-                    <Badge className="bg-blue-100 text-blue-800">Optimized</Badge>
-                  </div>
+                  )}
                 </div>
               </CardContent>
             </Card>
@@ -258,15 +348,21 @@ const AIManufacturingIntelligence = () => {
                   <div className="space-y-3">
                     <div className="flex justify-between items-center p-3 border rounded-lg">
                       <span>Next 24 hours</span>
-                      <span className="font-bold text-green-600">+12% output</span>
+                      <span className="font-bold text-green-600">
+                        +{Math.round((predictions.productionEfficiency / 100) * 12)}% output
+                      </span>
                     </div>
                     <div className="flex justify-between items-center p-3 border rounded-lg">
                       <span>Next 7 days</span>
-                      <span className="font-bold text-blue-600">+8% efficiency</span>
+                      <span className="font-bold text-blue-600">
+                        +{Math.round((predictions.productionEfficiency / 100) * 8)}% efficiency
+                      </span>
                     </div>
                     <div className="flex justify-between items-center p-3 border rounded-lg">
                       <span>Next 30 days</span>
-                      <span className="font-bold text-purple-600">-5% defects</span>
+                      <span className="font-bold text-purple-600">
+                        -{Math.round(predictions.defectProbability * 0.8)}% defects
+                      </span>
                     </div>
                   </div>
                 </div>
@@ -276,15 +372,42 @@ const AIManufacturingIntelligence = () => {
                   <div className="space-y-3">
                     <div className="flex justify-between items-center p-3 border rounded-lg">
                       <span>Equipment Failure Risk</span>
-                      <Badge className="bg-green-100 text-green-800">Low (3%)</Badge>
+                      <Badge className={
+                        predictions.maintenancePrediction > 20 
+                          ? "bg-green-100 text-green-800"
+                          : predictions.maintenancePrediction > 10
+                          ? "bg-yellow-100 text-yellow-800"
+                          : "bg-red-100 text-red-800"
+                      }>
+                        {predictions.maintenancePrediction > 20 ? 'Low' : predictions.maintenancePrediction > 10 ? 'Medium' : 'High'} 
+                        ({Math.round((30 - predictions.maintenancePrediction) / 30 * 100)}%)
+                      </Badge>
                     </div>
                     <div className="flex justify-between items-center p-3 border rounded-lg">
                       <span>Quality Issues Risk</span>
-                      <Badge className="bg-yellow-100 text-yellow-800">Medium (12%)</Badge>
+                      <Badge className={
+                        predictions.defectProbability < 5
+                          ? "bg-green-100 text-green-800"
+                          : predictions.defectProbability < 10
+                          ? "bg-yellow-100 text-yellow-800"
+                          : "bg-red-100 text-red-800"
+                      }>
+                        {predictions.defectProbability < 5 ? 'Low' : predictions.defectProbability < 10 ? 'Medium' : 'High'} 
+                        ({Math.round(predictions.defectProbability)}%)
+                      </Badge>
                     </div>
                     <div className="flex justify-between items-center p-3 border rounded-lg">
-                      <span>Supply Chain Risk</span>
-                      <Badge className="bg-green-100 text-green-800">Low (7%)</Badge>
+                      <span>Energy Efficiency Risk</span>
+                      <Badge className={
+                        predictions.energyOptimization > 75
+                          ? "bg-green-100 text-green-800"
+                          : predictions.energyOptimization > 60
+                          ? "bg-yellow-100 text-yellow-800"
+                          : "bg-red-100 text-red-800"
+                      }>
+                        {predictions.energyOptimization > 75 ? 'Low' : predictions.energyOptimization > 60 ? 'Medium' : 'High'} 
+                        ({Math.round(100 - predictions.energyOptimization)}%)
+                      </Badge>
                     </div>
                   </div>
                 </div>
@@ -295,54 +418,64 @@ const AIManufacturingIntelligence = () => {
 
         <TabsContent value="insights" className="space-y-4">
           <div className="space-y-4">
-            {aiInsights.map((insight) => {
-              const Icon = insight.icon;
-              return (
-                <Card key={insight.id} className={`border-2 ${getSeverityColor(insight.severity)}`}>
-                  <CardContent className="p-6">
-                    <div className="flex items-start justify-between mb-4">
-                      <div className="flex items-center space-x-3">
-                        <div className="p-2 rounded-lg bg-white">
-                          <Icon className="h-5 w-5" />
+            {aiInsights.length > 0 ? (
+              aiInsights.map((insight) => {
+                const Icon = iconMap[insight.icon] || TrendingUp;
+                return (
+                  <Card key={insight.id} className={`border-2 ${getSeverityColor(insight.severity)}`}>
+                    <CardContent className="p-6">
+                      <div className="flex items-start justify-between mb-4">
+                        <div className="flex items-center space-x-3">
+                          <div className="p-2 rounded-lg bg-white">
+                            <Icon className="h-5 w-5" />
+                          </div>
+                          <div>
+                            <h3 className="font-semibold text-lg">{insight.title}</h3>
+                            <p className="text-gray-600 mt-1">{insight.description}</p>
+                          </div>
+                        </div>
+                        <Badge className={getSeverityColor(insight.severity)}>
+                          {insight.severity.toUpperCase()}
+                        </Badge>
+                      </div>
+                      
+                      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
+                        <div>
+                          <span className="text-sm text-gray-600">Expected Impact:</span>
+                          <p className="font-semibold text-green-600">{insight.impact}</p>
                         </div>
                         <div>
-                          <h3 className="font-semibold text-lg">{insight.title}</h3>
-                          <p className="text-gray-600 mt-1">{insight.description}</p>
+                          <span className="text-sm text-gray-600">AI Confidence:</span>
+                          <p className="font-semibold">{insight.confidence}%</p>
+                        </div>
+                        <div>
+                          <span className="text-sm text-gray-600">Recommended Action:</span>
+                          <p className="font-semibold">{insight.action}</p>
                         </div>
                       </div>
-                      <Badge className={getSeverityColor(insight.severity)}>
-                        {insight.severity.toUpperCase()}
-                      </Badge>
-                    </div>
-                    
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
-                      <div>
-                        <span className="text-sm text-gray-600">Expected Impact:</span>
-                        <p className="font-semibold text-green-600">{insight.impact}</p>
+                      
+                      <div className="flex justify-between items-center">
+                        <div className="text-sm text-gray-500">
+                          Generated by Neural Network Analysis
+                        </div>
+                        <Button size="sm" className="flex items-center gap-2">
+                          Implement Suggestion
+                          <TrendingUp className="h-3 w-3" />
+                        </Button>
                       </div>
-                      <div>
-                        <span className="text-sm text-gray-600">AI Confidence:</span>
-                        <p className="font-semibold">{insight.confidence}%</p>
-                      </div>
-                      <div>
-                        <span className="text-sm text-gray-600">Recommended Action:</span>
-                        <p className="font-semibold">{insight.action}</p>
-                      </div>
-                    </div>
-                    
-                    <div className="flex justify-between items-center">
-                      <div className="text-sm text-gray-500">
-                        Generated by Neural Network Analysis
-                      </div>
-                      <Button size="sm" className="flex items-center gap-2">
-                        Implement Suggestion
-                        <TrendingUp className="h-3 w-3" />
-                      </Button>
-                    </div>
-                  </CardContent>
-                </Card>
-              );
-            })}
+                    </CardContent>
+                  </Card>
+                );
+              })
+            ) : (
+              <Card>
+                <CardContent className="p-8 text-center text-gray-500">
+                  <Brain className="h-12 w-12 mx-auto mb-4 text-gray-400" />
+                  <p>No AI insights available at this time.</p>
+                  <p className="text-sm mt-2">Run AI Analysis to generate insights.</p>
+                </CardContent>
+              </Card>
+            )}
           </div>
         </TabsContent>
 
