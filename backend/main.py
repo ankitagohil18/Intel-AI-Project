@@ -18,9 +18,23 @@ def _to_builtin(value: Any) -> Any:
         # numpy scalar types
         if isinstance(value, (np.generic,)):
             try:
-                return value.item()
+                result = value.item()
+                # Handle NaN and inf values
+                if isinstance(result, float):
+                    if np.isnan(result) or np.isinf(result):
+                        return None
+                return result
             except Exception:
                 return str(value)
+    # Handle Python float NaN and inf
+    if isinstance(value, float):
+        if np is not None:
+            if np.isnan(value) or np.isinf(value):
+                return None
+        else:
+            import math
+            if math.isnan(value) or math.isinf(value):
+                return None
     return value
 
 def sanitize(obj: Any) -> Any:
@@ -209,6 +223,218 @@ def get_worker_csv(employee_number: int) -> Any:
         raise
     except Exception as exc:
         raise HTTPException(status_code=500, detail=f"Failed to get worker: {exc}")
+
+
+def _transform_to_evaluation_data(worker_data: Dict) -> Dict:
+    """Transform worker data from CSV to evaluation format"""
+    # Helper to safely get numeric values
+    def safe_float(value, default=0.0):
+        if value is None:
+            return default
+        try:
+            val = float(value)
+            if np is not None and (np.isnan(val) or np.isinf(val)):
+                return default
+            return val
+        except (ValueError, TypeError):
+            return default
+    
+    # Calculate fit score based on skill score vs required
+    skill_score = safe_float(worker_data.get("OperatorSkillScore"), 0.5)
+    required_score = safe_float(worker_data.get("RequiredSkillByRole"), 0.5)
+    if required_score > 0:
+        fit_percentage = min(100, (skill_score / required_score) * 100)
+    else:
+        fit_percentage = 50
+    
+    # Determine job fit category
+    if fit_percentage >= 90:
+        job_fit = "Perfect Match"
+    elif fit_percentage >= 75:
+        job_fit = "Needs Training"
+    else:
+        job_fit = "Poor Match"
+    
+    # Map performance metrics
+    performance_rating = safe_float(worker_data.get("PerformanceRating"), 3.0)
+    job_satisfaction = safe_float(worker_data.get("JobSatisfaction"), 3.0)
+    job_involvement = safe_float(worker_data.get("JobInvolvement"), 3.0)
+    work_life_balance = safe_float(worker_data.get("WorkLifeBalance"), 3.0)
+    env_satisfaction = safe_float(worker_data.get("EnvironmentSatisfaction"), 3.0)
+    
+    # Calculate derived metrics
+    productivity = min(100, (performance_rating / 5) * 100)
+    quality = min(100, (job_satisfaction / 5) * 100)
+    safety = min(100, (work_life_balance / 5) * 100)
+    attendance = min(100, (env_satisfaction / 5) * 100)
+    teamwork = min(100, (job_involvement / 5) * 100)
+    
+    # Generate skills array from OperatorSkillScore and RequiredSkillByRole
+    # We'll create generic skill entries based on the role
+    job_role = worker_data.get("JobRole", "")
+    skills_list = []
+    
+    # Map common skills based on role
+    if "Operator" in job_role or "Processing" in job_role:
+        skills_list = [
+            {"name": "Equipment Operation", "level": int(skill_score * 100), "required": int(required_score * 100) if required_score > 0 else 80},
+            {"name": "Quality Control", "level": int(min(100, skill_score * 100 + 10)), "required": 85},
+            {"name": "Safety Protocols", "level": int(min(100, skill_score * 100 + 15)), "required": 95},
+            {"name": "Process Efficiency", "level": int(skill_score * 100), "required": 80}
+        ]
+    elif "Supervisor" in job_role or "Manager" in job_role:
+        skills_list = [
+            {"name": "Team Leadership", "level": int(min(100, skill_score * 100 + 20)), "required": 85},
+            {"name": "Operations Management", "level": int(skill_score * 100), "required": 90},
+            {"name": "Quality Assurance", "level": int(skill_score * 100), "required": 85},
+            {"name": "Inventory Management", "level": int(min(100, skill_score * 100 - 10)), "required": 80}
+        ]
+    elif "Analyst" in job_role or "Quality" in job_role:
+        skills_list = [
+            {"name": "Lab Testing", "level": int(min(100, skill_score * 100 + 10)), "required": 90},
+            {"name": "Data Analysis", "level": int(skill_score * 100), "required": 85},
+            {"name": "Documentation", "level": int(min(100, skill_score * 100 + 15)), "required": 75},
+            {"name": "Compliance", "level": int(min(100, skill_score * 100 - 15)), "required": 90}
+        ]
+    else:
+        # Default skills
+        skills_list = [
+            {"name": "Core Operations", "level": int(skill_score * 100), "required": int(required_score * 100) if required_score > 0 else 80},
+            {"name": "Quality Standards", "level": int(min(100, skill_score * 100 + 10)), "required": 85},
+            {"name": "Safety & Compliance", "level": int(min(100, skill_score * 100 + 15)), "required": 95},
+            {"name": "Team Collaboration", "level": int(min(100, skill_score * 100 + 5)), "required": 80}
+        ]
+    
+    # Parse skills string if available
+    skills_str = worker_data.get("Skills", "")
+    if skills_str and isinstance(skills_str, str) and len(skills_str) > 0:
+        # Override with actual skills if provided
+        skill_names = [s.strip() for s in skills_str.split(",") if s.strip()]
+        if skill_names:
+            skills_list = [
+                {"name": name, "level": int(skill_score * 100), "required": int(required_score * 100) if required_score > 0 else 80}
+                for name in skill_names[:4]  # Limit to 4 skills
+            ]
+    
+    # Generate weekly data (simulated trend based on current performance)
+    weekly_data = []
+    base_prod = max(60, productivity - 10)
+    base_qual = max(60, quality - 10)
+    base_safe = max(60, safety - 10)
+    
+    for week in range(1, 5):
+        weekly_data.append({
+            "week": f"Week {week}",
+            "productivity": int(base_prod + (week * (productivity - base_prod) / 4)),
+            "quality": int(base_qual + (week * (quality - base_qual) / 4)),
+            "safety": int(base_safe + (week * (safety - base_safe) / 4))
+        })
+    
+    # Generate resume data
+    education_field = worker_data.get("EducationField") or "General"
+    education_level = int(safe_float(worker_data.get("Education"), 2.0))
+    education_map = {
+        1: "Below College",
+        2: "College",
+        3: "Bachelor",
+        4: "Master",
+        5: "Doctor"
+    }
+    education = f"{education_map.get(education_level, 'College')} in {education_field}"
+    
+    total_years = int(safe_float(worker_data.get("TotalWorkingYears"), 0.0))
+    years_at_company = int(safe_float(worker_data.get("YearsAtCompany"), 0.0))
+    training_count = int(safe_float(worker_data.get("TrainingTimesLastYear"), 0.0))
+    
+    certifications = []
+    if training_count > 0:
+        certifications.append(f"Professional Training ({training_count} sessions)")
+    if years_at_company >= 3:
+        certifications.append("Company Certification")
+    if performance_rating >= 4:
+        certifications.append("Performance Excellence")
+    
+    previous_roles = []
+    if total_years > years_at_company:
+        other_years = total_years - years_at_company
+        previous_roles.append(f"Previous Role - {other_years} years")
+    if years_at_company > 0:
+        previous_roles.append(f"Current Role - {years_at_company} years")
+    
+    # Generate recommendations
+    recommendations = []
+    if skill_score < required_score:
+        recommendations.append("Skill Enhancement Training")
+    if performance_rating < 3:
+        recommendations.append("Performance Improvement Program")
+    if job_satisfaction < 3:
+        recommendations.append("Job Satisfaction Workshop")
+    if training_count < 2:
+        recommendations.append("Additional Training Sessions")
+    
+    employee_number = worker_data.get("EmployeeNumber")
+    if employee_number is None:
+        employee_number = 0
+    
+    return {
+        "id": int(safe_float(employee_number, 0.0)),
+        "name": worker_data.get("Name") or "Unknown",
+        "role": worker_data.get("JobRole") or "Employee",
+        "department": worker_data.get("Department") or "General",
+        "email": worker_data.get("Email") or "",
+        "phone": worker_data.get("Phone Number") or "",
+        "experience": f"{total_years} years",
+        "skills": skills_list,
+        "performance": {
+            "productivity": int(productivity),
+            "quality": int(quality),
+            "safety": int(safety),
+            "attendance": int(attendance),
+            "teamwork": int(teamwork)
+        },
+        "weeklyData": weekly_data,
+        "resume": {
+            "education": education,
+            "certifications": certifications,
+            "previousRoles": previous_roles
+        },
+        "jobFit": job_fit,
+        "fitScore": int(fit_percentage),
+        "recommendations": recommendations
+    }
+
+
+@app.get("/workers/evaluation/list")
+def get_evaluation_list() -> Any:
+    """Get list of workers formatted for evaluation"""
+    try:
+        df = _read_dataset()
+        df = df.replace([np.nan, np.inf, -np.inf], None)
+        workers = []
+        for _, row in df.iterrows():
+            worker_dict = row.to_dict()
+            eval_data = _transform_to_evaluation_data(worker_dict)
+            workers.append(eval_data)
+        return JSONResponse(content=jsonable_encoder(sanitize(workers)))
+    except Exception as exc:
+        raise HTTPException(status_code=500, detail=f"Failed to get evaluation list: {exc}")
+
+
+@app.get("/workers/{employee_number}/evaluation")
+def get_worker_evaluation(employee_number: int) -> Any:
+    """Get evaluation data for a specific worker"""
+    try:
+        df = _read_dataset()
+        row = df[df["EmployeeNumber"] == employee_number]
+        if row.empty:
+            raise HTTPException(status_code=404, detail="Worker not found")
+        worker_dict = sanitize(row.iloc[0].to_dict())
+        eval_data = _transform_to_evaluation_data(worker_dict)
+        return JSONResponse(content=jsonable_encoder(eval_data))
+    except HTTPException:
+        raise
+    except Exception as exc:
+        raise HTTPException(status_code=500, detail=f"Failed to get evaluation: {exc}")
 
 
 @app.post("/workers")

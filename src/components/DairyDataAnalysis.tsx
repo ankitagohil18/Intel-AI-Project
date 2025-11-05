@@ -907,7 +907,7 @@ const DairyDataAnalysis = () => {
                         Quality Control leads with highest average salary ($
                         {analysisData.salary_by_department[
                           "Quality Control"
-                        ].mean.toFixed(0)}
+                        ]?.mean?.toFixed(0) ?? "0"}
                         ), while salaries across departments are relatively
                         balanced within ±5%.
                       </p>

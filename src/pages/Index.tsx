@@ -12,7 +12,7 @@ import { Button } from "@/components/ui/button";
 import { Settings, BarChart3, Brain, Database } from "lucide-react";
 
 const Index = () => {
-  const [activeView, setActiveView] = useState("dashboard");
+  const [activeView, setActiveView] = useState("dairy");
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-white">
